@@ -1,8 +1,8 @@
 
 from xml.etree import cElementTree as ET
 
-tree = ET.parse(open('4625179.xml').read)
-
+tree = ET.parse('4625179.xml')
+root = tree.getroot()
 
 #tree = 
 """document id="3162235">
@@ -20,8 +20,23 @@ tree = ET.parse(open('4625179.xml').read)
 <time id="T2E" value="00:01:11,734"/>
 </s>"""
 
-print(type(tree))
-root = ET.fromstring(tree)
-for page in list(root):
-    text = page.find("alternative").text
-    print(text)    
+#root = ET.fromstring(tree)
+txt = ""
+iter = 0
+dict = {}
+for word in root.iter('w'):
+    
+    if word.text.find(',') != -1:
+        txt += word.text 
+        iter += 1
+        continue
+    elif word.text.find('.') != -1: 
+        dict.update({'chat {}'.format(iter): txt})
+        iter = 0
+        print(txt)
+        txt = ""
+        continue
+    txt += word.text + " "  
+    iter += 1
+
+print(dict)
