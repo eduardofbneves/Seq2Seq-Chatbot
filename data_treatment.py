@@ -1,5 +1,6 @@
 
 from xml.etree import cElementTree as ET
+import json
 
 tree = ET.parse('4625179.xml')
 root = tree.getroot()
@@ -22,21 +23,20 @@ root = tree.getroot()
 
 #root = ET.fromstring(tree)
 txt = ""
-iter = 0
+iter = 1
 dict = {}
 for word in root.iter('w'):
     
     if word.text.find(',') != -1:
-        txt += word.text 
-        iter += 1
-        continue
+        txt = txt[:-1]
     elif word.text.find('.') != -1: 
         dict.update({'chat {}'.format(iter): txt})
-        iter = 0
-        print(txt)
+        iter += 1
         txt = ""
         continue
     txt += word.text + " "  
-    iter += 1
 
 print(dict)
+
+with open("test_data.json", "w") as file:
+    my_dict = json.dump(dict, file)
