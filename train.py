@@ -11,6 +11,7 @@ from model import seq2seq_model,pad_sentence,get_accuracy,sentence_to_seq
 from nltk.stem import WordNetLemmatizer
 #import config
 
+
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3' 
 #tf.logging.set_verbosity(tf.logging.ERROR)
 tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
@@ -18,28 +19,28 @@ tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
   
 lemmatizer = WordNetLemmatizer()
   
-# reading the json.intense file
+# reading the json.intense file as a dict
 intents = json.loads(open("test_data.json").read())
-print(type(intents))
-  
+
 # creating empty lists to store data
 words = []
 classes = []
 documents = []
 ignore_letters = ["?", "!", ".", ","]
 for key, values in intents.items():
-    for pattern in intent['patterns']:
-        # separating words from patterns
-        word_list = nltk.word_tokenize(pattern)
-        words.extend(word_list)  # and adding them to words list
-          
-        # associating patterns with respective tags
-        documents.append(((word_list), intent['tag']))
-  
-        # appending the tags to the class list
-        if intent['tag'] not in classes:
-            classes.append(intent['tag'])
-  
+    # separating words from patterns
+    word_list = nltk.word_tokenize(values)
+    words.extend(word_list)  # and adding them to words list
+    
+    '''
+    # associating patterns with respective tags
+    documents.append(((word_list), intent['tag']))
+
+    # appending the tags to the class list
+    if intent['tag'] not in classes:
+        classes.append(intent['tag'])
+    '''
+
 # storing the root words or lemma
 words = [lemmatizer.lemmatize(word)
          for word in words if word not in ignore_letters]
@@ -73,4 +74,5 @@ training = np.array(training)
 # splitting the data
 train_x = list(training[:, 0])
 train_y = list(training[:, 1])
+
 
