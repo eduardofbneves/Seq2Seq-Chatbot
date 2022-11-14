@@ -2,7 +2,7 @@ from xml.etree import cElementTree as ET
 import json
 
 
-tree = ET.parse('4625179.xml')
+tree = ET.parse('train_test.xml')
 root = tree.getroot()
 
 #root = ET.fromstring(tree)
