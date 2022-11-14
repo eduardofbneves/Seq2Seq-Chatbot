@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document id="6524644">
+  <s id="1">
+    <time id="T1S" value="00:00:01,844" />
+    <w id="1.1">Meu</w>
+    <w id="1.2">Deus</w>
+    <w id="1.3">.</w>
+    <time id="T1E" value="00:00:04,331" />
+  </s>
+  <s id="2">
+    <time id="T2S" value="00:00:05,760" />
+    <w id="2.1">Ele</w>
+    <w id="2.2">mordeu-me</w>
+    <w id="2.3">.</w>
+    <time id="T2E" value="00:00:07,385" />
+  </s>
+  <s id="3">
+    <time id="T3S" value="00:00:07,636" />
+    <w id="3.1">Amarra-a</w>
+    <w id="3.2">,</w>
+    <w id="3.3">Já</w>
+    <w id="3.4">.</w>
+    <time id="T3E" value="00:00:09,382" />
+  </s>
+  <s id="4">
+    <time id="T4S" value="00:00:09,393" />
+    <w id="4.1">Ela</w>
+    <w id="4.2">está</w>
+    <w id="4.3">ferida</w>
+    <time id="T4E" value="00:00:10,615" />
+  </s>
+  <s id="5">
+    <time id="T5S" value="00:00:10,649" />
+    <w id="5.1">-</w>
+    <w id="5.2">Nós</w>
+    <w id="5.3">precisamos</w>
+    <w id="5.4">ajuda-la</w>
+    <w id="5.5">.</w>
+  </s>
+  <s id="6">
+    <w id="6.1">-</w>
+    <w id="6.2">Amarra-a</w>
+    <w id="6.3">,</w>
+    <w id="6.4">e</w>
+    <w id="6.5">depois</w>
+    <w id="6.6">ajuda-a</w>
+    <w id="6.7">.</w>
+    <time id="T5E" value="00:00:13,224" />
+  </s>
+  <s id="7">
+    <time id="T6S" value="00:00:13,344" />
+    <w id="7.1">O</w>
+    <w id="7.2">que</w>
+    <w id="7.3">aconteceu</w>
+    <w id="7.4">a</w>
+    <w id="7.5">ele</w>
+    <w id="7.6">vai</w>
+    <w id="7.7">acontecer</w>
+    <w id="7.8">a</w>
+    <w id="7.9">ela</w>
+    <w id="7.10">.</w>
+    <time id="T6E" value="00:00:15,494" />
+  </s>
+  <s id="8">
+    <time id="T7S" value="00:00:20,966" />
+    <w id="8.1">Vamos</w>
+    <w id="8.2">,</w>
+    <w id="8.3">senta-te</w>
+    <w id="8.4">.</w>
+    <time id="T7E" value="00:00:22,353" />
+  </s>
+  <s id="9">
+    <time id="T8S" value="00:00:29,352" />
+    <w id="9.1">Temos</w>
+    <w id="9.2">que</w>
+    <w id="9.3">aterrar</w>
+    <w id="9.4">o</w>
+    <w id="9.5">avião</w>
+    <w id="9.6">!</w>
+    <time id="T8E" value="00:00:31,089" />
+  </s>
+  <s id="10">
+    <time id="T9S" value="00:00:32,180" />
+    <w id="10.1">Diz</w>
+    <w id="10.2">ao</w>
+    <w id="10.3">capitão</w>
+    <w id="10.4">.</w>
+    <time id="T9E" value="00:00:33,733" />
+  </s>
+  <s id="11">
+    <time id="T10S" value="00:00:34,772" />
+    <w id="11.1">Nós</w>
+    <w id="11.2">temos</w>
+    <w id="11.3">tentado</w>
+    <w id="11.4">...</w>
+    <time id="T10E" value="00:00:36,320" />
+  </s>
+  <s id="12">
+    <time id="T11S" value="00:00:36,700" />
+    <w id="12.1">Não</w>
+    <w id="12.2">é</w>
+    <w id="12.3">apenas</w>
+    <w id="12.4">Phoenix</w>
+    <w id="12.5">.</w>
+    <time id="T11E" value="00:00:38,759" />
+  </s>
+  <s id="13">
+    <time id="T12S" value="00:00:39,284" />
+    <w id="13.1">As</w>
+    <w id="13.2">luzes</w>
+    <w id="13.3">estão</w>
+    <w id="13.4">a</w>
+    <w id="13.5">apagar-se</w>
+    <w id="13.6">em</w>
+    <w id="13.7">todo</w>
+    <w id="13.8">o</w>
+    <w id="13.9">lado</w>
+    <w id="13.10">.</w>
+    <time id="T12E" value="00:00:41,640" />
+  </s>
+  <s id="14">
+    <time id="T13S" value="00:00:43,194" />
+    <w id="14.1">Não</w>
+    <w id="14.2">há</w>
+    <w id="14.3">lugar</w>
+    <w id="14.4">para</w>
+    <w id="14.5">aterrar</w>
+    <w id="14.6">.</w>
+    <time id="T13E" value="00:00:45,053" />
+  </s>
+  <meta>
+    <source>
+      <year>2016</year>
+      <genre>Drama,Horror,Thriller</genre>
+    </source>
+    <conversion>
+      <sentences>14</sentences>
+      <tokens>74</tokens>
+      <encoding>windows-1252</encoding>
+      <unknown_words>2</unknown_words>
+      <ignored_blocks>0</ignored_blocks>
+      <corrected_words>0</corrected_words>
+      <truecased_words>0</truecased_words>
+    </conversion>
+    <subtitle>
+      <date>2016-02-25</date>
+      <cds>1/1</cds>
+      <duration>00:00:45,053</duration>
+      <language>Portuguese</language>
+      <confidence>1.0</confidence>
+      <blocks>13</blocks>
+    </subtitle>
+  </meta>
+</document>

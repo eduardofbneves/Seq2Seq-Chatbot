@@ -1,0 +1,2914 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document id="6165340">
+  <s id="1">
+    <time id="T1S" value="00:00:01,033" />
+    <w id="1.1">Anteriormente</w>
+    <w id="1.2">em</w>
+    <w id="1.3">Transformers</w>
+    <w id="1.4">Robots</w>
+    <w id="1.5">in</w>
+    <w id="1.6">Disguise</w>
+    <time id="T1E" value="00:00:03,920" />
+  </s>
+  <s id="2">
+    <time id="T2S" value="00:00:04,973" />
+    <w id="2.1">Preciso</w>
+    <w id="2.2">de</w>
+    <w id="2.3">ti</w>
+    <w id="2.4">na</w>
+    <w id="2.5">Terra</w>
+    <w id="2.6">,</w>
+    <w id="2.7">Bumblebee</w>
+    <w id="2.8">,</w>
+    <w id="2.9">uma</w>
+    <w id="2.10">nova</w>
+    <w id="2.11">missão</w>
+    <w id="2.12">.</w>
+    <time id="T2E" value="00:00:09,041" />
+  </s>
+  <s id="3">
+    <time id="T3S" value="00:00:09,043" />
+    <w id="3.1">O</w>
+    <w id="3.2">quê</w>
+    <w id="3.3">?</w>
+  </s>
+  <s id="4">
+    <w id="4.1">Rusty</w>
+    <w id="4.2">!</w>
+    <time id="T3E" value="00:00:11,043" />
+  </s>
+  <s id="5">
+    <time id="T4S" value="00:00:11,045" />
+    <w id="5.1">É</w>
+    <w id="5.2">Russell</w>
+    <w id="5.3">.</w>
+    <time id="T4E" value="00:00:12,879" />
+  </s>
+  <s id="6">
+    <time id="T5S" value="00:00:12,881" />
+    <w id="6.1">Um</w>
+    <w id="6.2">parceiro</w>
+    <w id="6.3">deve</w>
+    <w id="6.4">acompanhar</w>
+    <time id="T5E" value="00:00:14,614" />
+    <time id="T6S" value="00:00:14,616" />
+    <w id="6.5">um</w>
+    <w id="6.6">oficial</w>
+    <w id="6.7">sénior</w>
+    <w id="6.8">durante</w>
+    <w id="6.9">todo</w>
+    <w id="6.10">o</w>
+    <w id="6.11">turno</w>
+    <w id="6.12">.</w>
+    <time id="T6E" value="00:00:17,782" />
+  </s>
+  <s id="7">
+    <time id="T7S" value="00:00:17,986" />
+    <w id="7.1">Estamos</w>
+    <w id="7.2">aqui</w>
+    <w id="7.3">há</w>
+    <w id="7.4">menos</w>
+    <w id="7.5">de</w>
+    <w id="7.6">uma</w>
+    <w id="7.7">hora</w>
+    <w id="7.8">,</w>
+    <time id="T7E" value="00:00:19,770" />
+    <time id="T8S" value="00:00:19,805" />
+    <w id="7.9">e</w>
+    <w id="7.10">ele</w>
+    <w id="7.11">já</w>
+    <w id="7.12">se</w>
+    <w id="7.13">revelou</w>
+    <w id="7.14">a</w>
+    <w id="7.15">um</w>
+    <w id="7.16">humano</w>
+    <w id="7.17">.</w>
+    <time id="T8E" value="00:00:21,554" />
+  </s>
+  <s id="8">
+    <time id="T9S" value="00:00:21,556" />
+    <w id="8.1">Sou</w>
+    <w id="8.2">o</w>
+    <w id="8.3">Fixit</w>
+    <w id="8.4">,</w>
+    <w id="8.5">e</w>
+    <w id="8.6">esta</w>
+    <w id="8.7">era</w>
+    <w id="8.8">a</w>
+    <w id="8.9">nave</w>
+    <w id="8.10">prisão</w>
+    <w id="8.11">Alchemor</w>
+    <w id="8.12">.</w>
+    <time id="T9E" value="00:00:23,874" />
+  </s>
+  <s id="9">
+    <time id="T10S" value="00:00:23,909" />
+    <w id="9.1">E</w>
+    <w id="9.2">perdemos</w>
+    <w id="9.3">a</w>
+    <w id="9.4">maioria</w>
+    <w id="9.5">das</w>
+    <w id="9.6">nossas</w>
+    <w id="9.7">celas</w>
+    <w id="9.8">de</w>
+    <w id="9.9">êxtase</w>
+    <w id="9.10">.</w>
+    <time id="T10E" value="00:00:26,192" />
+  </s>
+  <s id="10">
+    <time id="T11S" value="00:00:26,194" />
+    <w id="10.1">Os</w>
+    <w id="10.2">presos</w>
+    <w id="10.3">devem</w>
+    <w id="10.4">ter</w>
+    <w id="10.5">fugido</w>
+    <w id="10.6">.</w>
+    <time id="T11E" value="00:00:27,938" />
+  </s>
+  <s id="11">
+    <time id="T12S" value="00:00:27,973" />
+    <w id="11.1">-</w>
+    <w id="11.2">Já</w>
+    <w id="11.3">estiveste</w>
+    <w id="11.4">em</w>
+    <w id="11.5">Nuon</w>
+    <w id="11.6">City</w>
+    <w id="11.7">?</w>
+  </s>
+  <s id="12">
+    <w id="12.1">-</w>
+    <w id="12.2">Não</w>
+    <w id="12.3">.</w>
+    <time id="T12E" value="00:00:31,197" />
+  </s>
+  <s id="13">
+    <time id="T13S" value="00:00:31,199" />
+    <w id="13.1">Porque</w>
+    <w id="13.2">a</w>
+    <w id="13.3">devorei</w>
+    <w id="13.4">!</w>
+    <time id="T13E" value="00:00:33,099" />
+  </s>
+  <s id="14">
+    <time id="T14S" value="00:00:33,101" />
+    <w id="14.1">Ouço</w>
+    <w id="14.2">luta</w>
+    <w id="14.3">.</w>
+  </s>
+  <s id="15">
+    <w id="15.1">Quem</w>
+    <w id="15.2">está</w>
+    <w id="15.3">a</w>
+    <w id="15.4">lutar</w>
+    <w id="15.5">?</w>
+  </s>
+  <s id="16">
+    <w id="16.1">Quero</w>
+    <w id="16.2">lutar</w>
+    <w id="16.3">!</w>
+    <time id="T14E" value="00:00:35,787" />
+  </s>
+  <s id="17">
+    <time id="T15S" value="00:00:35,822" />
+    <w id="17.1">Quanto</w>
+    <w id="17.2">mais</w>
+    <w id="17.3">metal</w>
+    <w id="17.4">um</w>
+    <w id="17.5">Chompazoid</w>
+    <w id="17.6">consumir</w>
+    <w id="17.7">,</w>
+    <time id="T15E" value="00:00:38,473" />
+    <time id="T16S" value="00:00:38,508" />
+    <w id="17.8">mais</w>
+    <w id="17.9">poderoso</w>
+    <w id="17.10">fica</w>
+    <w id="17.11">.</w>
+    <time id="T16E" value="00:00:40,172" />
+  </s>
+  <s id="18">
+    <time id="T17S" value="00:00:40,207" />
+    <w id="18.1">Espera</w>
+    <w id="18.2">,</w>
+    <w id="18.3">o</w>
+    <w id="18.4">ferro</w>
+    <w id="18.5">velho</w>
+    <w id="18.6">?</w>
+  </s>
+  <s id="19">
+    <w id="19.1">O</w>
+    <w id="19.2">meu</w>
+    <w id="19.3">pai</w>
+    <w id="19.4">está</w>
+    <w id="19.5">lá</w>
+    <w id="19.6">!</w>
+    <time id="T17E" value="00:00:43,075" />
+  </s>
+  <s id="20">
+    <time id="T18S" value="00:00:45,045" />
+    <w id="20.1">Misericórdia</w>
+    <w id="20.2">,</w>
+    <w id="20.3">o</w>
+    <w id="20.4">pai</w>
+    <w id="20.5">dele</w>
+    <w id="20.6">está</w>
+    <w id="20.7">lá</w>
+    <w id="20.8">!</w>
+    <time id="T18E" value="00:00:47,650" />
+  </s>
+  <s id="21">
+    <time id="T19S" value="00:00:48,783" />
+    <w id="21.1">O</w>
+    <w id="21.2">que</w>
+    <w id="21.3">é</w>
+    <w id="21.4">um</w>
+    <w id="21.5">pai</w>
+    <w id="21.6">?</w>
+    <time id="T19E" value="00:00:50,650" />
+  </s>
+  <s id="22">
+    <time id="T20S" value="00:00:50,652" />
+    <w id="22.1">É</w>
+    <w id="22.2">um</w>
+    <w id="22.3">membro</w>
+    <w id="22.4">mais</w>
+    <w id="22.5">antigo</w>
+    <time id="T20E" value="00:00:52,997" />
+    <time id="T21S" value="00:00:53,032" />
+    <w id="22.6">da</w>
+    <w id="22.7">espécie</w>
+    <w id="22.8">dominante</w>
+    <w id="22.9">deste</w>
+    <w id="22.10">planeta</w>
+    <w id="22.11">que</w>
+    <w id="22.12">divide</w>
+    <time id="T21E" value="00:00:54,729" />
+    <time id="T22S" value="00:00:54,764" />
+    <w id="22.13">material</w>
+    <w id="22.14">genético</w>
+    <w id="22.15">com</w>
+    <w id="22.16">um</w>
+    <w id="22.17">membro</w>
+    <w id="22.18">mais</w>
+    <w id="22.19">jovem</w>
+    <time id="T22E" value="00:00:57,159" />
+    <time id="T23S" value="00:00:57,194" />
+    <w id="22.20">e</w>
+    <w id="22.21">ajuda</w>
+    <w id="22.22">na</w>
+    <w id="22.23">criação</w>
+    <w id="22.24">e</w>
+    <w id="22.25">educação</w>
+    <w id="22.26">desse</w>
+    <w id="22.27">membro</w>
+    <w id="22.28">.</w>
+    <time id="T23E" value="00:00:59,555" />
+  </s>
+  <s id="23">
+    <time id="T24S" value="00:01:01,296" />
+    <w id="23.1">Porque</w>
+    <w id="23.2">é</w>
+    <w id="23.3">que</w>
+    <w id="23.4">não</w>
+    <w id="23.5">disseste</w>
+    <w id="23.6">isso</w>
+    <w id="23.7">?</w>
+    <time id="T24E" value="00:01:03,630" />
+  </s>
+  <s id="24">
+    <time id="T25S" value="00:01:03,632" />
+    <w id="24.1">Pai</w>
+    <w id="24.2">!</w>
+    <time id="T25E" value="00:01:05,298" />
+  </s>
+  <s id="25">
+    <time id="T26S" value="00:01:05,300" />
+    <w id="25.1">Não</w>
+    <w id="25.2">vais</w>
+    <w id="25.3">para</w>
+    <w id="25.4">perto</w>
+    <w id="25.5">daquele</w>
+    <w id="25.6">Chompazoid</w>
+    <w id="25.7">.</w>
+    <time id="T26E" value="00:01:08,301" />
+  </s>
+  <s id="26">
+    <time id="T27S" value="00:01:08,303" />
+    <w id="26.1">É</w>
+    <w id="26.2">perigoso</w>
+    <w id="26.3">demais</w>
+    <w id="26.4">.</w>
+    <time id="T27E" value="00:01:09,936" />
+  </s>
+  <s id="27">
+    <time id="T28S" value="00:01:11,907" />
+    <w id="27.1">Sabes</w>
+    <w id="27.2">quem</w>
+    <w id="27.3">também</w>
+    <w id="27.4">deve</w>
+    <w id="27.5">ser</w>
+    <w id="27.6">perigoso</w>
+    <w id="27.7">?</w>
+    <time id="T28E" value="00:01:14,040" />
+  </s>
+  <s id="28">
+    <time id="T29S" value="00:01:14,042" />
+    <w id="28.1">Ele</w>
+    <w id="28.2">.</w>
+    <time id="T29E" value="00:01:15,508" />
+  </s>
+  <s id="29">
+    <time id="T30S" value="00:01:57,185" />
+    <w id="29.1">São</w>
+    <w id="29.2">civis</w>
+    <w id="29.3">.</w>
+  </s>
+  <s id="30">
+    <w id="30.1">Não</w>
+    <w id="30.2">são</w>
+    <w id="30.3">uma</w>
+    <w id="30.4">ameaça</w>
+    <w id="30.5">.</w>
+    <time id="T30E" value="00:01:59,886" />
+  </s>
+  <s id="31">
+    <time id="T31S" value="00:01:59,988" />
+    <w id="31.1">Não</w>
+    <w id="31.2">sou</w>
+    <w id="31.3">um</w>
+    <w id="31.4">civil</w>
+    <w id="31.5">.</w>
+    <time id="T31E" value="00:02:01,454" />
+  </s>
+  <s id="32">
+    <time id="T32S" value="00:02:01,456" />
+    <w id="32.1">Ele</w>
+    <w id="32.2">não</w>
+    <w id="32.3">me</w>
+    <w id="32.4">parece</w>
+    <w id="32.5">ameaçado</w>
+    <w id="32.6">.</w>
+    <time id="T32E" value="00:02:03,956" />
+  </s>
+  <s id="33">
+    <time id="T33S" value="00:02:11,598" />
+    <w id="33.1">Estes</w>
+    <w id="33.2">dois</w>
+    <w id="33.3">podem</w>
+    <w id="33.4">atrair</w>
+    <w id="33.5">muita</w>
+    <w id="33.6">atenção</w>
+    <w id="33.7">.</w>
+    <time id="T33E" value="00:02:15,001" />
+  </s>
+  <s id="34">
+    <time id="T34S" value="00:02:15,003" />
+    <w id="34.1">Vocês</w>
+    <w id="34.2">,</w>
+    <w id="34.3">fiquem</w>
+    <w id="34.4">aqui</w>
+    <w id="34.5">.</w>
+    <time id="T34E" value="00:02:16,736" />
+  </s>
+  <s id="35">
+    <time id="T35S" value="00:02:16,738" />
+    <w id="35.1">O</w>
+    <w id="35.2">Regulamento</w>
+    <w id="35.3">diz</w>
+    <w id="35.4">que</w>
+    <w id="35.5">múltiplos</w>
+    <w id="35.6">oficiais</w>
+    <time id="T35E" value="00:02:19,438" />
+  </s>
+  <s id="36">
+    <time id="T36S" value="00:02:19,440" />
+    <w id="36.1">Não</w>
+    <w id="36.2">,</w>
+    <w id="36.3">tu</w>
+    <w id="36.4">tens</w>
+    <w id="36.5">pouca</w>
+    <w id="36.6">experiência</w>
+    <w id="36.7">.</w>
+    <time id="T36E" value="00:02:21,140" />
+  </s>
+  <s id="37">
+    <time id="T37S" value="00:02:21,142" />
+    <w id="37.1">Eu</w>
+    <w id="37.2">trato</w>
+    <w id="37.3">disto</w>
+    <w id="37.4">sozinho</w>
+    <w id="37.5">.</w>
+    <time id="T37E" value="00:02:22,842" />
+  </s>
+  <s id="38">
+    <time id="T38S" value="00:02:25,145" />
+    <w id="38.1">Eu</w>
+    <w id="38.2">não</w>
+    <w id="38.3">quero</w>
+    <w id="38.4">saber</w>
+    <w id="38.5">do</w>
+    <w id="38.6">que</w>
+    <w id="38.7">ele</w>
+    <w id="38.8">diz</w>
+    <w id="38.9">.</w>
+    <time id="T38E" value="00:02:27,513" />
+  </s>
+  <s id="39">
+    <time id="T39S" value="00:02:27,515" />
+    <w id="39.1">É</w>
+    <w id="39.2">o</w>
+    <w id="39.3">meu</w>
+    <w id="39.4">pai</w>
+    <w id="39.5">.</w>
+    <time id="T39E" value="00:02:30,016" />
+  </s>
+  <s id="40">
+    <time id="T40S" value="00:02:30,018" />
+    <w id="40.1">Safa</w>
+    <w id="40.2">,</w>
+    <w id="40.3">o</w>
+    <w id="40.4">humano</w>
+    <w id="40.5">está</w>
+    <w id="40.6">a</w>
+    <w id="40.7">fugir</w>
+    <w id="40.8">.</w>
+    <time id="T40E" value="00:02:32,418" />
+  </s>
+  <s id="41">
+    <time id="T41S" value="00:02:32,420" />
+    <w id="41.1">É</w>
+    <w id="41.2">melhor</w>
+    <w id="41.3">ficar</w>
+    <w id="41.4">de</w>
+    <w id="41.5">olho</w>
+    <w id="41.6">nele</w>
+    <w id="41.7">.</w>
+    <time id="T41E" value="00:02:33,986" />
+  </s>
+  <s id="42">
+    <time id="T42S" value="00:02:35,656" />
+    <w id="42.1">O</w>
+    <w id="42.2">que</w>
+    <w id="42.3">é</w>
+    <w id="42.4">que</w>
+    <w id="42.5">vais</w>
+    <w id="42.6">fazer</w>
+    <w id="42.7">?</w>
+    <time id="T42E" value="00:02:37,156" />
+  </s>
+  <s id="43">
+    <time id="T43S" value="00:02:37,158" />
+    <w id="43.1">Não</w>
+    <w id="43.2">é</w>
+    <w id="43.3">a</w>
+    <w id="43.4">minha</w>
+    <w id="43.5">luta</w>
+    <w id="43.6">.</w>
+    <time id="T43E" value="00:02:38,858" />
+  </s>
+  <s id="44">
+    <time id="T44S" value="00:02:38,860" />
+    <w id="44.1">Entendi</w>
+    <w id="44.2">.</w>
+    <time id="T44E" value="00:02:40,593" />
+  </s>
+  <s id="45">
+    <time id="T45S" value="00:02:40,595" />
+    <w id="45.1">Alto</w>
+    <w id="45.2">e</w>
+    <w id="45.3">caro</w>
+    <w id="45.4">...</w>
+  </s>
+  <s id="46">
+    <w id="46.1">caso</w>
+    <w id="46.2">...</w>
+    <w id="46.3">claro</w>
+    <w id="46.4">!</w>
+    <time id="T45E" value="00:02:43,195" />
+  </s>
+  <s id="47">
+    <time id="T46S" value="00:02:43,197" />
+    <w id="47.1">Também</w>
+    <w id="47.2">não</w>
+    <w id="47.3">sou</w>
+    <w id="47.4">um</w>
+    <w id="47.5">guerreiro</w>
+    <w id="47.6">.</w>
+  </s>
+  <s id="48">
+    <w id="48.1">Sou</w>
+    <w id="48.2">um</w>
+    <w id="48.3">amante</w>
+    <w id="48.4">.</w>
+    <time id="T46E" value="00:02:45,631" />
+  </s>
+  <s id="49">
+    <time id="T47S" value="00:02:45,633" />
+    <w id="49.1">Vejamos</w>
+    <w id="49.2">se</w>
+    <w id="49.3">o</w>
+    <w id="49.4">velho</w>
+    <w id="49.5">Fixit</w>
+    <w id="49.6">pode</w>
+    <w id="49.7">encontrar</w>
+    <w id="49.8">alguma</w>
+    <w id="49.9">coisa</w>
+    <time id="T47E" value="00:02:47,800" />
+    <time id="T48S" value="00:02:47,802" />
+    <w id="49.10">para</w>
+    <w id="49.11">ajudar</w>
+    <w id="49.12">com</w>
+    <w id="49.13">estes</w>
+    <w id="49.14">fugitivos</w>
+    <w id="49.15">.</w>
+    <time id="T48E" value="00:02:49,135" />
+  </s>
+  <s id="50">
+    <time id="T49S" value="00:02:49,137" />
+    <w id="50.1">Talvez</w>
+    <w id="50.2">armas</w>
+    <w id="50.3">,</w>
+    <w id="50.4">armadura</w>
+    <w id="50.5">.</w>
+    <time id="T49E" value="00:02:51,537" />
+  </s>
+  <s id="51">
+    <time id="T50S" value="00:02:51,539" />
+    <w id="51.1">Posso</w>
+    <w id="51.2">dizer</w>
+    <w id="51.3">que</w>
+    <w id="51.4">vamos</w>
+    <w id="51.5">ser</w>
+    <w id="51.6">grandes</w>
+    <w id="51.7">amigos</w>
+    <w id="51.8">,</w>
+    <w id="51.9">Sideswipe</w>
+    <w id="51.10">.</w>
+    <time id="T50E" value="00:02:54,440" />
+  </s>
+  <s id="52">
+    <time id="T51S" value="00:02:54,442" />
+    <w id="52.1">Tens</w>
+    <w id="52.2">algum</w>
+    <w id="52.3">apelido</w>
+    <w id="52.4">?</w>
+  </s>
+  <s id="53">
+    <w id="53.1">Espera</w>
+    <w id="53.2">,</w>
+    <w id="53.3">deixa-me</w>
+    <w id="53.4">adivinhar</w>
+    <w id="53.5">.</w>
+    <time id="T51E" value="00:02:56,842" />
+  </s>
+  <s id="54">
+    <time id="T52S" value="00:02:56,844" />
+    <w id="54.1">Scooter</w>
+    <w id="54.2">?</w>
+  </s>
+  <s id="55">
+    <w id="55.1">Rumblejack</w>
+    <w id="55.2">?</w>
+  </s>
+  <s id="56">
+    <w id="56.1">Bill</w>
+    <w id="56.2">!</w>
+    <time id="T52E" value="00:02:59,078" />
+  </s>
+  <s id="57">
+    <time id="T53S" value="00:03:00,113" />
+    <w id="57.1">O</w>
+    <w id="57.2">meu</w>
+    <w id="57.3">é</w>
+    <w id="57.4">MC</w>
+    <w id="57.5">.</w>
+    <time id="T53E" value="00:03:01,981" />
+  </s>
+  <s id="58">
+    <time id="T54S" value="00:03:01,983" />
+    <w id="58.1">É</w>
+    <w id="58.2">uma</w>
+    <w id="58.3">história</w>
+    <w id="58.4">muito</w>
+    <w id="58.5">longa</w>
+    <w id="58.6">.</w>
+    <time id="T54E" value="00:03:05,985" />
+  </s>
+  <s id="59">
+    <time id="T55S" value="00:03:05,987" />
+    <w id="59.1">Sideswipe</w>
+    <w id="59.2">?</w>
+  </s>
+  <s id="60">
+    <w id="60.1">Olá</w>
+    <w id="60.2">?</w>
+    <time id="T55E" value="00:03:09,589" />
+  </s>
+  <s id="61">
+    <time id="T56S" value="00:03:29,543" />
+    <w id="61.1">Temos</w>
+    <w id="61.2">uma</w>
+    <w id="61.3">dança</w>
+    <w id="61.4">para</w>
+    <w id="61.5">acabar</w>
+    <w id="61.6">,</w>
+    <w id="61.7">parvalhão</w>
+    <w id="61.8">!</w>
+    <time id="T56E" value="00:03:32,645" />
+  </s>
+  <s id="62">
+    <time id="T57S" value="00:03:39,654" />
+    <w id="62.1">Também</w>
+    <w id="62.2">és</w>
+    <w id="62.3">da</w>
+    <w id="62.4">nave</w>
+    <w id="62.5">prisão</w>
+    <w id="62.6">.</w>
+    <time id="T57E" value="00:03:41,821" />
+  </s>
+  <s id="63">
+    <time id="T58S" value="00:03:41,823" />
+    <w id="63.1">Não</w>
+    <w id="63.2">vou</w>
+    <w id="63.3">comer</w>
+    <w id="63.4">o</w>
+    <w id="63.5">planeta</w>
+    <w id="63.6">todo</w>
+    <w id="63.7">.</w>
+    <time id="T58E" value="00:03:44,657" />
+  </s>
+  <s id="64">
+    <time id="T59S" value="00:03:44,659" />
+    <w id="64.1">Só</w>
+    <w id="64.2">as</w>
+    <w id="64.3">partes</w>
+    <w id="64.4">crocantes</w>
+    <w id="64.5">.</w>
+    <time id="T59E" value="00:03:47,693" />
+  </s>
+  <s id="65">
+    <time id="T60S" value="00:03:47,695" />
+    <w id="65.1">Então</w>
+    <w id="65.2">porque</w>
+    <w id="65.3">é</w>
+    <w id="65.4">que</w>
+    <w id="65.5">me</w>
+    <w id="65.6">estás</w>
+    <w id="65.7">a</w>
+    <w id="65.8">chatear</w>
+    <w id="65.9">?</w>
+    <time id="T60E" value="00:03:49,862" />
+  </s>
+  <s id="66">
+    <time id="T61S" value="00:03:49,864" />
+    <w id="66.1">Gosto</w>
+    <w id="66.2">de</w>
+    <w id="66.3">lutar</w>
+    <w id="66.4">com</w>
+    <w id="66.5">coisas</w>
+    <w id="66.6">do</w>
+    <w id="66.7">meu</w>
+    <w id="66.8">tamanho</w>
+    <w id="66.9">.</w>
+    <time id="T61E" value="00:03:52,164" />
+  </s>
+  <s id="67">
+    <time id="T62S" value="00:03:52,166" />
+    <w id="67.1">E</w>
+    <w id="67.2">só</w>
+    <w id="67.3">porque</w>
+    <w id="67.4">chegamos</w>
+    <w id="67.5">aqui</w>
+    <w id="67.6">juntos</w>
+    <w id="67.7">,</w>
+    <time id="T62E" value="00:03:54,100" />
+    <time id="T63S" value="00:03:54,102" />
+    <w id="67.8">não</w>
+    <w id="67.9">nos</w>
+    <w id="67.10">torna</w>
+    <w id="67.11">parceiros</w>
+    <w id="67.12">de</w>
+    <w id="67.13">viagem</w>
+    <w id="67.14">.</w>
+    <time id="T63E" value="00:03:56,168" />
+  </s>
+  <s id="68">
+    <time id="T64S" value="00:04:05,812" />
+    <w id="68.1">Mesmo</w>
+    <w id="68.2">não</w>
+    <w id="68.3">sendo</w>
+    <w id="68.4">amigos</w>
+    <w id="68.5">,</w>
+    <time id="T64E" value="00:04:07,913" />
+    <time id="T65S" value="00:04:07,915" />
+    <w id="68.6">tem</w>
+    <w id="68.7">um</w>
+    <w id="68.8">bom</w>
+    <w id="68.9">descanso</w>
+    <w id="68.10">da</w>
+    <w id="68.11">tua</w>
+    <w id="68.12">viagem</w>
+    <w id="68.13">.</w>
+    <time id="T65E" value="00:04:10,416" />
+  </s>
+  <s id="69">
+    <time id="T66S" value="00:04:19,660" />
+    <w id="69.1">Espera</w>
+    <w id="69.2">por</w>
+    <w id="69.3">uma</w>
+    <w id="69.4">aberta</w>
+    <w id="69.5">,</w>
+    <w id="69.6">B.</w>
+    <time id="T66E" value="00:04:22,662" />
+  </s>
+  <s id="70">
+    <time id="T67S" value="00:04:22,664" />
+    <w id="70.1">Pai</w>
+    <w id="70.2">!</w>
+    <time id="T67E" value="00:04:24,764" />
+  </s>
+  <s id="71">
+    <time id="T68S" value="00:04:24,766" />
+    <w id="71.1">Eu</w>
+    <w id="71.2">salvo</w>
+    <w id="71.3">o</w>
+    <w id="71.4">humano</w>
+    <w id="71.5">depois</w>
+    <w id="71.6">você</w>
+    <w id="71.7">e</w>
+    <w id="71.8">eu</w>
+    <time id="T68E" value="00:04:26,499" />
+    <time id="T69S" value="00:04:26,501" />
+    <w id="71.9">podemos</w>
+    <w id="71.10">apanhar</w>
+    <w id="71.11">o</w>
+    <w id="71.12">fugitivo</w>
+    <w id="71.13">,</w>
+    <w id="71.14">Senhor</w>
+    <w id="71.15">!</w>
+    <time id="T69E" value="00:04:28,401" />
+  </s>
+  <s id="72">
+    <time id="T70S" value="00:04:28,403" />
+    <w id="72.1">Strongarm</w>
+    <w id="72.2">!</w>
+    <time id="T70E" value="00:04:29,702" />
+  </s>
+  <s id="73">
+    <time id="T71S" value="00:04:33,473" />
+    <w id="73.1">Raios</w>
+    <w id="73.2">.</w>
+    <time id="T71E" value="00:04:35,174" />
+  </s>
+  <s id="74">
+    <time id="T72S" value="00:04:45,053" />
+    <w id="74.1">Acho</w>
+    <w id="74.2">que</w>
+    <w id="74.3">os</w>
+    <w id="74.4">Chompazoids</w>
+    <w id="74.5">não</w>
+    <w id="74.6">são</w>
+    <w id="74.7">assim</w>
+    <w id="74.8">tão</w>
+    <w id="74.9">duros</w>
+    <w id="74.10">.</w>
+    <time id="T72E" value="00:04:47,453" />
+  </s>
+  <s id="75">
+    <time id="T73S" value="00:04:47,455" />
+    <w id="75.1">Ou</w>
+    <w id="75.2">os</w>
+    <w id="75.3">Dinobots</w>
+    <w id="75.4">não</w>
+    <w id="75.5">são</w>
+    <w id="75.6">assim</w>
+    <w id="75.7">tão</w>
+    <w id="75.8">espertos</w>
+    <w id="75.9">.</w>
+    <time id="T73E" value="00:04:50,056" />
+  </s>
+  <s id="76">
+    <time id="T74S" value="00:05:01,812" />
+    <w id="76.1">Obrigado</w>
+    <w id="76.2">.</w>
+    <time id="T74E" value="00:05:03,872" />
+  </s>
+  <s id="77">
+    <time id="T75S" value="00:05:04,037" />
+    <w id="77.1">De</w>
+    <w id="77.2">nada</w>
+    <w id="77.3">.</w>
+    <time id="T75E" value="00:05:05,504" />
+  </s>
+  <s id="78">
+    <time id="T76S" value="00:05:05,506" />
+    <w id="78.1">Vamos</w>
+    <w id="78.2">procurar</w>
+    <w id="78.3">o</w>
+    <w id="78.4">teu</w>
+    <w id="78.5">pai</w>
+    <w id="78.6">.</w>
+    <time id="T76E" value="00:05:08,507" />
+  </s>
+  <s id="79">
+    <time id="T77S" value="00:05:12,128" />
+    <w id="79.1">Bonito</w>
+    <w id="79.2">.</w>
+    <time id="T77E" value="00:05:14,182" />
+  </s>
+  <s id="80">
+    <time id="T78S" value="00:05:22,989" />
+    <w id="80.1">-</w>
+    <w id="80.2">Vamos</w>
+    <w id="80.3">fazer</w>
+    <w id="80.4">isto</w>
+    <w id="80.5">!</w>
+  </s>
+  <s id="81">
+    <w id="81.1">-</w>
+    <w id="81.2">Strongarm</w>
+    <w id="81.3">,</w>
+    <w id="81.4">não</w>
+    <w id="81.5">!</w>
+    <time id="T78E" value="00:05:26,025" />
+  </s>
+  <s id="82">
+    <time id="T79S" value="00:05:30,905" />
+    <w id="82.1">Vai</w>
+    <w id="82.2">,</w>
+    <w id="82.3">vai</w>
+    <w id="82.4">,</w>
+    <w id="82.5">vai</w>
+    <w id="82.6">!</w>
+    <time id="T79E" value="00:05:32,031" />
+  </s>
+  <s id="83">
+    <time id="T80S" value="00:05:41,316" />
+    <w id="83.1">Ali</w>
+    <w id="83.2">!</w>
+    <time id="T80E" value="00:05:42,808" />
+  </s>
+  <s id="84">
+    <time id="T81S" value="00:05:49,916" />
+    <w id="84.1">Pai</w>
+    <w id="84.2">!</w>
+  </s>
+  <s id="85">
+    <w id="85.1">Pai</w>
+    <w id="85.2">!</w>
+    <time id="T81E" value="00:05:52,151" />
+  </s>
+  <s id="86">
+    <time id="T82S" value="00:05:52,153" />
+    <w id="86.1">Rusty</w>
+    <w id="86.2">!</w>
+  </s>
+  <s id="87">
+    <w id="87.1">Encontraste</w>
+    <w id="87.2">o</w>
+    <w id="87.3">meteoro</w>
+    <w id="87.4">?</w>
+    <time id="T82E" value="00:05:55,488" />
+  </s>
+  <s id="88">
+    <time id="T83S" value="00:05:55,490" />
+    <w id="88.1">Não</w>
+    <w id="88.2">,</w>
+    <w id="88.3">encontrei-os</w>
+    <w id="88.4">a</w>
+    <w id="88.5">eles</w>
+    <w id="88.6">.</w>
+    <time id="T83E" value="00:05:58,124" />
+  </s>
+  <s id="89">
+    <time id="T84S" value="00:06:07,434" />
+    <w id="89.1">Há</w>
+    <w id="89.2">alguma</w>
+    <w id="89.3">porta</w>
+    <w id="89.4">dos</w>
+    <w id="89.5">fundos</w>
+    <w id="89.6">por</w>
+    <w id="89.7">aqui</w>
+    <w id="89.8">?</w>
+    <time id="T84E" value="00:06:08,868" />
+  </s>
+  <s id="90">
+    <time id="T85S" value="00:06:08,870" />
+    <w id="90.1">Porque</w>
+    <w id="90.2">podem</w>
+    <w id="90.3">precisar</w>
+    <w id="90.4">de</w>
+    <w id="90.5">uma</w>
+    <w id="90.6">antes</w>
+    <w id="90.7">disto</w>
+    <w id="90.8">acabar</w>
+    <w id="90.9">.</w>
+    <time id="T85E" value="00:06:12,905" />
+  </s>
+  <s id="91">
+    <time id="T86S" value="00:06:12,907" />
+    <w id="91.1">Robot</w>
+    <w id="91.2">...</w>
+    <w id="91.3">carro</w>
+    <w id="91.4">...</w>
+    <w id="91.5">falante</w>
+    <w id="91.6">.</w>
+    <time id="T86E" value="00:06:16,776" />
+  </s>
+  <s id="92">
+    <time id="T87S" value="00:06:22,883" />
+    <w id="92.1">Mordeste-me</w>
+    <w id="92.2">!</w>
+    <time id="T87E" value="00:06:26,152" />
+  </s>
+  <s id="93">
+    <time id="T88S" value="00:06:32,125" />
+    <w id="93.1">Isto</w>
+    <w id="93.2">é</w>
+    <w id="93.3">um</w>
+    <w id="93.4">desastre</w>
+    <w id="93.5">.</w>
+    <time id="T88E" value="00:06:33,459" />
+  </s>
+  <s id="94">
+    <time id="T89S" value="00:06:33,461" />
+    <w id="94.1">Porque</w>
+    <w id="94.2">é</w>
+    <w id="94.3">que</w>
+    <w id="94.4">não</w>
+    <w id="94.5">ficaram</w>
+    <w id="94.6">lá</w>
+    <w id="94.7">como</w>
+    <w id="94.8">vos</w>
+    <w id="94.9">mandei</w>
+    <w id="94.10">?</w>
+    <time id="T89E" value="00:06:35,795" />
+  </s>
+  <s id="95">
+    <time id="T90S" value="00:06:35,797" />
+    <w id="95.1">Sou</w>
+    <w id="95.2">treinada</w>
+    <w id="95.3">para</w>
+    <w id="95.4">servir</w>
+    <w id="95.5">e</w>
+    <w id="95.6">proteger</w>
+    <w id="95.7">,</w>
+    <time id="T90E" value="00:06:37,930" />
+    <time id="T91S" value="00:06:37,932" />
+    <w id="95.8">não</w>
+    <w id="95.9">para</w>
+    <w id="95.10">ficar</w>
+    <w id="95.11">parada</w>
+    <w id="95.12">.</w>
+    <time id="T91E" value="00:06:39,832" />
+  </s>
+  <s id="96">
+    <time id="T92S" value="00:06:40,374" />
+    <w id="96.1">Aquele</w>
+    <w id="96.2">Mini-Con</w>
+    <w id="96.3">falante</w>
+    <w id="96.4">.</w>
+    <time id="T92E" value="00:06:42,794" />
+  </s>
+  <s id="97">
+    <time id="T93S" value="00:06:43,471" />
+    <w id="97.1">Os</w>
+    <w id="97.2">meus</w>
+    <w id="97.3">receptores</w>
+    <w id="97.4">auditivos</w>
+    <w id="97.5">estavam</w>
+    <w id="97.6">a</w>
+    <w id="97.7">começar</w>
+    <w id="97.8">a</w>
+    <w id="97.9">derreter</w>
+    <w id="97.10">.</w>
+    <time id="T93E" value="00:06:45,838" />
+  </s>
+  <s id="98">
+    <time id="T94S" value="00:06:47,741" />
+    <w id="98.1">-</w>
+    <w id="98.2">Humano</w>
+    <w id="98.3">.</w>
+  </s>
+  <s id="99">
+    <w id="99.1">-</w>
+    <w id="99.2">Denny</w>
+    <w id="99.3">.</w>
+    <time id="T94E" value="00:06:49,842" />
+  </s>
+  <s id="100">
+    <time id="T95S" value="00:06:49,844" />
+    <w id="100.1">Onde</w>
+    <w id="100.2">é</w>
+    <w id="100.3">o</w>
+    <w id="100.4">lugar</w>
+    <w id="100.5">mais</w>
+    <w id="100.6">seguro</w>
+    <w id="100.7">por</w>
+    <w id="100.8">aqui</w>
+    <w id="100.9">?</w>
+    <time id="T95E" value="00:06:51,844" />
+  </s>
+  <s id="101">
+    <time id="T96S" value="00:06:53,379" />
+    <w id="101.1">Há</w>
+    <w id="101.2">algumas</w>
+    <w id="101.3">cavernas</w>
+    <w id="101.4">perto</w>
+    <w id="101.5">do</w>
+    <w id="101.6">rio</w>
+    <w id="101.7">.</w>
+    <time id="T96E" value="00:06:55,080" />
+  </s>
+  <s id="102">
+    <time id="T97S" value="00:06:55,082" />
+    <w id="102.1">Leve</w>
+    <w id="102.2">o</w>
+    <w id="102.3">Russel</w>
+    <w id="102.4">para</w>
+    <w id="102.5">lá</w>
+    <w id="102.6">.</w>
+    <time id="T97E" value="00:06:57,016" />
+  </s>
+  <s id="103">
+    <time id="T98S" value="00:06:57,018" />
+    <w id="103.1">Sideswipe</w>
+    <w id="103.2">,</w>
+    <w id="103.3">Strongarm</w>
+    <w id="103.4">,</w>
+    <w id="103.5">vocês</w>
+    <w id="103.6">também</w>
+    <w id="103.7">.</w>
+    <time id="T98E" value="00:06:59,305" />
+  </s>
+  <s id="104">
+    <time id="T99S" value="00:06:59,340" />
+    <w id="104.1">Senhor</w>
+    <w id="104.2">,</w>
+    <w id="104.3">quero</w>
+    <w id="104.4">ajudar</w>
+    <w id="104.5">.</w>
+    <time id="T99E" value="00:07:00,872" />
+  </s>
+  <s id="105">
+    <time id="T100S" value="00:07:00,907" />
+    <w id="105.1">Ensine-me</w>
+    <w id="105.2">,</w>
+    <w id="105.3">como</w>
+    <w id="105.4">o</w>
+    <w id="105.5">Optimus</w>
+    <w id="105.6">Prime</w>
+    <w id="105.7">fez</w>
+    <w id="105.8">consigo</w>
+    <w id="105.9">.</w>
+    <time id="T100E" value="00:07:03,622" />
+  </s>
+  <s id="106">
+    <time id="T101S" value="00:07:03,624" />
+    <w id="106.1">Eu</w>
+    <w id="106.2">não</w>
+    <w id="106.3">sou</w>
+    <w id="106.4">o</w>
+    <w id="106.5">Optimus</w>
+    <w id="106.6">Prime</w>
+    <w id="106.7">!</w>
+    <time id="T101E" value="00:07:05,624" />
+  </s>
+  <s id="107">
+    <time id="T102S" value="00:07:05,626" />
+    <w id="107.1">É</w>
+    <w id="107.2">pena</w>
+    <w id="107.3">,</w>
+    <w id="107.4">porque</w>
+    <w id="107.5">podíamos</w>
+    <w id="107.6">usar</w>
+    <w id="107.7">um</w>
+    <w id="107.8">agora</w>
+    <w id="107.9">.</w>
+    <time id="T102E" value="00:07:09,695" />
+  </s>
+  <s id="108">
+    <time id="T103S" value="00:07:11,031" />
+    <w id="108.1">Incrível</w>
+    <w id="108.2">.</w>
+    <time id="T103E" value="00:07:13,299" />
+  </s>
+  <s id="109">
+    <time id="T104S" value="00:07:14,104" />
+    <w id="109.1">Esperava</w>
+    <w id="109.2">trabalhar</w>
+    <w id="109.3">com</w>
+    <w id="109.4">repetições</w>
+    <w id="109.5">.</w>
+    <time id="T104E" value="00:07:18,596" />
+  </s>
+  <s id="110">
+    <time id="T105S" value="00:07:18,631" />
+    <w id="110.1">Mas</w>
+    <w id="110.2">tu</w>
+    <w id="110.3">é</w>
+    <w id="110.4">que</w>
+    <time id="T105E" value="00:07:21,031" />
+    <time id="T106S" value="00:07:21,668" />
+    <w id="110.5">vais</w>
+    <w id="110.6">sentir</w>
+    <w id="110.7">a</w>
+    <w id="110.8">dor</w>
+    <w id="110.9">!</w>
+    <time id="T106E" value="00:07:24,624" />
+  </s>
+  <s id="111">
+    <time id="T107S" value="00:07:26,012" />
+    <w id="111.1">Protejam-se</w>
+    <w id="111.2">!</w>
+    <time id="T107E" value="00:07:27,613" />
+  </s>
+  <s id="112">
+    <time id="T108S" value="00:07:38,024" />
+    <w id="112.1">Destruidor</w>
+    <w id="112.2">de</w>
+    <w id="112.3">trovões</w>
+    <w id="112.4">.</w>
+    <time id="T108E" value="00:07:40,693" />
+  </s>
+  <s id="113">
+    <time id="T109S" value="00:07:40,695" />
+    <w id="113.1">Esmagador</w>
+    <w id="113.2">de</w>
+    <w id="113.3">raios</w>
+    <w id="113.4">.</w>
+    <time id="T109E" value="00:07:43,762" />
+  </s>
+  <s id="114">
+    <time id="T110S" value="00:07:43,764" />
+    <w id="114.1">Invicto</w>
+    <w id="114.2">e</w>
+    <w id="114.3">ainda</w>
+    <w id="114.4">campeão</w>
+    <w id="114.5">.</w>
+    <time id="T110E" value="00:07:47,711" />
+  </s>
+  <s id="115">
+    <time id="T111S" value="00:07:58,144" />
+    <w id="115.1">Isto</w>
+    <w id="115.2">é</w>
+    <w id="115.3">bom</w>
+    <w id="115.4">.</w>
+    <time id="T111E" value="00:08:01,013" />
+  </s>
+  <s id="116">
+    <time id="T112S" value="00:08:01,015" />
+    <w id="116.1">Vou</w>
+    <w id="116.2">guardar</w>
+    <w id="116.3">o</w>
+    <w id="116.4">resto</w>
+    <time id="T112E" value="00:08:02,514" />
+    <time id="T113S" value="00:08:02,516" />
+    <w id="116.5">dessas</w>
+    <w id="116.6">pequenas</w>
+    <w id="116.7">delícias</w>
+    <w id="116.8">para</w>
+    <w id="116.9">a</w>
+    <w id="116.10">sobremesa</w>
+    <w id="116.11">.</w>
+    <time id="T113E" value="00:08:04,683" />
+  </s>
+  <s id="117">
+    <time id="T114S" value="00:08:17,960" />
+    <w id="117.1">Um</w>
+    <w id="117.2">buffet</w>
+    <w id="117.3">.</w>
+    <time id="T114E" value="00:08:19,465" />
+  </s>
+  <s id="118">
+    <time id="T115S" value="00:08:23,278" />
+    <w id="118.1">É</w>
+    <w id="118.2">o</w>
+    <w id="118.3">céu</w>
+    <w id="118.4">verdadeiro</w>
+    <w id="118.5">.</w>
+    <time id="T115E" value="00:08:25,404" />
+  </s>
+  <s id="119">
+    <time id="T116S" value="00:08:43,583" />
+    <w id="119.1">Estás</w>
+    <w id="119.2">bem</w>
+    <w id="119.3">,</w>
+    <w id="119.4">humano</w>
+    <w id="119.5">Denny</w>
+    <w id="119.6">?</w>
+    <time id="T116E" value="00:08:45,669" />
+  </s>
+  <s id="120">
+    <time id="T117S" value="00:08:45,904" />
+    <w id="120.1">É</w>
+    <w id="120.2">só</w>
+    <w id="120.3">Denny</w>
+    <w id="120.4">.</w>
+    <time id="T117E" value="00:08:47,093" />
+  </s>
+  <s id="121">
+    <time id="T118S" value="00:08:47,095" />
+    <w id="121.1">E</w>
+    <w id="121.2">sim</w>
+    <w id="121.3">,</w>
+    <w id="121.4">obrigado</w>
+    <w id="121.5">.</w>
+    <time id="T118E" value="00:08:50,363" />
+  </s>
+  <s id="122">
+    <time id="T119S" value="00:08:50,965" />
+    <w id="122.1">Olha</w>
+    <w id="122.2">o</w>
+    <w id="122.3">que</w>
+    <w id="122.4">aquele</w>
+    <w id="122.5">monstro</w>
+    <w id="122.6">fez</w>
+    <w id="122.7">com</w>
+    <w id="122.8">as</w>
+    <w id="122.9">minhas</w>
+    <w id="122.10">coisas</w>
+    <w id="122.11">!</w>
+    <time id="T119E" value="00:08:53,933" />
+  </s>
+  <s id="123">
+    <time id="T120S" value="00:08:58,751" />
+    <w id="123.1">Estão</w>
+    <w id="123.2">todos</w>
+    <w id="123.3">bem</w>
+    <w id="123.4">?</w>
+    <time id="T120E" value="00:08:59,900" />
+  </s>
+  <s id="124">
+    <time id="T121S" value="00:08:59,904" />
+    <w id="124.1">Estão</w>
+    <w id="124.2">todos</w>
+    <w id="124.3">bem</w>
+    <w id="124.4">,</w>
+    <w id="124.5">Tenente</w>
+    <w id="124.6">.</w>
+    <time id="T121E" value="00:09:01,474" />
+  </s>
+  <s id="125">
+    <time id="T122S" value="00:09:01,876" />
+    <w id="125.1">Excepto</w>
+    <w id="125.2">o</w>
+    <w id="125.3">fugitivo</w>
+    <w id="125.4">.</w>
+    <time id="T122E" value="00:09:03,876" />
+  </s>
+  <s id="126">
+    <time id="T123S" value="00:09:08,745" />
+    <w id="126.1">Round</w>
+    <w id="126.2">2</w>
+    <w id="126.3">!</w>
+  </s>
+  <s id="127">
+    <w id="127.1">O</w>
+    <w id="127.2">que</w>
+    <w id="127.3">é</w>
+    <w id="127.4">que</w>
+    <w id="127.5">aconteceu</w>
+    <w id="127.6">?</w>
+    <time id="T123E" value="00:09:12,376" />
+  </s>
+  <s id="128">
+    <time id="T124S" value="00:09:12,411" />
+    <w id="128.1">O</w>
+    <w id="128.2">Underbite</w>
+    <w id="128.3">atirou-te</w>
+    <w id="128.4">como</w>
+    <w id="128.5">uma</w>
+    <w id="128.6">bola</w>
+    <w id="128.7">.</w>
+    <time id="T124E" value="00:09:14,567" />
+  </s>
+  <s id="129">
+    <time id="T125S" value="00:09:14,602" />
+    <w id="129.1">-</w>
+    <w id="129.2">Alguém</w>
+    <w id="129.3">se</w>
+    <w id="129.4">feriu</w>
+    <w id="129.5">?</w>
+  </s>
+  <s id="130">
+    <w id="130.1">-</w>
+    <w id="130.2">Não</w>
+    <w id="130.3">.</w>
+    <time id="T125E" value="00:09:16,891" />
+  </s>
+  <s id="131">
+    <time id="T126S" value="00:09:16,926" />
+    <w id="131.1">É</w>
+    <w id="131.2">a</w>
+    <w id="131.3">primeira</w>
+    <w id="131.4">vez</w>
+    <w id="131.5">.</w>
+    <time id="T126E" value="00:09:18,638" />
+  </s>
+  <s id="132">
+    <time id="T127S" value="00:09:18,673" />
+    <w id="132.1">É</w>
+    <w id="132.2">estranho</w>
+    <w id="132.3">o</w>
+    <w id="132.4">Underbite</w>
+    <w id="132.5">partir</w>
+    <w id="132.6">.</w>
+    <time id="T127E" value="00:09:20,026" />
+  </s>
+  <s id="133">
+    <time id="T128S" value="00:09:20,028" />
+    <w id="133.1">Ainda</w>
+    <w id="133.2">há</w>
+    <w id="133.3">muito</w>
+    <w id="133.4">metal</w>
+    <w id="133.5">por</w>
+    <w id="133.6">aqui</w>
+    <w id="133.7">.</w>
+    <time id="T128E" value="00:09:22,332" />
+  </s>
+  <s id="134">
+    <time id="T129S" value="00:09:23,096" />
+    <w id="134.1">Ele</w>
+    <w id="134.2">vai</w>
+    <w id="134.3">para</w>
+    <w id="134.4">aquela</w>
+    <w id="134.5">cidade</w>
+    <w id="134.6">.</w>
+    <time id="T129E" value="00:09:24,697" />
+  </s>
+  <s id="135">
+    <time id="T130S" value="00:09:24,699" />
+    <w id="135.1">Aqueles</w>
+    <w id="135.2">arranha-céus</w>
+    <w id="135.3">.</w>
+    <time id="T130E" value="00:09:26,065" />
+  </s>
+  <s id="136">
+    <time id="T131S" value="00:09:26,067" />
+    <w id="136.1">devíamos</w>
+    <w id="136.2">chamar</w>
+    <w id="136.3">a</w>
+    <w id="136.4">Polícia</w>
+    <w id="136.5">,</w>
+    <w id="136.6">o</w>
+    <w id="136.7">Exército</w>
+    <w id="136.8">.</w>
+    <time id="T131E" value="00:09:28,734" />
+  </s>
+  <s id="137">
+    <time id="T132S" value="00:09:28,736" />
+    <w id="137.1">Não</w>
+    <w id="137.2">,</w>
+    <w id="137.3">mais</w>
+    <w id="137.4">nenhum</w>
+    <w id="137.5">humano</w>
+    <w id="137.6">pode</w>
+    <w id="137.7">envolver-se</w>
+    <w id="137.8">.</w>
+    <time id="T132E" value="00:09:31,937" />
+  </s>
+  <s id="138">
+    <time id="T133S" value="00:09:31,939" />
+    <w id="138.1">Aqueles</w>
+    <w id="138.2">prédios</w>
+    <w id="138.3">em</w>
+    <w id="138.4">Crown</w>
+    <w id="138.5">City</w>
+    <w id="138.6">?</w>
+    <time id="T133E" value="00:09:34,039" />
+  </s>
+  <s id="139">
+    <time id="T134S" value="00:09:34,041" />
+    <w id="139.1">Há</w>
+    <w id="139.2">dezenas</w>
+    <w id="139.3">de</w>
+    <w id="139.4">milhares</w>
+    <w id="139.5">de</w>
+    <w id="139.6">humanos</w>
+    <w id="139.7">dentro</w>
+    <w id="139.8">deles</w>
+    <w id="139.9">.</w>
+    <time id="T134E" value="00:09:37,009" />
+  </s>
+  <s id="140">
+    <time id="T135S" value="00:09:37,011" />
+    <w id="140.1">Então</w>
+    <w id="140.2">temos</w>
+    <w id="140.3">de</w>
+    <w id="140.4">detê-lo</w>
+    <w id="140.5">antes</w>
+    <w id="140.6">dele</w>
+    <w id="140.7">chegar</w>
+    <w id="140.8">lá</w>
+    <w id="140.9">.</w>
+    <time id="T135E" value="00:09:39,611" />
+  </s>
+  <s id="141">
+    <time id="T136S" value="00:09:39,613" />
+    <w id="141.1">Deixe-me</w>
+    <w id="141.2">transformar</w>
+    <w id="141.3">,</w>
+    <w id="141.4">Senhor</w>
+    <w id="141.5">,</w>
+    <w id="141.6">e</w>
+    <w id="141.7">vou</w>
+    <w id="141.8">consigo</w>
+    <w id="141.9">.</w>
+    <time id="T136E" value="00:09:41,880" />
+  </s>
+  <s id="142">
+    <time id="T137S" value="00:09:41,882" />
+    <w id="142.1">Strongarm</w>
+    <w id="142.2">,</w>
+    <w id="142.3">Precisas</w>
+    <w id="142.4">de</w>
+    <w id="142.5">entender</w>
+    <w id="142.6">.</w>
+    <time id="T137E" value="00:09:43,682" />
+  </s>
+  <s id="143">
+    <time id="T138S" value="00:09:43,684" />
+    <w id="143.1">Nenhum</w>
+    <w id="143.2">de</w>
+    <w id="143.3">vocês</w>
+    <w id="143.4">devia</w>
+    <w id="143.5">estar</w>
+    <w id="143.6">aqui</w>
+    <w id="143.7">.</w>
+    <time id="T138E" value="00:09:45,517" />
+  </s>
+  <s id="144">
+    <time id="T139S" value="00:09:45,519" />
+    <w id="144.1">O</w>
+    <w id="144.2">Optimus</w>
+    <w id="144.3">disse</w>
+    <w id="144.4">que</w>
+    <w id="144.5">isto</w>
+    <w id="144.6">era</w>
+    <w id="144.7">uma</w>
+    <w id="144.8">missão</w>
+    <w id="144.9">para</w>
+    <w id="144.10">mim</w>
+    <w id="144.11">.</w>
+    <time id="T139E" value="00:09:47,853" />
+  </s>
+  <s id="145">
+    <time id="T140S" value="00:09:50,023" />
+    <w id="145.1">Bem</w>
+    <w id="145.2">,</w>
+    <w id="145.3">eu</w>
+    <w id="145.4">quero</w>
+    <w id="145.5">outra</w>
+    <w id="145.6">hipótese</w>
+    <w id="145.7">contra</w>
+    <w id="145.8">aquele</w>
+    <w id="145.9">cabeçudo</w>
+    <w id="145.10">.</w>
+    <time id="T140E" value="00:09:52,758" />
+  </s>
+  <s id="146">
+    <time id="T141S" value="00:09:52,760" />
+    <w id="146.1">Não</w>
+    <w id="146.2">podes</w>
+    <w id="146.3">deixar</w>
+    <w id="146.4">um</w>
+    <w id="146.5">criminoso</w>
+    <w id="146.6">andar</w>
+    <w id="146.7">contigo</w>
+    <w id="146.8">.</w>
+    <time id="T141E" value="00:09:55,461" />
+  </s>
+  <s id="147">
+    <time id="T142S" value="00:09:55,463" />
+    <w id="147.1">Não</w>
+    <w id="147.2">sou</w>
+    <w id="147.3">um</w>
+    <w id="147.4">criminoso</w>
+    <w id="147.5">.</w>
+    <time id="T142E" value="00:09:57,730" />
+  </s>
+  <s id="148">
+    <time id="T143S" value="00:09:57,732" />
+    <w id="148.1">Pelo</w>
+    <w id="148.2">menos</w>
+    <w id="148.3">,</w>
+    <w id="148.4">acho</w>
+    <w id="148.5">que</w>
+    <w id="148.6">não</w>
+    <w id="148.7">sou</w>
+    <w id="148.8">.</w>
+    <time id="T143E" value="00:09:59,698" />
+  </s>
+  <s id="149">
+    <time id="T144S" value="00:09:59,700" />
+    <w id="149.1">Aposto</w>
+    <w id="149.2">que</w>
+    <w id="149.3">dizem</w>
+    <w id="149.4">todos</w>
+    <w id="149.5">isso</w>
+    <w id="149.6">na</w>
+    <w id="149.7">nave</w>
+    <w id="149.8">prisão</w>
+    <w id="149.9">.</w>
+    <time id="T144E" value="00:10:02,701" />
+  </s>
+  <s id="150">
+    <time id="T145S" value="00:10:02,703" />
+    <w id="150.1">-</w>
+    <w id="150.2">Não</w>
+    <w id="150.3">vou</w>
+    <w id="150.4">deixar</w>
+    <w id="150.5">...</w>
+  </s>
+  <s id="151">
+    <w id="151.1">-</w>
+    <w id="151.2">Eu</w>
+    <w id="151.3">vou</w>
+    <w id="151.4">!</w>
+    <time id="T145E" value="00:10:04,703" />
+  </s>
+  <s id="152">
+    <time id="T146S" value="00:10:04,705" />
+    <w id="152.1">E</w>
+    <w id="152.2">se</w>
+    <w id="152.3">não</w>
+    <w id="152.4">gosta</w>
+    <w id="152.5">,</w>
+    <time id="T146E" value="00:10:06,005" />
+    <time id="T147S" value="00:10:06,007" />
+    <w id="152.6">podes</w>
+    <w id="152.7">tentar</w>
+    <w id="152.8">deter-me</w>
+    <w id="152.9">.</w>
+    <time id="T147E" value="00:10:08,040" />
+  </s>
+  <s id="153">
+    <time id="T148S" value="00:10:10,010" />
+    <w id="153.1">-</w>
+    <w id="153.2">Eu</w>
+    <w id="153.3">também</w>
+    <w id="153.4">vou</w>
+    <w id="153.5">.</w>
+  </s>
+  <s id="154">
+    <w id="154.1">-</w>
+    <w id="154.2">Pai</w>
+    <w id="154.3">!</w>
+    <time id="T148E" value="00:10:12,678" />
+  </s>
+  <s id="155">
+    <time id="T149S" value="00:10:12,680" />
+    <w id="155.1">Conheço</w>
+    <w id="155.2">um</w>
+    <w id="155.3">atalho</w>
+    <w id="155.4">para</w>
+    <w id="155.5">a</w>
+    <w id="155.6">ponte</w>
+    <w id="155.7">.</w>
+    <time id="T149E" value="00:10:15,080" />
+  </s>
+  <s id="156">
+    <time id="T150S" value="00:10:15,082" />
+    <w id="156.1">Tenente</w>
+    <w id="156.2">,</w>
+    <w id="156.3">se</w>
+    <w id="156.4">vai</w>
+    <w id="156.5">levar</w>
+    <w id="156.6">estes</w>
+    <w id="156.7">dois</w>
+    <w id="156.8">...</w>
+    <time id="T150E" value="00:10:17,683" />
+  </s>
+  <s id="157">
+    <time id="T151S" value="00:10:17,685" />
+    <w id="157.1">Está</w>
+    <w id="157.2">bem</w>
+    <w id="157.3">,</w>
+    <w id="157.4">mas</w>
+    <w id="157.5">sem</w>
+    <w id="157.6">formas</w>
+    <w id="157.7">cibertronianas</w>
+    <w id="157.8">.</w>
+    <time id="T151E" value="00:10:21,161" />
+  </s>
+  <s id="158">
+    <time id="T152S" value="00:10:21,856" />
+    <w id="158.1">Podem</w>
+    <w id="158.2">haver</w>
+    <w id="158.3">barcos</w>
+    <w id="158.4">no</w>
+    <w id="158.5">rio</w>
+    <w id="158.6">,</w>
+    <w id="158.7">testemunhas</w>
+    <w id="158.8">na</w>
+    <w id="158.9">margem</w>
+    <w id="158.10">.</w>
+    <time id="T152E" value="00:10:24,890" />
+  </s>
+  <s id="159">
+    <time id="T153S" value="00:10:24,892" />
+    <w id="159.1">Devemos</w>
+    <w id="159.2">parecer-nos</w>
+    <w id="159.3">com</w>
+    <w id="159.4">qualquer</w>
+    <w id="159.5">coisa</w>
+    <w id="159.6">que</w>
+    <w id="159.7">os</w>
+    <w id="159.8">humanos</w>
+    <w id="159.9">aceitem</w>
+    <w id="159.10">.</w>
+    <time id="T153E" value="00:10:27,559" />
+  </s>
+  <s id="160">
+    <time id="T154S" value="00:10:27,561" />
+    <w id="160.1">Precisamos</w>
+    <w id="160.2">de</w>
+    <w id="160.3">ser</w>
+    <w id="160.4">robots</w>
+    <w id="160.5">disfarçados</w>
+    <w id="160.6">.</w>
+    <time id="T154E" value="00:10:30,763" />
+  </s>
+  <s id="161">
+    <time id="T155S" value="00:10:30,765" />
+    <w id="161.1">Tem</w>
+    <w id="161.2">outros</w>
+    <w id="161.3">veículos</w>
+    <w id="161.4">aqui</w>
+    <w id="161.5">?</w>
+    <time id="T155E" value="00:10:33,105" />
+  </s>
+  <s id="162">
+    <time id="T156S" value="00:10:40,040" />
+    <w id="162.1">Encontrem</w>
+    <w id="162.2">um</w>
+    <w id="162.3">.</w>
+  </s>
+  <s id="163">
+    <w id="163.1">Depressa</w>
+    <w id="163.2">.</w>
+    <time id="T156E" value="00:10:42,174" />
+  </s>
+  <s id="164">
+    <time id="T157S" value="00:10:44,077" />
+    <w id="164.1">Sideswipe</w>
+    <w id="164.2">?</w>
+    <time id="T157E" value="00:10:45,511" />
+  </s>
+  <s id="165">
+    <time id="T158S" value="00:10:45,513" />
+    <w id="165.1">Estou</w>
+    <w id="165.2">bem</w>
+    <w id="165.3">.</w>
+    <time id="T158E" value="00:10:46,812" />
+  </s>
+  <s id="166">
+    <time id="T159S" value="00:10:52,452" />
+    <w id="166.1">Tens</w>
+    <w id="166.2">"</w>
+    <w id="166.3">Polícia</w>
+    <w id="166.4">"</w>
+    <w id="166.5">escrito</w>
+    <w id="166.6">por</w>
+    <w id="166.7">todo</w>
+    <w id="166.8">o</w>
+    <w id="166.9">lado</w>
+    <w id="166.10">.</w>
+    <time id="T159E" value="00:10:55,888" />
+  </s>
+  <s id="167">
+    <time id="T160S" value="00:10:57,924" />
+    <w id="167.1">Bumblebee</w>
+    <w id="167.2">para</w>
+    <w id="167.3">Fixit</w>
+    <w id="167.4">,</w>
+    <w id="167.5">responde</w>
+    <w id="167.6">.</w>
+    <time id="T160E" value="00:11:00,059" />
+  </s>
+  <s id="168">
+    <time id="T161S" value="00:11:00,061" />
+    <w id="168.1">Aqui</w>
+    <w id="168.2">é</w>
+    <w id="168.3">o</w>
+    <w id="168.4">Fixit</w>
+    <w id="168.5">,</w>
+    <w id="168.6">Senhor</w>
+    <w id="168.7">.</w>
+    <time id="T161E" value="00:11:02,594" />
+  </s>
+  <s id="169">
+    <time id="T162S" value="00:11:02,596" />
+    <w id="169.1">Fixit</w>
+    <w id="169.2">?</w>
+  </s>
+  <s id="170">
+    <w id="170.1">O</w>
+    <w id="170.2">que</w>
+    <w id="170.3">é</w>
+    <w id="170.4">que</w>
+    <w id="170.5">estás</w>
+    <w id="170.6">a</w>
+    <w id="170.7">fazer</w>
+    <w id="170.8">?</w>
+    <time id="T162E" value="00:11:04,797" />
+  </s>
+  <s id="171">
+    <time id="T163S" value="00:11:04,799" />
+    <w id="171.1">A</w>
+    <w id="171.2">responder</w>
+    <w id="171.3">à</w>
+    <w id="171.4">sua</w>
+    <w id="171.5">chamada</w>
+    <w id="171.6">.</w>
+    <time id="T163E" value="00:11:06,932" />
+  </s>
+  <s id="172">
+    <time id="T164S" value="00:11:06,934" />
+    <w id="172.1">E</w>
+    <w id="172.2">eu</w>
+    <w id="172.3">é</w>
+    <w id="172.4">que</w>
+    <w id="172.5">sou</w>
+    <w id="172.6">suposto</w>
+    <w id="172.7">ter</w>
+    <w id="172.8">defeitos</w>
+    <w id="172.9">nas</w>
+    <w id="172.10">cabagem</w>
+    <w id="172.11">...</w>
+    <time id="T164E" value="00:11:09,034" />
+    <time id="T165S" value="00:11:09,036" />
+    <w id="172.12">cabragem</w>
+    <w id="172.13">,</w>
+    <w id="172.14">cablagem</w>
+    <w id="172.15">!</w>
+    <time id="T165E" value="00:11:11,737" />
+  </s>
+  <s id="173">
+    <time id="T166S" value="00:11:11,739" />
+    <w id="173.1">Não</w>
+    <w id="173.2">,</w>
+    <w id="173.3">quer</w>
+    <w id="173.4">dizer</w>
+    <w id="173.5">,</w>
+    <w id="173.6">esquece</w>
+    <w id="173.7">.</w>
+    <time id="T166E" value="00:11:14,425" />
+  </s>
+  <s id="174">
+    <time id="T167S" value="00:11:14,460" />
+    <w id="174.1">Algum</w>
+    <w id="174.2">progresso</w>
+    <w id="174.3">nas</w>
+    <w id="174.4">celas</w>
+    <w id="174.5">de</w>
+    <w id="174.6">êxtase</w>
+    <w id="174.7">do</w>
+    <w id="174.8">local</w>
+    <w id="174.9">da</w>
+    <w id="174.10">queda</w>
+    <w id="174.11">?</w>
+    <time id="T167E" value="00:11:16,475" />
+  </s>
+  <s id="175">
+    <time id="T168S" value="00:11:16,477" />
+    <w id="175.1">Sim</w>
+    <w id="175.2">,</w>
+    <w id="175.3">consertei</w>
+    <w id="175.4">uma</w>
+    <w id="175.5">cela</w>
+    <w id="175.6">.</w>
+    <time id="T168E" value="00:11:18,811" />
+  </s>
+  <s id="176">
+    <time id="T169S" value="00:11:18,813" />
+    <w id="176.1">Não</w>
+    <w id="176.2">precisavas</w>
+    <w id="176.3">de</w>
+    <w id="176.4">vir</w>
+    <w id="176.5">aqui</w>
+    <w id="176.6">para</w>
+    <w id="176.7">dizer-me</w>
+    <w id="176.8">isso</w>
+    <w id="176.9">.</w>
+    <time id="T169E" value="00:11:21,287" />
+  </s>
+  <s id="177">
+    <time id="T170S" value="00:11:21,322" />
+    <w id="177.1">Sim</w>
+    <w id="177.2">,</w>
+    <w id="177.3">claro</w>
+    <w id="177.4">,</w>
+    <w id="177.5">vou</w>
+    <w id="177.6">voltar</w>
+    <w id="177.7">para</w>
+    <w id="177.8">a</w>
+    <w id="177.9">nave</w>
+    <w id="177.10">,</w>
+    <time id="T170E" value="00:11:24,049" />
+    <time id="T171S" value="00:11:24,051" />
+    <w id="177.11">e</w>
+    <w id="177.12">levar</w>
+    <w id="177.13">esses</w>
+    <w id="177.14">dispositivos</w>
+    <w id="177.15">de</w>
+    <w id="177.16">captura</w>
+    <w id="177.17">comigo</w>
+    <w id="177.18">.</w>
+    <time id="T171E" value="00:11:26,785" />
+  </s>
+  <s id="178">
+    <time id="T172S" value="00:11:26,787" />
+    <w id="178.1">Espera</w>
+    <w id="178.2">!</w>
+  </s>
+  <s id="179">
+    <w id="179.1">Dispositivos</w>
+    <w id="179.2">de</w>
+    <w id="179.3">captura</w>
+    <w id="179.4">?</w>
+    <time id="T172E" value="00:11:29,721" />
+  </s>
+  <s id="180">
+    <time id="T173S" value="00:11:38,865" />
+    <w id="180.1">É</w>
+    <w id="180.2">só</w>
+    <w id="180.3">apontar</w>
+    <w id="180.4">e</w>
+    <w id="180.5">atirar</w>
+    <w id="180.6">.</w>
+    <time id="T173E" value="00:11:40,866" />
+  </s>
+  <s id="181">
+    <time id="T174S" value="00:11:42,902" />
+    <w id="181.1">então</w>
+    <w id="181.2">,</w>
+    <w id="181.3">o</w>
+    <w id="181.4">que</w>
+    <w id="181.5">é</w>
+    <w id="181.6">que</w>
+    <w id="181.7">escolheste</w>
+    <w id="181.8">?</w>
+    <time id="T174E" value="00:11:45,519" />
+  </s>
+  <s id="182">
+    <time id="T175S" value="00:11:55,749" />
+    <w id="182.1">Fixit</w>
+    <w id="182.2">,</w>
+    <w id="182.3">volta</w>
+    <w id="182.4">para</w>
+    <w id="182.5">nave</w>
+    <w id="182.6">e</w>
+    <w id="182.7">prepara</w>
+    <w id="182.8">a</w>
+    <w id="182.9">cela</w>
+    <w id="182.10">.</w>
+    <time id="T175E" value="00:11:58,484" />
+  </s>
+  <s id="183">
+    <time id="T176S" value="00:11:58,486" />
+    <w id="183.1">Russell</w>
+    <w id="183.2">,</w>
+    <w id="183.3">fica</w>
+    <w id="183.4">aqui</w>
+    <w id="183.5">com</w>
+    <w id="183.6">o</w>
+    <w id="183.7">Sideswipe</w>
+    <w id="183.8">.</w>
+    <time id="T176E" value="00:12:00,419" />
+  </s>
+  <s id="184">
+    <time id="T177S" value="00:12:00,421" />
+    <w id="184.1">Todo</w>
+    <w id="184.2">o</w>
+    <w id="184.3">resto</w>
+    <w id="184.4">,</w>
+    <w id="184.5">somos</w>
+    <w id="184.6">uma</w>
+    <w id="184.7">equipa</w>
+    <w id="184.8">,</w>
+    <time id="T177E" value="00:12:02,821" />
+    <time id="T178S" value="00:12:02,823" />
+    <w id="184.9">e</w>
+    <w id="184.10">somos</w>
+    <w id="184.11">tudo</w>
+    <w id="184.12">o</w>
+    <w id="184.13">que</w>
+    <w id="184.14">está</w>
+    <w id="184.15">entre</w>
+    <w id="184.16">o</w>
+    <w id="184.17">Underbite</w>
+    <time id="T178E" value="00:12:04,690" />
+    <time id="T179S" value="00:12:04,725" />
+    <w id="184.18">e</w>
+    <w id="184.19">a</w>
+    <w id="184.20">perda</w>
+    <w id="184.21">de</w>
+    <w id="184.22">muitas</w>
+    <w id="184.23">vidas</w>
+    <w id="184.24">inocentes</w>
+    <w id="184.25">.</w>
+    <time id="T179E" value="00:12:06,558" />
+  </s>
+  <s id="185">
+    <time id="T180S" value="00:12:06,560" />
+    <w id="185.1">Por</w>
+    <w id="185.2">isso</w>
+    <w id="185.3">vamos</w>
+    <w id="185.4">fazer</w>
+    <w id="185.5">o</w>
+    <w id="185.6">que</w>
+    <w id="185.7">devemos</w>
+    <w id="185.8">.</w>
+    <time id="T180E" value="00:12:09,495" />
+  </s>
+  <s id="186">
+    <time id="T181S" value="00:12:09,497" />
+    <w id="186.1">Saltar</w>
+    <w id="186.2">e</w>
+    <w id="186.3">rodar</w>
+    <w id="186.4">!</w>
+    <time id="T181E" value="00:12:11,897" />
+  </s>
+  <s id="187">
+    <time id="T182S" value="00:12:16,469" />
+    <w id="187.1">Vou</w>
+    <w id="187.2">trabalhar</w>
+    <w id="187.3">na</w>
+    <w id="187.4">última</w>
+    <w id="187.5">parte</w>
+    <w id="187.6">.</w>
+    <time id="T182E" value="00:12:17,803" />
+  </s>
+  <s id="188">
+    <time id="T183S" value="00:12:38,091" />
+    <w id="188.1">Todo</w>
+    <w id="188.2">este</w>
+    <w id="188.3">lixo</w>
+    <w id="188.4">orgânico</w>
+    <w id="188.5">.</w>
+    <time id="T183E" value="00:12:41,493" />
+  </s>
+  <s id="189">
+    <time id="T184S" value="00:12:41,495" />
+    <w id="189.1">Estou</w>
+    <w id="189.2">a</w>
+    <w id="189.3">perder</w>
+    <w id="189.4">a</w>
+    <w id="189.5">minha</w>
+    <w id="189.6">força</w>
+    <w id="189.7">.</w>
+    <time id="T184E" value="00:12:43,795" />
+  </s>
+  <s id="190">
+    <time id="T185S" value="00:12:49,170" />
+    <w id="190.1">Tu</w>
+    <w id="190.2">!</w>
+    <time id="T185E" value="00:12:50,669" />
+  </s>
+  <s id="191">
+    <time id="T186S" value="00:12:50,671" />
+    <w id="191.1">O</w>
+    <w id="191.2">quão</w>
+    <w id="191.3">longe</w>
+    <w id="191.4">estou</w>
+    <w id="191.5">da</w>
+    <w id="191.6">ponte</w>
+    <w id="191.7">?</w>
+    <time id="T186E" value="00:12:53,505" />
+  </s>
+  <s id="192">
+    <time id="T187S" value="00:12:57,877" />
+    <w id="192.1">Meu</w>
+    <w id="192.2">Deus</w>
+    <w id="192.3">,</w>
+    <w id="192.4">não</w>
+    <w id="192.5">.</w>
+    <time id="T187E" value="00:13:02,114" />
+  </s>
+  <s id="193">
+    <time id="T188S" value="00:13:02,116" />
+    <w id="193.1">Olá</w>
+    <w id="193.2">,</w>
+    <w id="193.3">coisa</w>
+    <w id="193.4">bonita</w>
+    <w id="193.5">.</w>
+    <time id="T188E" value="00:13:04,116" />
+  </s>
+  <s id="194">
+    <time id="T189S" value="00:13:14,693" />
+    <w id="194.1">Acha</w>
+    <w id="194.2">que</w>
+    <w id="194.3">este</w>
+    <w id="194.4">é</w>
+    <w id="194.5">um</w>
+    <w id="194.6">bom</w>
+    <w id="194.7">visual</w>
+    <w id="194.8">?</w>
+    <time id="T189E" value="00:13:16,757" />
+  </s>
+  <s id="195">
+    <time id="T190S" value="00:13:18,065" />
+    <w id="195.1">Bem</w>
+    <w id="195.2">,</w>
+    <w id="195.3">vamos</w>
+    <w id="195.4">.</w>
+    <time id="T190E" value="00:13:20,566" />
+  </s>
+  <s id="196">
+    <time id="T191S" value="00:13:20,568" />
+    <w id="196.1">Mas</w>
+    <w id="196.2">o</w>
+    <w id="196.3">Bumblebee</w>
+    <w id="196.4">disse</w>
+    <w id="196.5">...</w>
+    <time id="T191E" value="00:13:21,985" />
+  </s>
+  <s id="197">
+    <time id="T192S" value="00:13:22,020" />
+    <w id="197.1">Se</w>
+    <w id="197.2">fosses</w>
+    <w id="197.3">tu</w>
+    <w id="197.4">lá</w>
+    <w id="197.5">fora</w>
+    <w id="197.6">,</w>
+    <time id="T192E" value="00:13:23,402" />
+    <time id="T193S" value="00:13:23,404" />
+    <w id="197.7">aposto</w>
+    <w id="197.8">que</w>
+    <w id="197.9">nada</w>
+    <w id="197.10">detinha</w>
+    <w id="197.11">o</w>
+    <w id="197.12">teu</w>
+    <w id="197.13">pai</w>
+    <w id="197.14">.</w>
+    <time id="T193E" value="00:13:25,771" />
+  </s>
+  <s id="198">
+    <time id="T194S" value="00:13:29,671" />
+    <w id="198.1">Sabes</w>
+    <w id="198.2">,</w>
+    <w id="198.3">há</w>
+    <w id="198.4">sempre</w>
+    <w id="198.5">espaço</w>
+    <w id="198.6">para</w>
+    <w id="198.7">a</w>
+    <w id="198.8">sobremesa</w>
+    <w id="198.9">.</w>
+    <time id="T194E" value="00:13:32,869" />
+  </s>
+  <s id="199">
+    <time id="T195S" value="00:14:04,043" />
+    <w id="199.1">Desculpe</w>
+    <w id="199.2">,</w>
+    <w id="199.3">Underbite</w>
+    <w id="199.4">.</w>
+    <time id="T195E" value="00:14:05,777" />
+  </s>
+  <s id="200">
+    <time id="T196S" value="00:14:05,779" />
+    <w id="200.1">Esta</w>
+    <w id="200.2">ponte</w>
+    <w id="200.3">está</w>
+    <w id="200.4">fechada</w>
+    <w id="200.5">.</w>
+    <time id="T196E" value="00:14:07,813" />
+  </s>
+  <s id="201">
+    <time id="T197S" value="00:14:24,897" />
+    <w id="201.1">Fixit</w>
+    <w id="201.2">,</w>
+    <w id="201.3">és</w>
+    <w id="201.4">o</w>
+    <w id="201.5">meu</w>
+    <w id="201.6">Mini-Con</w>
+    <w id="201.7">favorito</w>
+    <w id="201.8">.</w>
+    <time id="T197E" value="00:14:28,667" />
+  </s>
+  <s id="202">
+    <time id="T198S" value="00:14:39,612" />
+    <w id="202.1">Fixit</w>
+    <w id="202.2">,</w>
+    <w id="202.3">estou</w>
+    <w id="202.4">a</w>
+    <w id="202.5">repensar</w>
+    <w id="202.6">a</w>
+    <w id="202.7">tua</w>
+    <w id="202.8">posição</w>
+    <w id="202.9">.</w>
+    <time id="T198E" value="00:14:43,181" />
+  </s>
+  <s id="203">
+    <time id="T199S" value="00:14:48,731" />
+    <w id="203.1">Preciso</w>
+    <w id="203.2">de</w>
+    <w id="203.3">um</w>
+    <w id="203.4">pouco</w>
+    <w id="203.5">de</w>
+    <w id="203.6">ferro</w>
+    <w id="203.7">para</w>
+    <w id="203.8">recuperar</w>
+    <w id="203.9">a</w>
+    <w id="203.10">minha</w>
+    <w id="203.11">energia</w>
+    <w id="203.12">,</w>
+    <time id="T199E" value="00:14:52,462" />
+    <time id="T200S" value="00:14:52,497" />
+    <w id="203.13">e</w>
+    <w id="203.14">não</w>
+    <w id="203.15">me</w>
+    <w id="203.16">importo</w>
+    <time id="T200E" value="00:14:53,959" />
+    <time id="T201S" value="00:14:53,994" />
+    <w id="203.17">se</w>
+    <w id="203.18">tiver</w>
+    <w id="203.19">de</w>
+    <w id="203.20">passar</w>
+    <w id="203.21">por</w>
+    <w id="203.22">ti</w>
+    <w id="203.23">para</w>
+    <w id="203.24">o</w>
+    <w id="203.25">conseguir</w>
+    <w id="203.26">.</w>
+    <time id="T201E" value="00:14:56,717" />
+  </s>
+  <s id="204">
+    <time id="T202S" value="00:15:03,498" />
+    <w id="204.1">Pronta</w>
+    <w id="204.2">para</w>
+    <w id="204.3">o</w>
+    <w id="204.4">plano</w>
+    <w id="204.5">de</w>
+    <w id="204.6">reserva</w>
+    <w id="204.7">,</w>
+    <w id="204.8">Senhor</w>
+    <w id="204.9">.</w>
+    <time id="T202E" value="00:15:05,434" />
+  </s>
+  <s id="205">
+    <time id="T203S" value="00:15:05,469" />
+    <w id="205.1">Não</w>
+    <w id="205.2">tenho</w>
+    <w id="205.3">nenhum</w>
+    <w id="205.4">!</w>
+  </s>
+  <s id="206">
+    <w id="206.1">Sai</w>
+    <w id="206.2">daqui</w>
+    <w id="206.3">!</w>
+    <time id="T203E" value="00:15:07,995" />
+  </s>
+  <s id="207">
+    <time id="T204S" value="00:15:11,514" />
+    <w id="207.1">Porque</w>
+    <w id="207.2">é</w>
+    <w id="207.3">que</w>
+    <w id="207.4">não</w>
+    <w id="207.5">batemos</w>
+    <time id="T204E" value="00:15:12,947" />
+    <time id="T205S" value="00:15:12,949" />
+    <w id="207.6">e</w>
+    <w id="207.7">vemos</w>
+    <w id="207.8">como</w>
+    <w id="207.9">isto</w>
+    <w id="207.10">termina</w>
+    <w id="207.11">?</w>
+    <time id="T205E" value="00:15:15,137" />
+  </s>
+  <s id="208">
+    <time id="T206S" value="00:15:18,921" />
+    <w id="208.1">Dá</w>
+    <w id="208.2">o</w>
+    <w id="208.3">teu</w>
+    <w id="208.4">melhor</w>
+    <w id="208.5">golpe</w>
+    <w id="208.6">,</w>
+    <w id="208.7">schnauzer</w>
+    <w id="208.8">gigante</w>
+    <w id="208.9">!</w>
+    <time id="T206E" value="00:15:23,324" />
+  </s>
+  <s id="209">
+    <time id="T207S" value="00:15:36,038" />
+    <w id="209.1">Anda</w>
+    <w id="209.2">buscar</w>
+    <w id="209.3">!</w>
+    <time id="T207E" value="00:15:38,072" />
+  </s>
+  <s id="210">
+    <time id="T208S" value="00:15:39,975" />
+    <w id="210.1">É</w>
+    <w id="210.2">mesmo</w>
+    <w id="210.3">o</w>
+    <w id="210.4">lanche</w>
+    <w id="210.5">que</w>
+    <w id="210.6">eu</w>
+    <w id="210.7">procurava</w>
+    <w id="210.8">.</w>
+    <time id="T208E" value="00:15:43,244" />
+  </s>
+  <s id="211">
+    <time id="T209S" value="00:15:52,082" />
+    <w id="211.1">Rusty</w>
+    <w id="211.2">!</w>
+    <time id="T209E" value="00:15:53,913" />
+  </s>
+  <s id="212">
+    <time id="T210S" value="00:16:09,672" />
+    <w id="212.1">-</w>
+    <w id="212.2">E</w>
+    <w id="212.3">agora</w>
+    <w id="212.4">?</w>
+  </s>
+  <s id="213">
+    <w id="213.1">-</w>
+    <w id="213.2">Ainda</w>
+    <w id="213.3">não</w>
+    <w id="213.4">pensei</w>
+    <w id="213.5">nessa</w>
+    <w id="213.6">parte</w>
+    <w id="213.7">.</w>
+    <time id="T210E" value="00:16:12,974" />
+  </s>
+  <s id="214">
+    <time id="T211S" value="00:16:12,976" />
+    <w id="214.1">Temos</w>
+    <w id="214.2">de</w>
+    <w id="214.3">levá-lo</w>
+    <w id="214.4">para</w>
+    <w id="214.5">algum</w>
+    <w id="214.6">lugar</w>
+    <w id="214.7">sem</w>
+    <w id="214.8">metal</w>
+    <w id="214.9">.</w>
+    <time id="T211E" value="00:16:14,512" />
+  </s>
+  <s id="215">
+    <time id="T212S" value="00:16:15,047" />
+    <w id="215.1">Ou</w>
+    <w id="215.2">humanos</w>
+    <w id="215.3">.</w>
+    <time id="T212E" value="00:16:17,144" />
+  </s>
+  <s id="216">
+    <time id="T213S" value="00:16:17,179" />
+    <w id="216.1">A</w>
+    <w id="216.2">pedreira</w>
+    <w id="216.3">!</w>
+    <time id="T213E" value="00:16:19,242" />
+  </s>
+  <s id="217">
+    <time id="T214S" value="00:16:40,235" />
+    <w id="217.1">Dá-me</w>
+    <w id="217.2">isso</w>
+    <w id="217.3">!</w>
+    <time id="T214E" value="00:16:42,183" />
+  </s>
+  <s id="218">
+    <time id="T215S" value="00:16:59,222" />
+    <w id="218.1">Dêem-lhe</w>
+    <w id="218.2">com</w>
+    <w id="218.3">tudo</w>
+    <w id="218.4">o</w>
+    <w id="218.5">que</w>
+    <w id="218.6">tem</w>
+    <w id="218.7">!</w>
+    <time id="T215E" value="00:17:01,822" />
+  </s>
+  <s id="219">
+    <time id="T216S" value="00:17:01,824" />
+    <w id="219.1">Tudo</w>
+    <w id="219.2">!</w>
+    <time id="T216E" value="00:17:04,124" />
+  </s>
+  <s id="220">
+    <time id="T217S" value="00:17:09,565" />
+    <w id="220.1">Isto</w>
+    <w id="220.2">é</w>
+    <w id="220.3">incrível</w>
+    <w id="220.4">!</w>
+    <time id="T217E" value="00:17:11,665" />
+  </s>
+  <s id="221">
+    <time id="T218S" value="00:17:23,845" />
+    <w id="221.1">É</w>
+    <w id="221.2">disso</w>
+    <w id="221.3">que</w>
+    <w id="221.4">estou</w>
+    <w id="221.5">a</w>
+    <w id="221.6">falar</w>
+    <w id="221.7">!</w>
+    <time id="T218E" value="00:17:27,748" />
+  </s>
+  <s id="222">
+    <time id="T219S" value="00:17:31,787" />
+    <w id="222.1">Quem</w>
+    <w id="222.2">é</w>
+    <w id="222.3">o</w>
+    <w id="222.4">chefe</w>
+    <w id="222.5">agora</w>
+    <w id="222.6">?</w>
+    <time id="T219E" value="00:17:34,655" />
+  </s>
+  <s id="223">
+    <time id="T220S" value="00:17:34,657" />
+    <w id="223.1">Pai</w>
+    <w id="223.2">!</w>
+    <time id="T220E" value="00:17:35,990" />
+  </s>
+  <s id="224">
+    <time id="T221S" value="00:17:40,095" />
+    <w id="224.1">Recuem</w>
+    <w id="224.2">!</w>
+    <time id="T221E" value="00:17:41,595" />
+  </s>
+  <s id="225">
+    <time id="T222S" value="00:17:44,099" />
+    <w id="225.1">Quem</w>
+    <w id="225.2">é</w>
+    <w id="225.3">mau</w>
+    <w id="225.4">?</w>
+  </s>
+  <s id="226">
+    <w id="226.1">Quem</w>
+    <w id="226.2">é</w>
+    <w id="226.3">forte</w>
+    <w id="226.4">?</w>
+    <time id="T222E" value="00:17:46,667" />
+  </s>
+  <s id="227">
+    <time id="T223S" value="00:17:46,669" />
+    <w id="227.1">Quem</w>
+    <w id="227.2">é</w>
+    <w id="227.3">enorme</w>
+    <w id="227.4">?</w>
+    <time id="T223E" value="00:17:49,270" />
+  </s>
+  <s id="228">
+    <time id="T224S" value="00:17:54,343" />
+    <w id="228.1">Não</w>
+    <w id="228.2">!</w>
+    <time id="T224E" value="00:17:56,177" />
+  </s>
+  <s id="229">
+    <time id="T225S" value="00:18:25,340" />
+    <w id="229.1">Pai</w>
+    <w id="229.2">?</w>
+    <time id="T225E" value="00:18:26,774" />
+  </s>
+  <s id="230">
+    <time id="T226S" value="00:18:34,249" />
+    <w id="230.1">Optimus</w>
+    <w id="230.2">!</w>
+  </s>
+  <s id="231">
+    <w id="231.1">Estás</w>
+    <w id="231.2">vivo</w>
+    <w id="231.3">!</w>
+    <time id="T226E" value="00:18:36,817" />
+  </s>
+  <s id="232">
+    <time id="T227S" value="00:18:38,487" />
+    <w id="232.1">Estás</w>
+    <w id="232.2">vivo</w>
+    <w id="232.3">?</w>
+    <time id="T227E" value="00:18:40,488" />
+  </s>
+  <s id="233">
+    <time id="T228S" value="00:18:40,490" />
+    <w id="233.1">Isso</w>
+    <w id="233.2">é</w>
+    <w id="233.3">incerto</w>
+    <w id="233.4">.</w>
+    <time id="T228E" value="00:18:42,423" />
+  </s>
+  <s id="234">
+    <time id="T229S" value="00:18:42,425" />
+    <w id="234.1">Mas</w>
+    <w id="234.2">sei</w>
+    <w id="234.3">que</w>
+    <w id="234.4">não</w>
+    <w id="234.5">posso</w>
+    <w id="234.6">manter</w>
+    <time id="T229E" value="00:18:44,610" />
+    <time id="T230S" value="00:18:44,645" />
+    <w id="234.7">a</w>
+    <w id="234.8">minha</w>
+    <w id="234.9">presença</w>
+    <w id="234.10">na</w>
+    <w id="234.11">Terra</w>
+    <w id="234.12">por</w>
+    <w id="234.13">muito</w>
+    <w id="234.14">mais</w>
+    <w id="234.15">tempo</w>
+    <w id="234.16">.</w>
+    <time id="T230E" value="00:18:47,907" />
+  </s>
+  <s id="235">
+    <time id="T231S" value="00:18:49,598" />
+    <w id="235.1">Encontraste</w>
+    <w id="235.2">uma</w>
+    <w id="235.3">excelente</w>
+    <w id="235.4">equipa</w>
+    <w id="235.5">.</w>
+    <time id="T231E" value="00:18:52,266" />
+  </s>
+  <s id="236">
+    <time id="T232S" value="00:18:57,239" />
+    <w id="236.1">Nós</w>
+    <w id="236.2">...</w>
+    <time id="T232E" value="00:18:58,573" />
+  </s>
+  <s id="237">
+    <time id="T233S" value="00:18:58,575" />
+    <w id="237.1">Na</w>
+    <w id="237.2">verdade</w>
+    <w id="237.3">,</w>
+    <w id="237.4">encontramo-nos</w>
+    <w id="237.5">uns</w>
+    <w id="237.6">aos</w>
+    <w id="237.7">outros</w>
+    <w id="237.8">.</w>
+    <time id="T233E" value="00:19:00,708" />
+  </s>
+  <s id="238">
+    <time id="T234S" value="00:19:00,710" />
+    <w id="238.1">Juntos</w>
+    <w id="238.2">,</w>
+    <w id="238.3">vão</w>
+    <w id="238.4">enfrentar</w>
+    <w id="238.5">muitos</w>
+    <w id="238.6">desafios</w>
+    <w id="238.7">.</w>
+    <time id="T234E" value="00:19:04,378" />
+  </s>
+  <s id="239">
+    <time id="T235S" value="00:19:04,380" />
+    <w id="239.1">As</w>
+    <w id="239.2">forças</w>
+    <w id="239.3">que</w>
+    <w id="239.4">ameaçam</w>
+    <w id="239.5">a</w>
+    <w id="239.6">Terra</w>
+    <w id="239.7">são</w>
+    <w id="239.8">grandes</w>
+    <w id="239.9">e</w>
+    <w id="239.10">formidáveis</w>
+    <w id="239.11">.</w>
+    <time id="T235E" value="00:19:07,826" />
+  </s>
+  <s id="240">
+    <time id="T236S" value="00:19:07,861" />
+    <w id="240.1">Mas</w>
+    <w id="240.2">tenho</w>
+    <w id="240.3">a</w>
+    <w id="240.4">certeza</w>
+    <w id="240.5">que</w>
+    <w id="240.6">farão</w>
+    <w id="240.7">grandes</w>
+    <w id="240.8">coisas</w>
+    <w id="240.9">,</w>
+    <time id="T236E" value="00:19:11,352" />
+    <time id="T237S" value="00:19:11,354" />
+    <w id="240.10">como</w>
+    <w id="240.11">fizeram</w>
+    <w id="240.12">hoje</w>
+    <w id="240.13">.</w>
+    <time id="T237E" value="00:19:13,588" />
+  </s>
+  <s id="241">
+    <time id="T238S" value="00:19:13,590" />
+    <w id="241.1">Mas</w>
+    <w id="241.2">precisamos</w>
+    <w id="241.3">da</w>
+    <w id="241.4">tua</w>
+    <w id="241.5">ajuda</w>
+    <w id="241.6">,</w>
+    <w id="241.7">Optimus</w>
+    <w id="241.8">.</w>
+    <time id="T238E" value="00:19:15,738" />
+  </s>
+  <s id="242">
+    <time id="T239S" value="00:19:15,773" />
+    <w id="242.1">Sempre</w>
+    <w id="242.2">precisaremos</w>
+    <w id="242.3">da</w>
+    <w id="242.4">sua</w>
+    <w id="242.5">ajuda</w>
+    <w id="242.6">.</w>
+    <time id="T239E" value="00:19:17,886" />
+  </s>
+  <s id="243">
+    <time id="T240S" value="00:19:17,961" />
+    <w id="243.1">Estás</w>
+    <w id="243.2">pronto</w>
+    <w id="243.3">para</w>
+    <w id="243.4">liderar</w>
+    <w id="243.5">,</w>
+    <w id="243.6">Bumblebee</w>
+    <w id="243.7">.</w>
+    <time id="T240E" value="00:19:20,850" />
+  </s>
+  <s id="244">
+    <time id="T241S" value="00:19:21,163" />
+    <w id="244.1">Não</w>
+    <w id="244.2">duvides</w>
+    <w id="244.3">de</w>
+    <w id="244.4">ti</w>
+    <w id="244.5">mesmo</w>
+    <w id="244.6">.</w>
+    <time id="T241E" value="00:19:23,435" />
+  </s>
+  <s id="245">
+    <time id="T242S" value="00:19:23,967" />
+    <w id="245.1">-</w>
+    <w id="245.2">Vou</w>
+    <w id="245.3">vê-lo</w>
+    <w id="245.4">de</w>
+    <w id="245.5">novo</w>
+    <w id="245.6">?</w>
+  </s>
+  <s id="246">
+    <w id="246.1">-</w>
+    <w id="246.2">Não</w>
+    <w id="246.3">tenho</w>
+    <w id="246.4">a</w>
+    <w id="246.5">certeza</w>
+    <w id="246.6">.</w>
+    <time id="T242E" value="00:19:27,420" />
+  </s>
+  <s id="247">
+    <time id="T243S" value="00:19:27,455" />
+    <w id="247.1">O</w>
+    <w id="247.2">Universo</w>
+    <w id="247.3">tem</w>
+    <w id="247.4">um</w>
+    <w id="247.5">plano</w>
+    <w id="247.6">para</w>
+    <w id="247.7">mim</w>
+    <w id="247.8">,</w>
+    <time id="T243E" value="00:19:31,205" />
+    <time id="T244S" value="00:19:31,207" />
+    <w id="247.9">mas</w>
+    <w id="247.10">não</w>
+    <w id="247.11">sei</w>
+    <w id="247.12">qual</w>
+    <w id="247.13">é</w>
+    <w id="247.14">.</w>
+    <time id="T244E" value="00:19:34,023" />
+  </s>
+  <s id="248">
+    <time id="T245S" value="00:19:34,058" />
+    <w id="248.1">Tu</w>
+    <w id="248.2">vais</w>
+    <w id="248.3">triunfar</w>
+    <w id="248.4">,</w>
+    <w id="248.5">Bumblebee</w>
+    <w id="248.6">.</w>
+    <time id="T245E" value="00:19:37,311" />
+  </s>
+  <s id="249">
+    <time id="T246S" value="00:19:37,313" />
+    <w id="249.1">Tens</w>
+    <w id="249.2">de</w>
+    <w id="249.3">o</w>
+    <w id="249.4">fazer</w>
+    <w id="249.5">.</w>
+    <time id="T246E" value="00:19:39,046" />
+  </s>
+  <s id="250">
+    <time id="T247S" value="00:20:01,771" />
+    <w id="250.1">Tens</w>
+    <w id="250.2">a</w>
+    <w id="250.3">certeza</w>
+    <w id="250.4">de</w>
+    <w id="250.5">que</w>
+    <w id="250.6">não</w>
+    <w id="250.7">há</w>
+    <w id="250.8">problema</w>
+    <time id="T247E" value="00:20:03,196" />
+    <time id="T248S" value="00:20:03,231" />
+    <w id="250.9">em</w>
+    <w id="250.10">montarmos</w>
+    <w id="250.11">o</w>
+    <w id="250.12">centro</w>
+    <w id="250.13">de</w>
+    <w id="250.14">comando</w>
+    <w id="250.15">na</w>
+    <w id="250.16">tua</w>
+    <w id="250.17">propriedade</w>
+    <w id="250.18">?</w>
+    <time id="T248E" value="00:20:05,482" />
+  </s>
+  <s id="251">
+    <time id="T249S" value="00:20:05,642" />
+    <w id="251.1">O</w>
+    <w id="251.2">nosso</w>
+    <w id="251.3">lugar</w>
+    <w id="251.4">é</w>
+    <w id="251.5">um</w>
+    <w id="251.6">melhor</w>
+    <time id="T249E" value="00:20:07,341" />
+    <time id="T250S" value="00:20:07,343" />
+    <w id="251.7">esconderijo</w>
+    <w id="251.8">para</w>
+    <w id="251.9">vocês</w>
+    <w id="251.10">do</w>
+    <w id="251.11">que</w>
+    <w id="251.12">a</w>
+    <w id="251.13">mata</w>
+    <w id="251.14">.</w>
+    <time id="T250E" value="00:20:08,776" />
+  </s>
+  <s id="252">
+    <time id="T251S" value="00:20:08,778" />
+    <w id="252.1">E</w>
+    <w id="252.2">posso</w>
+    <w id="252.3">ajudar-vos</w>
+    <w id="252.4">a</w>
+    <w id="252.5">manter</w>
+    <w id="252.6">o</w>
+    <w id="252.7">disfarce</w>
+    <w id="252.8">.</w>
+    <time id="T251E" value="00:20:10,811" />
+  </s>
+  <s id="253">
+    <time id="T252S" value="00:20:10,813" />
+    <w id="253.1">Se</w>
+    <w id="253.2">,</w>
+    <w id="253.3">tipo</w>
+    <w id="253.4">,</w>
+    <w id="253.5">não</w>
+    <w id="253.6">estiver</w>
+    <w id="253.7">a</w>
+    <w id="253.8">fazer</w>
+    <w id="253.9">mais</w>
+    <w id="253.10">nada</w>
+    <w id="253.11">.</w>
+    <time id="T252E" value="00:20:15,583" />
+  </s>
+  <s id="254">
+    <time id="T253S" value="00:20:17,419" />
+    <w id="254.1">Não</w>
+    <w id="254.2">vais</w>
+    <w id="254.3">mandar-me</w>
+    <w id="254.4">dormir</w>
+    <w id="254.5">de</w>
+    <w id="254.6">novo</w>
+    <w id="254.7">,</w>
+    <w id="254.8">pois</w>
+    <w id="254.9">não</w>
+    <w id="254.10">?</w>
+    <time id="T253E" value="00:20:19,820" />
+  </s>
+  <s id="255">
+    <time id="T254S" value="00:20:22,457" />
+    <w id="255.1">Protocolo</w>
+    <w id="255.2">13</w>
+    <w id="255.3">,</w>
+    <w id="255.4">Secção</w>
+    <w id="255.5">9</w>
+    <w id="255.6">diz</w>
+    <w id="255.7">que</w>
+    <w id="255.8">os</w>
+    <w id="255.9">prisioneiros</w>
+    <w id="255.10">devem</w>
+    <w id="255.11">...</w>
+    <time id="T254E" value="00:20:25,348" />
+  </s>
+  <s id="256">
+    <time id="T255S" value="00:20:27,430" />
+    <w id="256.1">Considera-te</w>
+    <w id="256.2">em</w>
+    <w id="256.3">experiência</w>
+    <w id="256.4">.</w>
+    <time id="T255E" value="00:20:29,630" />
+  </s>
+  <s id="257">
+    <time id="T256S" value="00:20:29,632" />
+    <w id="257.1">Mas</w>
+    <w id="257.2">Senhor</w>
+    <w id="257.3">!</w>
+    <time id="T256E" value="00:20:31,532" />
+  </s>
+  <s id="258">
+    <time id="T257S" value="00:20:33,436" />
+    <w id="258.1">Estou</w>
+    <w id="258.2">em</w>
+    <w id="258.3">experiência</w>
+    <w id="258.4">.</w>
+  </s>
+  <s id="259">
+    <w id="259.1">Sim</w>
+    <w id="259.2">,</w>
+    <w id="259.3">em</w>
+    <w id="259.4">experiência</w>
+    <w id="259.5">.</w>
+    <time id="T257E" value="00:20:37,338" />
+  </s>
+  <s id="260">
+    <time id="T258S" value="00:20:38,641" />
+    <w id="260.1">Isso</w>
+    <w id="260.2">é</w>
+    <w id="260.3">bom</w>
+    <w id="260.4">,</w>
+    <w id="260.5">não</w>
+    <w id="260.6">é</w>
+    <w id="260.7">?</w>
+    <time id="T258E" value="00:20:40,728" />
+  </s>
+  <s id="261">
+    <time id="T259S" value="00:20:40,763" />
+    <w id="261.1">Fico</w>
+    <w id="261.2">contente</w>
+    <w id="261.3">por</w>
+    <w id="261.4">estares</w>
+    <w id="261.5">connosco</w>
+    <w id="261.6">,</w>
+    <w id="261.7">Sideswipe</w>
+    <w id="261.8">.</w>
+    <time id="T259E" value="00:20:42,845" />
+  </s>
+  <s id="262">
+    <time id="T260S" value="00:20:42,880" />
+    <w id="262.1">Por</w>
+    <w id="262.2">enquanto</w>
+    <w id="262.3">.</w>
+    <time id="T260E" value="00:20:44,546" />
+  </s>
+  <s id="263">
+    <time id="T261S" value="00:20:44,991" />
+    <w id="263.1">Como</w>
+    <w id="263.2">seu</w>
+    <w id="263.3">oficial</w>
+    <w id="263.4">sénior</w>
+    <w id="263.5">,</w>
+    <time id="T261E" value="00:20:46,831" />
+    <time id="T262S" value="00:20:46,866" />
+    <w id="263.6">ordeno</w>
+    <w id="263.7">que</w>
+    <w id="263.8">pegue</w>
+    <w id="263.9">nesse</w>
+    <w id="263.10">equipamento</w>
+    <time id="T262E" value="00:20:49,216" />
+  </s>
+  <s id="264">
+    <time id="T263S" value="00:20:50,053" />
+    <w id="264.1">Tu</w>
+    <w id="264.2">não</w>
+    <w id="264.3">podes</w>
+    <w id="264.4">dar-me</w>
+    <w id="264.5">ordens</w>
+    <w id="264.6">.</w>
+    <time id="T263E" value="00:20:51,895" />
+  </s>
+  <s id="265">
+    <time id="T264S" value="00:20:51,930" />
+    <w id="265.1">Com</w>
+    <w id="265.2">licença</w>
+    <w id="265.3">,</w>
+    <w id="265.4">isto</w>
+    <w id="265.5">é</w>
+    <w id="265.6">muito</w>
+    <w id="265.7">delicado</w>
+    <w id="265.8">.</w>
+    <time id="T264E" value="00:20:54,483" />
+  </s>
+  <s id="266">
+    <time id="T265S" value="00:20:54,749" />
+    <w id="266.1">Não</w>
+    <w id="266.2">sei</w>
+    <w id="266.3">se</w>
+    <w id="266.4">estudou</w>
+    <w id="266.5">a</w>
+    <w id="266.6">ciência</w>
+    <time id="T265E" value="00:20:56,164" />
+    <time id="T266S" value="00:20:56,199" />
+    <w id="266.7">dos</w>
+    <w id="266.8">receptores</w>
+    <w id="266.9">394J</w>
+    <w id="266.10">.</w>
+  </s>
+  <s id="267">
+    <w id="267.1">A</w>
+    <w id="267.2">construção</w>
+    <w id="267.3">deles</w>
+    <w id="267.4">é</w>
+    <time id="T266E" value="00:20:58,997" />
+    <time id="T267S" value="00:20:59,032" />
+    <w id="267.5">muito</w>
+    <w id="267.6">intelefante</w>
+    <w id="267.7">,</w>
+    <w id="267.8">intercessante</w>
+    <w id="267.9">...</w>
+    <time id="T267E" value="00:21:01,796" />
+  </s>
+  <s id="268">
+    <time id="T268S" value="00:21:01,798" />
+    <w id="268.1">Interessante</w>
+    <w id="268.2">!</w>
+    <time id="T268E" value="00:21:03,597" />
+  </s>
+  <s id="269">
+    <time id="T269S" value="00:21:09,671" />
+    <w id="269.1">Eu</w>
+    <w id="269.2">...</w>
+    <time id="T269E" value="00:21:11,272" />
+  </s>
+  <s id="270">
+    <time id="T270S" value="00:21:11,274" />
+    <w id="270.1">Não</w>
+    <w id="270.2">vamos</w>
+    <w id="270.3">desapontá-lo</w>
+    <w id="270.4">,</w>
+    <w id="270.5">Optimus</w>
+    <w id="270.6">.</w>
+    <time id="T270E" value="00:21:14,275" />
+  </s>
+  <s id="271">
+    <time id="T271S" value="00:21:15,310" />
+    <w id="271.1">E</w>
+    <w id="271.2">se</w>
+    <w id="271.3">o</w>
+    <w id="271.4">disser</w>
+    <w id="271.5">muitas</w>
+    <w id="271.6">vezes</w>
+    <w id="271.7">,</w>
+    <time id="T271E" value="00:21:17,228" />
+    <time id="T272S" value="00:21:17,263" />
+    <w id="271.8">talvez</w>
+    <w id="271.9">até</w>
+    <w id="271.10">acredite</w>
+    <w id="271.11">.</w>
+    <time id="T272E" value="00:21:19,146" />
+  </s>
+  <s id="272">
+    <time id="T273S" value="00:21:21,919" />
+    <w id="272.1">Estou</w>
+    <w id="272.2">em</w>
+    <w id="272.3">experiência</w>
+    <w id="272.4">.</w>
+    <time id="T273E" value="00:21:23,734" />
+  </s>
+  <s id="273">
+    <time id="T274S" value="00:21:23,769" />
+    <w id="273.1">Sim</w>
+    <w id="273.2">,</w>
+    <w id="273.3">em</w>
+    <w id="273.4">experiência</w>
+    <w id="273.5">.</w>
+  </s>
+  <s id="274">
+    <w id="274.1">Sim</w>
+    <w id="274.2">,</w>
+    <w id="274.3">em</w>
+    <w id="274.4">experiência</w>
+    <w id="274.5">.</w>
+    <time id="T274E" value="00:21:27,502" />
+  </s>
+  <s id="275">
+    <time id="T275S" value="00:21:27,503" />
+    <w id="275.1">Tradução</w>
+    <w id="275.2">PtBr</w>
+  </s>
+  <s id="276">
+    <w id="276.1">-</w>
+    <w id="276.2">Dres</w>
+    <w id="276.3">Adaptação</w>
+    <w id="276.4">e</w>
+    <w id="276.5">Sincronia</w>
+    <w id="276.6">PtPt</w>
+  </s>
+  <s id="277">
+    <w id="277.1">-</w>
+    <w id="277.2">Arodri</w>
+    <w id="277.3">e</w>
+    <w id="277.4">Neostar</w>
+    <time id="T275E" value="00:21:30,503" />
+  </s>
+  <meta>
+    <source>
+      <duration>23</duration>
+      <year>2015</year>
+      <genre>Action,Adventure,Animation</genre>
+    </source>
+    <conversion>
+      <sentences>277</sentences>
+      <tokens>1783</tokens>
+      <encoding>windows-1252</encoding>
+      <unknown_words>18</unknown_words>
+      <ignored_blocks>0</ignored_blocks>
+      <corrected_words>0</corrected_words>
+      <truecased_words>0</truecased_words>
+    </conversion>
+    <subtitle>
+      <date>2015-05-07</date>
+      <cds>1/1</cds>
+      <duration>00:21:30,503</duration>
+      <language>Portuguese</language>
+      <confidence>1.0</confidence>
+      <blocks>275</blocks>
+    </subtitle>
+  </meta>
+</document>

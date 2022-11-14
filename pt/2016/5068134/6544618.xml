@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document id="6544618">
+  <s id="1">
+    <time id="T1S" value="00:00:00,481" />
+    <w id="1.1">Sentem-se</w>
+    <w id="1.2">.</w>
+    <time id="T1E" value="00:00:02,981" />
+  </s>
+  <s id="2">
+    <time id="T2S" value="00:00:06,533" />
+    <w id="2.1">Eu</w>
+    <w id="2.2">não</w>
+    <w id="2.3">...</w>
+    <w id="2.4">oiço</w>
+    <w id="2.5">mais</w>
+    <w id="2.6">nada</w>
+    <w id="2.7">.</w>
+  </s>
+  <s id="3">
+    <w id="3.1">Marcus</w>
+    <w id="3.2">?</w>
+    <time id="T2E" value="00:00:10,263" />
+  </s>
+  <s id="4">
+    <time id="T3S" value="00:00:12,185" />
+    <w id="4.1">-</w>
+    <w id="4.2">Não</w>
+    <w id="4.3">,</w>
+    <w id="4.4">Não</w>
+    <w id="4.5">!</w>
+  </s>
+  <s id="5">
+    <w id="5.1">-</w>
+    <w id="5.2">Marcus</w>
+    <w id="5.3">?</w>
+    <time id="T3E" value="00:00:13,313" />
+  </s>
+  <s id="6">
+    <time id="T4S" value="00:00:13,348" />
+    <w id="6.1">-</w>
+    <w id="6.2">Ele</w>
+    <w id="6.3">está</w>
+    <w id="6.4">a</w>
+    <w id="6.5">morrer</w>
+    <w id="6.6">!</w>
+  </s>
+  <s id="7">
+    <w id="7.1">-</w>
+    <w id="7.2">Ele</w>
+    <w id="7.3">está</w>
+    <w id="7.4">morto</w>
+    <w id="7.5">!</w>
+    <time id="T4E" value="00:00:15,848" />
+  </s>
+  <s id="8">
+    <time id="T5S" value="00:00:17,929" />
+    <w id="8.1">Afasta-te</w>
+    <w id="8.2">!</w>
+    <time id="T5E" value="00:00:19,610" />
+  </s>
+  <s id="9">
+    <time id="T6S" value="00:00:19,730" />
+    <w id="9.1">Rápido</w>
+    <w id="9.2">afasta-te</w>
+    <w id="9.3">!</w>
+    <time id="T6E" value="00:00:21,230" />
+  </s>
+  <s id="10">
+    <time id="T7S" value="00:00:23,324" />
+    <w id="10.1">Desvia-te</w>
+    <w id="10.2">!</w>
+  </s>
+  <s id="11">
+    <w id="11.1">Desvia-te</w>
+    <w id="11.2">!</w>
+    <time id="T7E" value="00:00:25,324" />
+  </s>
+  <s id="12">
+    <time id="T8S" value="00:00:32,441" />
+    <w id="12.1">Afastem-se</w>
+    <w id="12.2">todos</w>
+    <w id="12.3">!</w>
+    <time id="T8E" value="00:00:34,441" />
+  </s>
+  <s id="13">
+    <time id="T9S" value="00:00:43,113" />
+    <w id="13.1">A</w>
+    <w id="13.2">cabeça</w>
+    <w id="13.3">!</w>
+  </s>
+  <s id="14">
+    <w id="14.1">Dê-lhe</w>
+    <w id="14.2">um</w>
+    <w id="14.3">tiro</w>
+    <w id="14.4">na</w>
+    <w id="14.5">cabeça</w>
+    <w id="14.6">!</w>
+    <time id="T9E" value="00:00:44,918" />
+  </s>
+  <meta>
+    <source>
+      <year>2016</year>
+      <genre>Drama,Horror,Thriller</genre>
+    </source>
+    <conversion>
+      <sentences>14</sentences>
+      <tokens>51</tokens>
+      <encoding>windows-1252</encoding>
+      <unknown_words>0</unknown_words>
+      <ignored_blocks>0</ignored_blocks>
+      <corrected_words>0</corrected_words>
+      <truecased_words>0</truecased_words>
+    </conversion>
+    <subtitle>
+      <date>2016-03-09</date>
+      <cds>1/1</cds>
+      <duration>00:00:44,918</duration>
+      <language>Portuguese</language>
+      <confidence>1.0</confidence>
+      <blocks>9</blocks>
+    </subtitle>
+  </meta>
+</document>

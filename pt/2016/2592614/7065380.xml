@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document id="7065380">
+  <s id="1">
+    <time id="T1S" value="00:05:28,061" />
+    <w alternative="Resident" id="1.1">RESIDENT</w>
+    <w alternative="Evil" id="1.2">EVIL</w>
+    <w id="1.3">6</w>
+    <time id="T1E" value="00:05:30,234" />
+  </s>
+  <s id="2">
+    <time id="T2S" value="00:05:30,330" />
+    <w id="2.1">O</w>
+    <w alternative="capítulo" id="2.2">CAPÍTULO</w>
+    <w alternative="final" id="2.3">FINAL</w>
+    <time id="T2E" value="00:05:34,073" />
+  </s>
+  <s id="3">
+    <time id="T3S" value="00:08:46,259" />
+    <w alternative="Mina" id="3.1">MINA</w>
+    <w alternative="antipessoal" id="3.2">ANTIPESSOAL</w>
+    <time id="T3E" value="00:08:47,260" />
+  </s>
+  <s id="4">
+    <time id="T4S" value="00:11:08,034" />
+    <w alternative="Projeto" id="4.1">PROJETO</w>
+    <w alternative="Alice" id="4.2">ALICE</w>
+    <time id="T4E" value="00:11:10,378" />
+  </s>
+  <s id="5">
+    <time id="T5S" value="00:13:34,914" />
+    <w id="5.1">Olá</w>
+    <w id="5.2">Alice</w>
+    <w id="5.3">.</w>
+    <time id="T5E" value="00:13:37,417" />
+  </s>
+  <s id="6">
+    <time id="T6S" value="00:18:58,036" />
+    <w alternative="Usuário" id="6.1">USUÁRIO</w>
+    <w alternative="não" id="6.2">NÃO</w>
+    <w alternative="autorizado" id="6.3">AUTORIZADO</w>
+    <time id="T6E" value="00:18:59,310" />
+  </s>
+  <s id="7">
+    <time id="T7S" value="00:28:15,026" />
+    <w alternative="Bem-vindo" id="7.1">BEM-VINDO</w>
+    <w alternative="à" id="7.2">À</w>
+    <w alternative="Raccoon" id="7.3">RACCOON</w>
+    <w alternative="City" id="7.4">CITY</w>
+    <w alternative="sede" id="7.5">SEDE</w>
+    <w alternative="da" id="7.6">DA</w>
+    <w alternative="Umbrella" id="7.7">UMBRELLA</w>
+    <time id="T7E" value="00:28:17,768" />
+  </s>
+  <s id="8">
+    <time id="T8S" value="00:34:59,797" />
+    <w id="8.1">A</w>
+    <w alternative="Vingança" id="8.2">VINGANÇA</w>
+    <w alternative="é" id="8.3">É</w>
+    <w alternative="minha" id="8.4">MINHA</w>
+    <w id="8.5">,</w>
+    <w alternative="disse" id="8.6">DISSE</w>
+    <w alternative="o" id="8.7">O</w>
+    <w alternative="senhor" id="8.8">SENHOR</w>
+    <time id="T8E" value="00:35:02,801" />
+  </s>
+  <s emphasis="true" id="9">
+    <time id="T9S" value="00:55:27,223" />
+    <w id="9.1">mau</w>
+    <w id="9.2">"</w>
+    <w id="9.3">.</w>
+  </s>
+  <s emphasis="true" id="10">
+    <w alternative="Sagrada" id="10.1">SAGRADA</w>
+    <time id="T9E" value="00:55:28,224" />
+  </s>
+  <s id="11">
+    <time id="T10S" value="01:10:42,771" />
+    <w alternative="Fim" id="11.1">FIM</w>
+    <w alternative="da" id="11.2">DA</w>
+    <w alternative="estrada" id="11.3">ESTRADA</w>
+    <w alternative="adiante" id="11.4">ADIANTE</w>
+    <w alternative="atenção" id="11.5">ATENÇÃO</w>
+    <time id="T10E" value="01:10:44,182" />
+  </s>
+  <s id="12">
+    <time id="T11S" value="01:10:59,421" />
+    <w alternative="Perigo" id="12.1">PERIGO</w>
+    <w id="12.2">:</w>
+  </s>
+  <s id="13">
+    <w alternative="Sobrecarga" id="13.1">SOBRECARGA</w>
+    <time id="T11E" value="01:11:00,161" />
+  </s>
+  <s id="14">
+    <time id="T12S" value="01:11:04,159" />
+    <w alternative="Falha" id="14.1">FALHA</w>
+    <w alternative="total" id="14.2">TOTAL</w>
+    <w alternative="do" id="14.3">DO</w>
+    <w alternative="sistema" id="14.4">SISTEMA</w>
+    <time id="T12E" value="01:11:05,103" />
+  </s>
+  <s id="15">
+    <time id="T13S" value="01:17:51,833" />
+    <w alternative="Software" id="15.1">SOFTWARE</w>
+    <w alternative="de" id="15.2">DE</w>
+    <w alternative="combate" id="15.3">COMBATE</w>
+    <w alternative="preditivo" id="15.4">PREDITIVO</w>
+    <time id="T13E" value="01:17:53,744" />
+  </s>
+  <s id="16">
+    <time id="T14S" value="01:18:11,286" />
+    <w alternative="Alvo" id="16.1">ALVO</w>
+    <w alternative="neutralizado" id="16.2">NEUTRALIZADO</w>
+    <w id="16.3">100</w>
+    <w id="16.4">%</w>
+    <w alternative="de" id="16.5">DE</w>
+    <w alternative="probabilidade" id="16.6">PROBABILIDADE</w>
+    <time id="T14E" value="01:18:13,698" />
+  </s>
+  <s id="17">
+    <time id="T15S" value="01:21:50,472" />
+    <w id="17.1">Funcionário</w>
+  </s>
+  <s id="18">
+    <w id="18.1">-</w>
+    <w alternative="Não" emphasis="true" id="18.2">NÃO</w>
+    <w alternative="ferir" emphasis="true" id="18.3">FERIR</w>
+    <w alternative="cívíi" id="18.4">CÍVÍI</w>
+  </s>
+  <s id="19">
+    <w id="19.1">-</w>
+    <w alternative="desprotegido" id="19.2">DESPROTEGIDO</w>
+    <time id="T15E" value="01:21:51,974" />
+  </s>
+  <s id="20">
+    <time id="T16S" value="01:24:03,605" />
+    <w alternative="Link" id="20.1">LINK</w>
+    <w alternative="neural" id="20.2">NEURAL</w>
+    <w alternative="Ligado" id="20.3">LIGADO</w>
+    <time id="T16E" value="01:24:06,245" />
+  </s>
+  <s emphasis="true" id="21">
+    <time id="T17S" value="01:26:43,231" />
+    <w alternative="Rem" id="21.1">REM</w>
+    <w id="21.2">'</w>
+    <w alternative="n" id="21.3">N</w>
+    <w alternative="ado" id="21.4">ADO</w>
+    <time id="T17E" value="01:26:44,209" />
+  </s>
+  <s id="22">
+    <time id="T18S" value="01:29:16,050" />
+    <w alternative="Sistema" id="22.1">SISTEMA</w>
+    <w alternative="de" id="22.2">DE</w>
+    <w alternative="armas" id="22.3">ARMAS</w>
+    <w alternative="Rearmando" id="22.4">REARMANDO</w>
+    <time id="T18E" value="01:29:17,358" />
+  </s>
+  <s id="23">
+    <time id="T19S" value="01:31:41,562" />
+    <w alternative="Suporte" id="23.1">SUPORTE</w>
+    <w alternative="Vital" id="23.2">VITAL</w>
+    <w id="23.3">:</w>
+  </s>
+  <s id="24">
+    <w alternative="Crítico" id="24.1">CRÍTICO</w>
+    <time id="T19E" value="01:31:43,064" />
+  </s>
+  <s id="25">
+    <time id="T20S" value="01:31:43,197" />
+    <w alternative="Reinicialização" id="25.1">REINICIALIZAÇÃO</w>
+    <w alternative="do" id="25.2">DO</w>
+    <w alternative="sistema" id="25.3">SISTEMA</w>
+    <time id="T20E" value="01:31:44,699" />
+  </s>
+  <s id="26">
+    <time id="T21S" value="01:33:16,357" />
+    <w alternative="Falha" id="26.1">FALHA</w>
+    <w alternative="de" id="26.2">DE</w>
+    <w alternative="sistema" id="26.3">SISTEMA</w>
+    <time id="T21E" value="01:33:17,859" />
+  </s>
+  <s id="27">
+    <time id="T22S" value="01:33:20,361" />
+    <w alternative="Suporte" id="27.1">SUPORTE</w>
+    <w alternative="Vital" id="27.2">VITAL</w>
+    <w id="27.3">:</w>
+    <w id="27.4">0</w>
+    <w id="27.5">%</w>
+    <time id="T22E" value="01:33:22,204" />
+  </s>
+  <s id="28">
+    <time id="T23S" value="01:46:31,685" />
+    <w id="28.1">Tradução</w>
+    <w id="28.2">:</w>
+  </s>
+  <s id="29">
+    <w id="29.1">Monika</w>
+    <w id="29.2">Pecegueiro</w>
+    <w id="29.3">do</w>
+    <w id="29.4">Amaral</w>
+    <time id="T23E" value="01:46:34,685" />
+  </s>
+  <meta>
+    <source>
+      <country>Germany, Australia, Canada</country>
+      <original>English</original>
+      <year>2016</year>
+      <duration>107</duration>
+      <genre>Action,Horror,Sci-Fi</genre>
+    </source>
+    <conversion>
+      <encoding>utf-8</encoding>
+      <corrected_words>0</corrected_words>
+      <tokens>96</tokens>
+      <unknown_words>2</unknown_words>
+      <sentences>29</sentences>
+      <truecased_words>69</truecased_words>
+      <ignored_blocks>0</ignored_blocks>
+    </conversion>
+    <subtitle>
+      <language>Portuguese</language>
+      <cds>1/1</cds>
+      <confidence>1.0</confidence>
+      <blocks>23</blocks>
+      <duration>01:46:34,685</duration>
+      <date>2017-08-13</date>
+    </subtitle>
+  </meta>
+</document>

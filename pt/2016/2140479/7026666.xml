@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document id="7026666">
+  <s id="1">
+    <time id="T1S" value="00:05:26,411" />
+    <w alternative="Christian" id="1.1">CHRISTIAN</w>
+    <w alternative="Wolff" id="1.2">WOLFF</w>
+    <w alternative="contador" id="1.3">CONTADOR</w>
+    <time id="T1E" value="00:05:27,745" />
+  </s>
+  <s id="2">
+    <time id="T2S" value="00:18:03,500" />
+    <w alternative="Luke" id="2.1">LUKE</w>
+    <w alternative="Skywalker" id="2.2">SKYWALKER</w>
+  </s>
+  <s id="3">
+    <w id="3.1">-</w>
+    <w alternative="Sabre" id="3.2">SABRE</w>
+    <w alternative="de" id="3.3">DE</w>
+    <w alternative="luz" id="3.4">LUZ</w>
+    <time id="T2E" value="00:18:05,502" />
+  </s>
+  <s id="4">
+    <time id="T3S" value="00:21:10,437" />
+    <w alternative="Fazendo" id="4.1">FAZENDO</w>
+    <w alternative="seu" id="4.2">SEU</w>
+    <w alternative="homem" id="4.3">HOMEM</w>
+    <w alternative="biônico" id="4.4">BIÔNICO</w>
+    <time id="T3E" value="00:21:11,688" />
+  </s>
+  <s id="5">
+    <time id="T4S" value="00:23:54,267" />
+    <w alternative="Colômbia" id="5.1">COLÔMBIA</w>
+    <w id="5.2">,</w>
+    <w alternative="Teerã" id="5.3">TEERÃ</w>
+    <w id="5.4">,</w>
+    <w alternative="tel" id="5.5">TEL</w>
+    <w alternative="aviv" id="5.6">AVIV</w>
+    <time id="T4E" value="00:23:55,685" />
+  </s>
+  <s id="6">
+    <time id="T5S" value="00:23:55,852" />
+    <w alternative="Dossiês" id="6.1">DOSSIÊS</w>
+  </s>
+  <s id="7">
+    <w id="7.1">-</w>
+    <w alternative="Banco" id="7.2">BANCO</w>
+    <w alternative="de" id="7.3">DE</w>
+    <w alternative="dados" id="7.4">DADOS</w>
+    <w alternative="Ferramentas" id="7.5">FERRAMENTAS</w>
+    <w alternative="interagências" id="7.6">INTERAGÊNCIAS</w>
+    <time id="T5E" value="00:23:58,271" />
+  </s>
+  <s id="8">
+    <time id="T6S" value="00:24:07,197" />
+    <w alternative="Mostrando" id="8.1">MOSTRANDO</w>
+    <w alternative="resultados" id="8.2">RESULTADOS</w>
+    <time id="T6E" value="00:24:08,031" />
+  </s>
+  <s id="9">
+    <time id="T7S" value="00:24:15,205" />
+    <w alternative="Alice" id="9.1">ALICE</w>
+    <w alternative="nos" id="9.2">NOS</w>
+    <w alternative="país" id="9.3">PAÍS</w>
+    <w alternative="das" id="9.4">DAS</w>
+    <w alternative="maravilhas" id="9.5">MARAVILHAS</w>
+    <w alternative="de" id="9.6">DE</w>
+    <w alternative="Lewis" id="9.7">LEWIS</w>
+    <w alternative="Carroll" id="9.8">CARROLL</w>
+    <time id="T7E" value="00:24:18,208" />
+  </s>
+  <s id="10">
+    <time id="T8S" value="00:24:27,050" />
+    <w alternative="Dossiês" id="10.1">DOSSIÊS</w>
+    <time id="T8E" value="00:24:28,135" />
+  </s>
+  <s id="11">
+    <time id="T9S" value="00:24:48,572" />
+    <w alternative="Movimentos" id="11.1">MOVIMENTOS</w>
+    <w alternative="realistas" id="11.2">REALISTAS</w>
+    <w id="11.3">.</w>
+  </s>
+  <s id="12">
+    <w alternative="Tecnologia" id="12.1">TECNOLOGIA</w>
+    <w alternative="de" id="12.2">DE</w>
+    <w alternative="ponta" id="12.3">PONTA</w>
+    <w id="12.4">.</w>
+  </s>
+  <s id="13">
+    <w alternative="Sensores" id="13.1">SENSORES</w>
+    <w alternative="Microchip" id="13.2">MICROCHIP</w>
+    <w id="13.3">.</w>
+    <time id="T9E" value="00:24:51,741" />
+  </s>
+  <s id="14">
+    <time id="T10S" value="00:33:37,016" />
+    <w alternative="Clube" id="14.1">CLUBE</w>
+    <w alternative="Social" id="14.2">SOCIAL</w>
+    <w alternative="Ravenite" id="14.3">RAVENITE</w>
+    <time id="T10E" value="00:33:38,518" />
+  </s>
+  <s id="15">
+    <time id="T11S" value="00:33:48,611" />
+    <w alternative="Sinal" id="15.1">SINAL</w>
+    <w alternative="Perdido" id="15.2">PERDIDO</w>
+    <time id="T11E" value="00:33:49,779" />
+  </s>
+  <s id="16">
+    <time id="T12S" value="00:37:20,114" />
+    <w alternative="Relatório" id="16.1">RELATÓRIO</w>
+    <w alternative="de" id="16.2">DE</w>
+    <w alternative="Contabilidade" id="16.3">CONTABILIDADE</w>
+    <w alternative="Geral" id="16.4">GERAL</w>
+    <time id="T12E" value="00:37:21,115" />
+  </s>
+  <s id="17">
+    <time id="T13S" value="00:37:21,282" />
+    <w alternative="Guia" id="17.1">GUIA</w>
+    <w id="17.2">2005-2006</w>
+    <time id="T13E" value="00:37:22,283" />
+  </s>
+  <s id="18">
+    <time id="T14S" value="00:39:25,698" />
+    <w alternative="Limpar" id="18.1">LIMPAR</w>
+    <w alternative="Áudio" id="18.2">ÁUDIO</w>
+  </s>
+  <s id="19">
+    <w id="19.1">-</w>
+    <w alternative="Isolar" id="19.2">ISOLAR</w>
+    <w alternative="vocais" id="19.3">VOCAIS</w>
+    <w alternative="processo" id="19.4">PROCESSO</w>
+    <w alternative="de" id="19.5">DE</w>
+    <w alternative="loop" id="19.6">LOOP</w>
+    <time id="T14E" value="00:39:27,908" />
+  </s>
+  <s id="20">
+    <time id="T15S" value="00:39:45,342" />
+    <w alternative="Isolando" id="20.1">ISOLANDO</w>
+    <w alternative="frequências" id="20.2">FREQUÊNCIAS</w>
+    <w alternative="vocais" id="20.3">VOCAIS</w>
+    <time id="T15E" value="00:39:46,844" />
+  </s>
+  <s id="21">
+    <time id="T16S" value="00:39:57,855" />
+    <w id="21.1">1</w>
+    <w alternative="vocal" id="21.2">VOCAL</w>
+    <w alternative="isolado" id="21.3">ISOLADO</w>
+    <time id="T16E" value="00:39:58,689" />
+  </s>
+  <s id="22">
+    <time id="T17S" value="00:50:21,186" />
+    <w alternative="Jacarta" id="22.1">JACARTA</w>
+    <time id="T17E" value="00:50:23,188" />
+  </s>
+  <s emphasis="true" id="23">
+    <time id="T18S" value="00:51:47,856" />
+    <w id="23.1">Está</w>
+    <w id="23.2">tudo</w>
+    <w id="23.3">bem</w>
+    <w id="23.4">...</w>
+    <w id="23.5">continue</w>
+    <w id="23.6">.</w>
+    <time id="T18E" value="00:51:51,359" />
+  </s>
+  <s id="24">
+    <time id="T19S" value="01:02:44,345" />
+    <w alternative="Associados" id="24.1">ASSOCIADOS</w>
+    <w alternative="suspeitos" id="24.2">SUSPEITOS</w>
+    <w alternative="dos" id="24.3">DOS</w>
+    <w alternative="Gambino" id="24.4">GAMBINO</w>
+    <w alternative="idade" id="24.5">IDADE</w>
+    <w id="24.6">:</w>
+    <w emphasis="true" id="24.7">25-45</w>
+    <time id="T19E" value="01:02:46,889" />
+  </s>
+  <s id="25">
+    <time id="T20S" value="01:17:53,587" />
+    <w alternative="Paul" id="25.1">PAUL</w>
+    <w id="25.2">'</w>
+    <w alternative="s" id="25.3">S</w>
+    <w alternative="Laundromat" id="25.4">LAUNDROMAT</w>
+    <w alternative="agente" id="25.5">AGENTE</w>
+    <w alternative="registrado" id="25.6">REGISTRADO</w>
+  </s>
+  <s id="26">
+    <w id="26.1">-</w>
+    <w alternative="zzz" id="26.2">ZZZ</w>
+    <w alternative="Accounting" id="26.3">ACCOUNTING</w>
+    <time id="T20E" value="01:17:54,921" />
+  </s>
+  <s emphasis="true" id="27">
+    <time id="T21S" value="01:21:08,532" />
+    <w id="27.1">Foi</w>
+    <w id="27.2">sem</w>
+    <w id="27.3">querer</w>
+    <w id="27.4">.</w>
+    <time id="T21E" value="01:21:11,243" />
+  </s>
+  <s id="28">
+    <time id="T22S" value="01:26:20,009" />
+    <w alternative="Cozinha" id="28.1">COZINHA</w>
+    <w id="28.2">2</w>
+  </s>
+  <s id="29">
+    <w id="29.1">-</w>
+    <w alternative="Sala" id="29.2">SALA</w>
+    <w alternative="de" id="29.3">DE</w>
+    <w alternative="estar" id="29.4">ESTAR</w>
+    <w id="29.5">1</w>
+    <time id="T22E" value="01:26:21,594" />
+  </s>
+  <s id="30">
+    <time id="T23S" value="01:33:59,844" />
+    <w alternative="Fort" id="30.1">FORT</w>
+    <w alternative="Leavenworth" id="30.2">LEAVENWORTH</w>
+    <w alternative="prisão" id="30.3">PRISÃO</w>
+    <w alternative="militar" id="30.4">MILITAR</w>
+    <time id="T23E" value="01:34:01,137" />
+  </s>
+  <s id="31">
+    <time id="T24S" value="02:07:51,206" />
+    <w id="31.1">Portuguese</w>
+  </s>
+  <s id="32">
+    <w id="32.1">-</w>
+    <w id="32.2">BR</w>
+    <time id="T24E" value="02:07:52,207" />
+  </s>
+  <meta>
+    <source>
+      <year>2016</year>
+      <duration>128</duration>
+      <genre>Action,Crime,Drama</genre>
+    </source>
+    <conversion>
+      <encoding>utf-8</encoding>
+      <corrected_words>0</corrected_words>
+      <tokens>113</tokens>
+      <unknown_words>1</unknown_words>
+      <sentences>32</sentences>
+      <truecased_words>83</truecased_words>
+      <ignored_blocks>0</ignored_blocks>
+    </conversion>
+    <subtitle>
+      <language>Portuguese</language>
+      <cds>1/1</cds>
+      <confidence>1.0</confidence>
+      <blocks>24</blocks>
+      <duration>02:07:52,207</duration>
+      <date>2017-06-30</date>
+    </subtitle>
+  </meta>
+</document>

@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document id="6860020">
+  <s id="1">
+    <time id="T1S" value="00:11:25,393" />
+    <w id="1.1">Ele</w>
+    <w id="1.2">está</w>
+    <w id="1.3">bêbado</w>
+    <w id="1.4">ou</w>
+    <w id="1.5">o</w>
+    <w id="1.6">quê</w>
+    <w id="1.7">?</w>
+    <time id="T1E" value="00:11:27,270" />
+  </s>
+  <s id="2">
+    <time id="T2S" value="00:11:29,189" />
+    <w id="2.1">O</w>
+    <w id="2.2">que</w>
+    <w id="2.3">foi</w>
+    <w id="2.4">isso</w>
+    <w id="2.5">?</w>
+    <time id="T2E" value="00:11:30,482" />
+  </s>
+  <s id="3">
+    <time id="T3S" value="00:11:32,192" />
+    <w id="3.1">Vamos</w>
+    <w id="3.2">!</w>
+    <time id="T3E" value="00:11:33,485" />
+  </s>
+  <s id="4">
+    <time id="T4S" value="00:11:38,573" />
+    <w id="4.1">Anda</w>
+    <w id="4.2">!</w>
+  </s>
+  <s id="5">
+    <w id="5.1">Anda</w>
+    <w id="5.2">!</w>
+    <time id="T4E" value="00:11:39,616" />
+  </s>
+  <s id="6">
+    <time id="T5S" value="00:11:39,783" />
+    <w id="6.1">-</w>
+    <w id="6.2">O</w>
+    <w id="6.3">que</w>
+    <w id="6.4">está</w>
+    <w id="6.5">havendo</w>
+    <w id="6.6">?</w>
+  </s>
+  <s id="7">
+    <w id="7.1">-</w>
+    <w id="7.2">Não</w>
+    <w id="7.3">faço</w>
+    <w id="7.4">ideia</w>
+    <w id="7.5">.</w>
+    <time id="T5E" value="00:11:41,785" />
+  </s>
+  <s id="8">
+    <time id="T6S" value="00:12:32,168" />
+    <w id="8.1">Florença</w>
+    <w id="8.2">,</w>
+    <w id="8.3">Itália</w>
+    <w id="8.4">4h52</w>
+    <time id="T6E" value="00:12:35,046" />
+  </s>
+  <s id="9">
+    <time id="T7S" value="00:24:50,240" />
+    <w id="9.1">Organização</w>
+    <w id="9.2">Mundial</w>
+    <w id="9.3">da</w>
+    <w id="9.4">Saúde</w>
+    <w id="9.5">Comando</w>
+    <w id="9.6">Móvel</w>
+    <w id="9.7">-</w>
+    <w id="9.8">6h37</w>
+    <time id="T7E" value="00:24:54,160" />
+  </s>
+  <s id="10">
+    <time id="T8S" value="00:32:50,387" />
+    <w id="10.1">Mar</w>
+    <w id="10.2">Adriático</w>
+    <w id="10.3">7h12</w>
+    <time id="T8E" value="00:32:53,473" />
+    <time id="T9S" value="00:32:54,057" />
+    <w id="10.4">...</w>
+    <w id="10.5">transferência</w>
+    <w id="10.6">de</w>
+    <w id="10.7">£</w>
+    <w id="10.8">400.000</w>
+    <w id="10.9">para</w>
+    <w id="10.10">Zurique</w>
+    <w id="10.11">,</w>
+    <w id="10.12">conta</w>
+    <w id="10.13" initial="nº">no</w>
+    <w id="10.14">0883011</w>
+    <w id="10.15">.</w>
+    <time id="T9E" value="00:32:58,478" />
+  </s>
+  <s id="11">
+    <time id="T10S" value="00:36:02,287" />
+    <w id="11.1">Viale</w>
+    <w id="11.2">Machiavelli</w>
+    <w id="11.3">Florença</w>
+    <w id="11.4">,</w>
+    <w id="11.5">Itália</w>
+    <w id="11.6">-</w>
+    <w id="11.7">8h36</w>
+    <time id="T10E" value="00:36:04,122" />
+  </s>
+  <s id="12">
+    <time id="T11S" value="00:38:27,057" />
+    <w id="12.1">O</w>
+    <w id="12.2">espaço</w>
+    <w id="12.3">aéreo</w>
+    <w id="12.4">sobre</w>
+    <w id="12.5">os</w>
+    <w id="12.6">Jardins</w>
+    <w id="12.7">de</w>
+    <w id="12.8">Boboli</w>
+    <w id="12.9">está</w>
+    <w id="12.10">sob</w>
+    <w id="12.11">o</w>
+    <w id="12.12">comando</w>
+    <w id="12.13">da</w>
+    <w id="12.14">OMS</w>
+    <w id="12.15">.</w>
+    <time id="T11E" value="00:38:29,976" />
+  </s>
+  <s id="13">
+    <time id="T12S" value="00:38:34,230" />
+    <w id="13.1">Enviem</w>
+    <w id="13.2">as</w>
+    <w id="13.3">unidades</w>
+    <w id="13.4">caninas</w>
+    <w id="13.5">.</w>
+    <time id="T12E" value="00:38:36,399" />
+  </s>
+  <s id="14">
+    <time id="T13S" value="00:38:38,318" />
+    <w id="14.1">Sou</w>
+    <w id="14.2">da</w>
+    <w id="14.3">Delegacia</w>
+    <w id="14.4">do</w>
+    <w id="14.5">Uffizi</w>
+    <w id="14.6">.</w>
+  </s>
+  <s id="15">
+    <w id="15.1">O</w>
+    <w id="15.2">comandante</w>
+    <w id="15.3">está</w>
+    <w id="15.4">enviando</w>
+    <w id="15.5">reforços</w>
+    <w id="15.6">.</w>
+    <time id="T13E" value="00:38:42,989" />
+  </s>
+  <s id="16">
+    <time id="T14S" value="00:38:47,118" />
+    <w id="16.1">Jardins</w>
+    <w id="16.2">de</w>
+    <w id="16.3">Boboli</w>
+    <w id="16.4">8h42</w>
+    <time id="T14E" value="00:38:50,121" />
+  </s>
+  <s emphasis="true" id="17">
+    <time id="T15S" value="00:39:02,634" />
+    <w id="17.1">Comando</w>
+    <w id="17.2">1</w>
+    <w id="17.3">para</w>
+    <w id="17.4">central</w>
+    <w id="17.5">.</w>
+  </s>
+  <s emphasis="true" id="18">
+    <w id="18.1">Suspeitos</w>
+    <w id="18.2">à</w>
+    <w id="18.3">vista</w>
+    <w id="18.4">.</w>
+    <time id="T15E" value="00:39:05,637" />
+  </s>
+  <s id="19">
+    <time id="T16S" value="00:39:24,239" />
+    <w id="19.1">Droga</w>
+    <w id="19.2">!</w>
+  </s>
+  <s id="20">
+    <w id="20.1">Delta</w>
+    <w id="20.2">,</w>
+    <w id="20.3">verifique</w>
+    <w id="20.4">as</w>
+    <w id="20.5">escadas</w>
+    <w id="20.6">para</w>
+    <w id="20.7">o</w>
+    <w id="20.8">norte</w>
+    <w id="20.9">.</w>
+    <time id="T16E" value="00:39:27,117" />
+  </s>
+  <s id="21">
+    <time id="T17S" value="00:39:55,603" />
+    <w id="21.1">Setor</w>
+    <w id="21.2">da</w>
+    <w id="21.3">gruta</w>
+    <w id="21.4">vazio</w>
+    <w id="21.5">.</w>
+    <time id="T17E" value="00:39:56,938" />
+  </s>
+  <s emphasis="true" id="22">
+    <time id="T18S" value="00:40:13,163" />
+    <w id="22.1">Retornem</w>
+    <w id="22.2">e</w>
+    <w id="22.3">fiquem</w>
+    <w id="22.4">a</w>
+    <w id="22.5">postos</w>
+    <w id="22.6">no</w>
+    <w id="22.7">Corredor</w>
+    <w id="22.8">Vasari</w>
+    <w id="22.9">.</w>
+    <time id="T18E" value="00:40:15,790" />
+  </s>
+  <s emphasis="true" id="23">
+    <time id="T19S" value="00:40:18,293" />
+    <w id="23.1">Repito</w>
+    <w id="23.2">:</w>
+  </s>
+  <s emphasis="true" id="24">
+    <w id="24.1">Corredor</w>
+    <w id="24.2">Vasari</w>
+    <w id="24.3">.</w>
+    <time id="T19E" value="00:40:20,545" />
+  </s>
+  <s id="25">
+    <time id="T20S" value="00:40:48,740" />
+    <w id="25.1">Salão</w>
+    <w id="25.2">dos</w>
+    <w id="25.3">Quinhentos</w>
+    <w id="25.4">Palazzo</w>
+    <w id="25.5">Vecchio</w>
+    <w id="25.6">-</w>
+    <w id="25.7">9h13</w>
+    <time id="T20E" value="00:40:51,868" />
+  </s>
+  <s id="26">
+    <time id="T21S" value="01:03:19,382" />
+    <w id="26.1">Batistério</w>
+    <w id="26.2">de</w>
+    <w id="26.3">San</w>
+    <w id="26.4">Giovanni</w>
+    <time id="T21E" value="01:03:22,260" />
+  </s>
+  <s id="27">
+    <time id="T22S" value="01:07:41,561" />
+    <w id="27.1">Italo</w>
+    <w id="27.2">9982</w>
+    <w id="27.3">para</w>
+    <w id="27.4">Veneza</w>
+    <w id="27.5">13h57</w>
+    <time id="T22E" value="01:07:45,065" />
+  </s>
+  <s id="28">
+    <time id="T23S" value="01:13:42,630" />
+    <w id="28.1">Veneza</w>
+    <w id="28.2">,</w>
+    <w id="28.3">Itália</w>
+    <w id="28.4">14h49</w>
+    <time id="T23E" value="01:13:45,467" />
+  </s>
+  <s id="29">
+    <time id="T24S" value="01:31:24,359" />
+    <w id="29.1">Jato</w>
+    <w id="29.2">da</w>
+    <w id="29.3">Organização</w>
+    <w id="29.4">Mundial</w>
+    <w id="29.5">de</w>
+    <w id="29.6">Saúde</w>
+    <w id="29.7">17h32</w>
+    <time id="T24E" value="01:31:28,363" />
+  </s>
+  <s id="30">
+    <time id="T25S" value="01:35:41,866" />
+    <w id="30.1">Istambul</w>
+    <w id="30.2">,</w>
+    <w id="30.3">Turquia</w>
+    <w id="30.4">18h39</w>
+    <time id="T25E" value="01:35:44,577" />
+  </s>
+  <s id="31">
+    <time id="T26S" value="01:36:04,764" />
+    <w id="31.1">Universidade</w>
+    <w id="31.2">de</w>
+    <w id="31.3">Istambul</w>
+    <time id="T26E" value="01:36:07,434" />
+  </s>
+  <s id="32">
+    <time id="T27S" value="01:55:28,762" />
+    <w id="32.1">Florença</w>
+    <w id="32.2">,</w>
+    <w id="32.3">Itália</w>
+    <w id="32.4">9h00</w>
+    <time id="T27E" value="01:55:31,931" />
+  </s>
+  <meta>
+    <source>
+      <country>USA, Japan</country>
+      <original>Japanese</original>
+      <year>2016</year>
+      <duration>121</duration>
+      <genre>Action,Adventure,Crime</genre>
+    </source>
+    <conversion>
+      <encoding>utf-8</encoding>
+      <corrected_words>1</corrected_words>
+      <tokens>176</tokens>
+      <unknown_words>1</unknown_words>
+      <sentences>32</sentences>
+      <truecased_words>0</truecased_words>
+      <ignored_blocks>0</ignored_blocks>
+    </conversion>
+    <subtitle>
+      <language>Portuguese</language>
+      <cds>1/1</cds>
+      <confidence>1.0</confidence>
+      <blocks>27</blocks>
+      <duration>01:55:31,931</duration>
+      <date>2017-01-21</date>
+    </subtitle>
+  </meta>
+</document>

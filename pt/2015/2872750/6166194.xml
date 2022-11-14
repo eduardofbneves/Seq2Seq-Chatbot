@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document id="6166194">
+  <s id="1">
+    <time id="T1S" value="00:00:49,700" />
+    <w alternative="Elenco" id="1.1">ELENCO</w>
+    <w id="1.2">:</w>
+  </s>
+  <s id="2">
+    <w alternative="Choné" id="2.1">CHONÉ</w>
+    <time id="T1E" value="00:00:51,523" />
+  </s>
+  <s id="3">
+    <time id="T2S" value="00:00:57,764" />
+    <w alternative="Bitzer" id="3.1">BITZER</w>
+    <time id="T2E" value="00:00:59,583" />
+  </s>
+  <s id="4">
+    <time id="T3S" value="00:01:19,258" />
+    <w alternative="Agricultor" id="4.1">AGRICULTOR</w>
+    <time id="T3E" value="00:01:20,873" />
+  </s>
+  <s id="5">
+    <time id="T4S" value="00:01:55,680" />
+    <w id="5.1">A</w>
+    <w alternative="Ovelha" id="5.2">OVELHA</w>
+    <w alternative="Choné" id="5.3">CHONÉ</w>
+    <w id="5.4">(</w>
+    <w alternative="o" id="5.5">O</w>
+    <w alternative="filme" id="5.6">FILME</w>
+    <w id="5.7">)</w>
+    <time id="T4E" value="00:02:00,680" />
+  </s>
+  <s id="6">
+    <time id="T5S" value="00:02:23,900" />
+    <w alternative="Segunda-feira" id="6.1">SEGUNDA-FEIRA</w>
+    <time id="T5E" value="00:02:24,900" />
+  </s>
+  <s id="7">
+    <time id="T6S" value="00:02:47,360" />
+    <w alternative="Tarefas" id="7.1">TAREFAS</w>
+    <time id="T6E" value="00:02:50,260" />
+  </s>
+  <s id="8">
+    <time id="T7S" value="00:03:05,939" />
+    <w alternative="Terça-feira" id="8.1">TERÇA-FEIRA</w>
+    <time id="T7E" value="00:03:06,939" />
+  </s>
+  <s id="9">
+    <time id="T8S" value="00:03:25,058" />
+    <w alternative="Quarta-feira" id="9.1">QUARTA-FEIRA</w>
+    <time id="T8E" value="00:03:26,084" />
+  </s>
+  <s id="10">
+    <time id="T9S" value="00:03:41,050" />
+    <w alternative="Quinta-feira" id="10.1">QUINTA-FEIRA</w>
+    <time id="T9E" value="00:03:42,050" />
+  </s>
+  <s id="11">
+    <time id="T10S" value="00:05:14,880" />
+    <w alternative="Tira" id="11.1">TIRA</w>
+    <w alternative="um" id="11.2">UM</w>
+    <w alternative="dia" id="11.3">DIA</w>
+    <w alternative="de" id="11.4">DE</w>
+    <w alternative="folga" id="11.5">FOLGA</w>
+    <w id="11.6">!</w>
+    <time id="T10E" value="00:05:17,640" />
+  </s>
+  <s id="12">
+    <time id="T11S" value="00:05:19,280" />
+    <w alternative="Tira" id="12.1">TIRA</w>
+    <w alternative="um" id="12.2">UM</w>
+    <w alternative="dia" id="12.3">DIA</w>
+    <w alternative="de" id="12.4">DE</w>
+    <w alternative="folga" id="12.5">FOLGA</w>
+    <w id="12.6">!</w>
+    <time id="T11E" value="00:05:22,560" />
+  </s>
+  <s id="13">
+    <time id="T12S" value="00:10:05,600" />
+    <w id="13.1">-</w>
+    <w alternative="Palha" id="13.2">PALHA</w>
+  </s>
+  <s id="14">
+    <w id="14.1">-</w>
+    <w alternative="Técnicas" id="14.2">TÉCNICAS</w>
+    <w alternative="Agrícolas" id="14.3">AGRÍCOLAS</w>
+    <w alternative="modernas" id="14.4">MODERNAS</w>
+    <time id="T12E" value="00:10:07,720" />
+  </s>
+  <s id="15">
+    <time id="T13S" value="00:10:07,800" />
+    <w id="15.1">O</w>
+    <w alternative="regresso" id="15.2">REGRESSO</w>
+    <w alternative="de" id="15.3">DE</w>
+    <w alternative="Curly" id="15.4">CURLY</w>
+    <w alternative="the" id="15.5">THE</w>
+    <w alternative="Kid" id="15.6">KID</w>
+    <time id="T13E" value="00:10:09,480" />
+  </s>
+  <s id="16">
+    <time id="T14S" value="00:11:36,200" />
+    <w alternative="Cidade" id="16.1">CIDADE</w>
+    <w alternative="Grande" id="16.2">GRANDE</w>
+    <time id="T14E" value="00:11:37,960" />
+  </s>
+  <s id="17">
+    <time id="T15S" value="00:12:35,800" />
+    <w alternative="Ida" id="17.1">IDA</w>
+    <w alternative="à" id="17.2">À</w>
+    <w alternative="Lua" id="17.3">LUA</w>
+    <w alternative="e" id="17.4">E</w>
+    <w alternative="regresso" id="17.5">REGRESSO</w>
+    <time id="T15E" value="00:12:37,132" />
+  </s>
+  <s id="18">
+    <time id="T16S" value="00:13:08,000" />
+    <w alternative="Fechar" id="18.1">FECHAR</w>
+    <w alternative="o" id="18.2">O</w>
+    <w alternative="portão" id="18.3">PORTÃO</w>
+    <time id="T16E" value="00:13:09,800" />
+  </s>
+  <s id="19">
+    <time id="T17S" value="00:13:44,760" />
+    <w alternative="Compre" id="19.1">COMPRE</w>
+    <w alternative="frescos" id="19.2">FRESCOS</w>
+    <w id="19.3">!</w>
+    <time id="T17E" value="00:13:48,160" />
+  </s>
+  <s id="20">
+    <time id="T18S" value="00:17:48,129" />
+    <w alternative="Diagnóstico" id="20.1">DIAGNÓSTICO</w>
+    <w id="20.2">:</w>
+  </s>
+  <s id="21">
+    <w alternative="Amnésia" id="21.1">AMNÉSIA</w>
+    <time id="T18E" value="00:17:53,129" />
+  </s>
+  <s id="22">
+    <time id="T19S" value="00:18:32,649" />
+    <w alternative="Mexe-te" id="22.1">MEXE-TE</w>
+    <w id="22.2">!</w>
+    <time id="T19E" value="00:18:35,889" />
+  </s>
+  <s id="23">
+    <time id="T20S" value="00:18:37,649" />
+    <w alternative="Mexe-te" id="23.1">MEXE-TE</w>
+    <w id="23.2">!</w>
+    <time id="T20E" value="00:18:39,489" />
+  </s>
+  <s id="24">
+    <time id="T21S" value="00:18:58,100" />
+    <w alternative="Quinta" id="24.1">QUINTA</w>
+    <w alternative="do" id="24.2">DO</w>
+    <w alternative="Fundo" id="24.3">FUNDO</w>
+    <w alternative="musgoso" id="24.4">MUSGOSO</w>
+    <time id="T21E" value="00:18:59,400" />
+  </s>
+  <s id="25">
+    <time id="T22S" value="00:18:59,500" />
+    <w alternative="Cidade" id="25.1">CIDADE</w>
+    <w alternative="Grande" id="25.2">GRANDE</w>
+    <time id="T22E" value="00:19:00,750" />
+  </s>
+  <s id="26">
+    <time id="T23S" value="00:19:40,169" />
+    <w alternative="Desaparecido" id="26.1">DESAPARECIDO</w>
+    <time id="T23E" value="00:19:42,729" />
+  </s>
+  <s id="27">
+    <time id="T24S" value="00:20:12,929" />
+    <w alternative="Para" id="27.1">PARA</w>
+    <w alternative="o" id="27.2">O</w>
+    <w alternative="centro" id="27.3">CENTRO</w>
+    <time id="T24E" value="00:20:16,809" />
+  </s>
+  <s id="28">
+    <time id="T25S" value="00:21:26,369" />
+    <w alternative="Detido" id="28.1">DETIDO</w>
+    <time id="T25E" value="00:21:27,609" />
+  </s>
+  <s id="29">
+    <time id="T26S" value="00:21:27,689" />
+    <w alternative="Controlo" id="29.1">CONTROLO</w>
+    <w alternative="animal" id="29.2">ANIMAL</w>
+    <time id="T26E" value="00:21:30,369" />
+  </s>
+  <s id="30">
+    <time id="T27S" value="00:22:35,849" />
+    <w alternative="Sociedade" id="30.1">SOCIEDADE</w>
+    <w alternative="dos" id="30.2">DOS</w>
+    <w alternative="amigos" id="30.3">AMIGOS</w>
+    <w alternative="dos" id="30.4">DOS</w>
+    <w alternative="animais" id="30.5">ANIMAIS</w>
+    <time id="T27E" value="00:22:38,169" />
+  </s>
+  <s id="31">
+    <time id="T28S" value="00:23:00,929" />
+    <w alternative="Vá" id="31.1">VÁ</w>
+    <w alternative="de" id="31.2">DE</w>
+    <w alternative="autocarro" id="31.3">AUTOCARRO</w>
+    <w alternative="para" id="31.4">PARA</w>
+    <w alternative="o" id="31.5">O</w>
+    <w alternative="campo" id="31.6">CAMPO</w>
+    <time id="T28E" value="00:23:03,509" />
+  </s>
+  <s id="32">
+    <time id="T29S" value="00:23:42,809" />
+    <w id="32.1">A.</w>
+    <w alternative="Trumper" id="32.2">TRUMPER</w>
+    <time id="T29E" value="00:23:44,649" />
+  </s>
+  <s id="33">
+    <time id="T30S" value="00:24:50,849" />
+    <w alternative="Desaparecido" id="33.1">DESAPARECIDO</w>
+    <time id="T30E" value="00:24:53,569" />
+  </s>
+  <s id="34">
+    <time id="T31S" value="00:27:37,742" />
+    <w alternative="Amnésia" id="34.1">AMNÉSIA</w>
+    <time id="T31E" value="00:27:39,131" />
+  </s>
+  <s id="35">
+    <time id="T32S" value="00:28:09,329" />
+    <w alternative="Gabinete" id="35.1">GABINETE</w>
+    <w alternative="de" id="35.2">DE</w>
+    <w alternative="perdidos" id="35.3">PERDIDOS</w>
+    <w alternative="e" id="35.4">E</w>
+    <w alternative="achados" id="35.5">ACHADOS</w>
+    <time id="T32E" value="00:28:10,849" />
+  </s>
+  <s id="36">
+    <time id="T33S" value="00:28:10,929" />
+    <w alternative="Desaparecido" id="36.1">DESAPARECIDO</w>
+    <time id="T33E" value="00:28:13,209" />
+  </s>
+  <s id="37">
+    <time id="T34S" value="00:29:50,849" />
+    <w alternative="Banca" id="37.1">BANCA</w>
+    <w alternative="das" id="37.2">DAS</w>
+    <w alternative="iguarias" id="37.3">IGUARIAS</w>
+    <time id="T34E" value="00:29:52,809" />
+  </s>
+  <s id="38">
+    <time id="T35S" value="00:30:24,369" />
+    <w id="38.1">A</w>
+    <w alternative="couve" id="38.2">COUVE</w>
+    <w alternative="queimada" id="38.3">QUEIMADA</w>
+    <time id="T35E" value="00:30:29,869" />
+  </s>
+  <s id="39">
+    <time id="T36S" value="00:34:55,392" />
+    <w alternative="Detido" id="39.1">DETIDO</w>
+    <time id="T36E" value="00:34:56,792" />
+  </s>
+  <s id="40">
+    <time id="T37S" value="00:35:22,771" />
+    <w id="40.1">A.</w>
+    <w alternative="Trumper" id="40.2">TRUMPER</w>
+    <time id="T37E" value="00:35:24,636" />
+  </s>
+  <s id="41">
+    <time id="T38S" value="00:38:29,552" />
+    <w alternative="Controlo" id="41.1">CONTROLO</w>
+    <w alternative="animal" id="41.2">ANIMAL</w>
+    <time id="T38E" value="00:38:32,712" />
+  </s>
+  <s id="42">
+    <time id="T39S" value="00:39:55,496" />
+    <w alternative="Detido" id="42.1">DETIDO</w>
+    <time id="T39E" value="00:39:56,579" />
+  </s>
+  <s id="43">
+    <time id="T40S" value="00:40:55,832" />
+    <w alternative="Adopte" id="43.1">ADOPTE</w>
+    <w alternative="um" id="43.2">UM</w>
+    <w alternative="animal" id="43.3">ANIMAL</w>
+    <w alternative="abandonado" id="43.4">ABANDONADO</w>
+    <time id="T40E" value="00:40:58,112" />
+  </s>
+  <s id="44">
+    <time id="T41S" value="00:42:47,700" />
+    <w alternative="Enviar" id="44.1">ENVIAR</w>
+    <time id="T41E" value="00:42:48,700" />
+  </s>
+  <s id="45">
+    <time id="T42S" value="00:42:52,232" />
+    <w alternative="Partilhar" id="45.1">PARTILHAR</w>
+    <time id="T42E" value="00:42:53,232" />
+  </s>
+  <s id="46">
+    <time id="T43S" value="00:42:57,512" />
+    <w id="46.1">É</w>
+    <w alternative="este" id="46.2">ESTE</w>
+    <w alternative="o" id="46.3">O</w>
+    <w alternative="penteado" id="46.4">PENTEADO</w>
+    <w alternative="que" id="46.5">QUE</w>
+    <w alternative="tem" id="46.6">TEM</w>
+    <w alternative="feito" id="46.7">FEITO</w>
+    <w alternative="sucesso" id="46.8">SUCESSO</w>
+    <w alternative="na" id="46.9">NA</w>
+    <w alternative="cidade" id="46.10">CIDADE</w>
+    <time id="T43E" value="00:42:59,050" />
+  </s>
+  <s id="47">
+    <time id="T44S" value="00:42:59,055" />
+    <w alternative="Gostos" id="47.1">GOSTOS</w>
+    <time id="T44E" value="00:43:00,455" />
+  </s>
+  <s id="48">
+    <time id="T45S" value="00:43:40,512" />
+    <w alternative="Ele" id="48.1">ELE</w>
+    <w alternative="está" id="48.2">ESTÁ</w>
+    <w alternative="aqui" id="48.3">AQUI</w>
+  </s>
+  <s id="49">
+    <w id="49.1">-</w>
+    <w alternative="Sr" id="49.2">SR</w>
+    <w id="49.3">.</w>
+  </s>
+  <s id="50">
+    <w id="50.1">X</w>
+    <time id="T45E" value="00:43:44,192" />
+  </s>
+  <s id="51">
+    <time id="T46S" value="00:44:51,158" />
+    <w id="51.1">A.</w>
+    <w alternative="Trumper" id="51.2">TRUMPER</w>
+    <time id="T46E" value="00:44:52,188" />
+  </s>
+  <s id="52">
+    <time id="T47S" value="00:48:06,352" />
+    <w alternative="Ele" id="52.1">ELE</w>
+    <w alternative="está" id="52.2">ESTÁ</w>
+    <w alternative="aqui" id="52.3">AQUI</w>
+  </s>
+  <s id="53">
+    <w id="53.1">-</w>
+    <w alternative="Sr" id="53.2">SR</w>
+    <w id="53.3">.</w>
+  </s>
+  <s id="54">
+    <w id="54.1">X</w>
+    <time id="T47E" value="00:48:11,192" />
+  </s>
+  <s id="55">
+    <time id="T48S" value="00:52:34,949" />
+    <w alternative="Detido" id="55.1">DETIDO</w>
+    <time id="T48E" value="00:52:36,015" />
+  </s>
+  <s id="56">
+    <time id="T49S" value="00:52:54,393" />
+    <w alternative="Alta" id="56.1">ALTA</w>
+    <w alternative="Voltagem" id="56.2">VOLTAGEM</w>
+    <time id="T49E" value="00:52:55,765" />
+  </s>
+  <s id="57">
+    <time id="T50S" value="00:55:55,392" />
+    <w alternative="Amnésia" id="57.1">AMNÉSIA</w>
+    <time id="T50E" value="00:55:57,232" />
+  </s>
+  <s id="58">
+    <time id="T51S" value="00:56:40,192" />
+    <w alternative="Amnésia" id="58.1">AMNÉSIA</w>
+    <time id="T51E" value="00:56:44,392" />
+  </s>
+  <s id="59">
+    <time id="T52S" value="00:57:15,832" />
+    <w alternative="Lar" id="59.1">LAR</w>
+    <time id="T52E" value="00:57:21,632" />
+  </s>
+  <s id="60">
+    <time id="T53S" value="00:59:45,400" />
+    <w alternative="Vendem-se" id="60.1">VENDEM-SE</w>
+    <w alternative="Trampolins" id="60.2">TRAMPOLINS</w>
+    <time id="T53E" value="00:59:50,400" />
+  </s>
+  <s id="61">
+    <time id="T54S" value="01:01:23,032" />
+    <w alternative="Você" id="61.1">VOCÊ</w>
+    <w alternative="está" id="61.2">ESTÁ</w>
+    <w alternative="aqui" id="61.3">AQUI</w>
+    <time id="T54E" value="01:01:25,672" />
+  </s>
+  <s id="62">
+    <time id="T55S" value="01:01:27,352" />
+    <w alternative="Estrada" id="62.1">ESTRADA</w>
+    <w alternative="do" id="62.2">DO</w>
+    <w alternative="Fundo" id="62.3">FUNDO</w>
+    <w alternative="musgoso" id="62.4">MUSGOSO</w>
+    <time id="T55E" value="01:01:30,072" />
+  </s>
+  <s id="63">
+    <time id="T56S" value="01:04:26,938" />
+    <w alternative="Para" id="63.1">PARA</w>
+    <w alternative="o" id="63.2">O</w>
+    <w alternative="centro" id="63.3">CENTRO</w>
+    <time id="T56E" value="01:04:28,684" />
+  </s>
+  <s id="64">
+    <time id="T57S" value="01:07:28,419" />
+    <w alternative="Pedreira" id="64.1">PEDREIRA</w>
+    <time id="T57E" value="01:07:30,099" />
+  </s>
+  <s id="65">
+    <time id="T58S" value="01:07:34,400" />
+    <w alternative="Estrume" id="65.1">ESTRUME</w>
+    <time id="T58E" value="01:07:36,600" />
+  </s>
+  <s id="66">
+    <time id="T59S" value="01:13:27,499" />
+    <w alternative="Tarefas" id="66.1">TAREFAS</w>
+    <time id="T59E" value="01:13:29,619" />
+  </s>
+  <s id="67">
+    <time id="T60S" value="01:13:38,700" />
+    <w alternative="Argumento" id="67.1">ARGUMENTO</w>
+    <w alternative="e" id="67.2">E</w>
+    <w alternative="realização" id="67.3">REALIZAÇÃO</w>
+    <time id="T60E" value="01:13:41,450" />
+  </s>
+  <s id="68">
+    <time id="T61S" value="01:13:41,500" />
+    <w alternative="Produção" id="68.1">PRODUÇÃO</w>
+    <time id="T61E" value="01:13:44,100" />
+  </s>
+  <s id="69">
+    <time id="T62S" value="01:13:58,859" />
+    <w alternative="Abrigo" id="69.1">ABRIGO</w>
+    <w alternative="Animal" id="69.2">ANIMAL</w>
+    <time id="T62E" value="01:14:01,339" />
+  </s>
+  <s id="70">
+    <time id="T63S" value="01:14:04,579" />
+    <w alternative="Protecção" id="70.1">PROTECÇÃO</w>
+    <w alternative="de" id="70.2">DE</w>
+    <w alternative="animais" id="70.3">ANIMAIS</w>
+    <time id="T63E" value="01:14:07,179" />
+  </s>
+  <s id="71">
+    <time id="T64S" value="01:14:48,200" />
+    <w alternative="Tradução" id="71.1">TRADUÇÃO</w>
+    <w alternative="e" id="71.2">E</w>
+    <w alternative="legendagem" id="71.3">LEGENDAGEM</w>
+    <w id="71.4">:</w>
+  </s>
+  <s id="72">
+    <w alternative="True" id="72.1">TRUE</w>
+    <w id="72.2">_</w>
+    <w alternative="Pliskin" id="72.3">PLISKIN</w>
+    <time id="T64E" value="01:14:52,200" />
+  </s>
+  <s id="73">
+    <time id="T65S" value="01:14:54,459" />
+    <w alternative="Fim" id="73.1">FIM</w>
+    <time id="T65E" value="01:15:01,459" />
+  </s>
+  <s id="74">
+    <time id="T66S" value="01:20:53,559" />
+    <w alternative="Fim" id="74.1">FIM</w>
+    <time id="T66E" value="01:20:57,739" />
+  </s>
+  <s id="75">
+    <time id="T67S" value="01:21:06,099" />
+    <w alternative="Vão" id="75.1">VÃO</w>
+    <w alternative="para" id="75.2">PARA</w>
+    <w alternative="casa" id="75.3">CASA</w>
+    <time id="T67E" value="01:21:09,939" />
+  </s>
+  <meta>
+    <source>
+      <duration>85</duration>
+      <country>UK, France</country>
+      <year>2015</year>
+      <original>N/A</original>
+      <genre>Adventure,Animation,Comedy</genre>
+    </source>
+    <conversion>
+      <sentences>75</sentences>
+      <tokens>182</tokens>
+      <encoding>windows-1252</encoding>
+      <unknown_words>0</unknown_words>
+      <ignored_blocks>0</ignored_blocks>
+      <corrected_words>0</corrected_words>
+      <truecased_words>156</truecased_words>
+    </conversion>
+    <subtitle>
+      <date>2015-05-08</date>
+      <cds>1/1</cds>
+      <duration>01:21:09,939</duration>
+      <language>Portuguese</language>
+      <confidence>1.0</confidence>
+      <blocks>67</blocks>
+    </subtitle>
+  </meta>
+</document>

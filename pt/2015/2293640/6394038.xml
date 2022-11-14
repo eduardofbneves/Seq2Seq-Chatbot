@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document id="6394038">
+  <s id="1">
+    <time id="T1S" value="00:00:03,086" />
+    <w alternative="Laboratório" id="1.1">LABORATÓRIO</w>
+    <w alternative="Secreto" id="1.2">SECRETO</w>
+    <w alternative="de" id="1.3">DE</w>
+    <w alternative="bombas" id="1.4">BOMBAS</w>
+    <time id="T1E" value="00:00:05,547" />
+  </s>
+  <s id="2">
+    <time id="T2S" value="00:00:08,360" />
+    <w alternative="Competição" id="2.1">COMPETIÇÃO</w>
+    <time id="T2E" value="00:00:10,623" />
+  </s>
+  <meta>
+    <source>
+      <duration>91</duration>
+      <country>USA</country>
+      <year>2015</year>
+      <original>English</original>
+      <genre>Action,Adventure,Animation</genre>
+    </source>
+    <conversion>
+      <sentences>2</sentences>
+      <tokens>5</tokens>
+      <encoding>windows-1252</encoding>
+      <unknown_words>0</unknown_words>
+      <ignored_blocks>0</ignored_blocks>
+      <corrected_words>0</corrected_words>
+      <truecased_words>5</truecased_words>
+    </conversion>
+    <subtitle>
+      <date>2015-11-22</date>
+      <cds>1/1</cds>
+      <duration>00:00:10,623</duration>
+      <language>Portuguese</language>
+      <confidence>1.0</confidence>
+      <blocks>2</blocks>
+    </subtitle>
+  </meta>
+</document>

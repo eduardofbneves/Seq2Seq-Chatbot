@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document id="6812977">
+  <s id="1">
+    <time id="T1S" value="00:05:36,586" />
+    <w alternative="Estação" id="1.1">ESTAÇÃO</w>
+    <w alternative="de" id="1.2">DE</w>
+    <w alternative="defesa" id="1.3">DEFESA</w>
+    <w alternative="espacial" id="1.4">ESPACIAL</w>
+    <w alternative="Lua" id="1.5">LUA</w>
+    <w alternative="da" id="1.6">DA</w>
+    <w alternative="Terra" id="1.7">TERRA</w>
+    <time id="T1E" value="00:05:37,837" />
+  </s>
+  <s id="2">
+    <time id="T2S" value="00:07:16,394" />
+    <w alternative="Motores" id="2.1">MOTORES</w>
+    <w alternative="superaquecendo" id="2.2">SUPERAQUECENDO</w>
+    <time id="T2E" value="00:07:17,812" />
+  </s>
+  <s id="3">
+    <time id="T3S" value="00:08:33,847" />
+    <w alternative="Sede" id="3.1">SEDE</w>
+    <w alternative="da" id="3.2">DA</w>
+    <w alternative="Defesa" id="3.3">DEFESA</w>
+    <w alternative="Espacial" id="3.4">ESPACIAL</w>
+    <w alternative="área" id="3.5">ÁREA</w>
+    <w id="3.6">51</w>
+  </s>
+  <s id="4">
+    <w id="4.1">-</w>
+    <w alternative="Nevada" id="4.2">NEVADA</w>
+    <time id="T3E" value="00:08:37,350" />
+  </s>
+  <s id="5">
+    <time id="T4S" value="00:09:15,388" />
+    <w alternative="Missão" id="5.1">MISSÃO</w>
+    <w alternative="de" id="5.2">DE</w>
+    <w alternative="pesquisa" id="5.3">PESQUISA</w>
+    <w alternative="da" id="5.4">DA</w>
+    <w id="5.5">ONU</w>
+    <w alternative="África" id="5.6">ÁFRICA</w>
+    <w alternative="Central" id="5.7">CENTRAL</w>
+    <time id="T4E" value="00:09:18,683" />
+  </s>
+  <s id="6">
+    <time id="T5S" value="00:16:49,342" />
+    <w id="6.1">Tio</w>
+    <w id="6.2">Jiang</w>
+    <w id="6.3">!</w>
+    <time id="T5E" value="00:16:50,719" />
+  </s>
+  <s id="7">
+    <time id="T6S" value="00:16:52,470" />
+    <w id="7.1">A</w>
+    <w id="7.2">cada</w>
+    <w id="7.3">dia</w>
+    <w id="7.4">está</w>
+    <w id="7.5">mais</w>
+    <w id="7.6">parecida</w>
+    <w id="7.7">com</w>
+    <w id="7.8">sua</w>
+    <w id="7.9">mãe</w>
+    <w id="7.10">.</w>
+    <time id="T6E" value="00:16:54,139" />
+  </s>
+  <s id="8">
+    <time id="T7S" value="00:16:54,889" />
+    <w id="8.1">Isso</w>
+    <w id="8.2">era</w>
+    <w id="8.3">tudo</w>
+    <w id="8.4">o</w>
+    <w id="8.5">que</w>
+    <w id="8.6">eu</w>
+    <w id="8.7">gostaria</w>
+    <w id="8.8">de</w>
+    <w id="8.9">ouvir</w>
+    <w id="8.10">.</w>
+    <time id="T7E" value="00:16:56,933" />
+  </s>
+  <s id="9">
+    <time id="T8S" value="00:19:35,425" />
+    <w alternative="Hospital" id="9.1">HOSPITAL</w>
+    <w alternative="Marylin" id="9.2">MARYLIN</w>
+    <w alternative="Whitmore" id="9.3">WHITMORE</w>
+    <w alternative="área" id="9.4">ÁREA</w>
+    <w id="9.5">51</w>
+  </s>
+  <s id="10">
+    <w id="10.1">-</w>
+    <w alternative="Nevada" id="10.2">NEVADA</w>
+    <time id="T8E" value="00:19:39,054" />
+  </s>
+  <s id="11">
+    <time id="T9S" value="00:41:56,683" />
+    <w alternative="Abrigo" id="11.1">ABRIGO</w>
+    <w alternative="Nuclear" id="11.2">NUCLEAR</w>
+    <w alternative="montanha" id="11.3">MONTANHA</w>
+    <w alternative="Cheyenne" id="11.4">CHEYENNE</w>
+  </s>
+  <s id="12">
+    <w id="12.1">-</w>
+    <w alternative="Colorado" id="12.2">COLORADO</w>
+    <time id="T9E" value="00:41:57,726" />
+  </s>
+  <s id="13">
+    <time id="T10S" value="00:43:40,495" />
+    <w alternative="Expedição" id="13.1">EXPEDIÇÃO</w>
+    <w alternative="selvagem" id="13.2">SELVAGEM</w>
+    <w alternative="dorsal" id="13.3">DORSAL</w>
+    <w alternative="meso-atlântica" id="13.4">MESO-ATLÂNTICA</w>
+    <time id="T10E" value="00:43:43,832" />
+  </s>
+  <s id="14">
+    <time id="T11S" value="01:59:32,172" />
+    <w id="14.1">Tradução</w>
+    <w id="14.2">:</w>
+  </s>
+  <s id="15">
+    <w id="15.1">Dilma</w>
+    <w id="15.2">Machado</w>
+    <time id="T11E" value="01:59:34,174" />
+  </s>
+  <meta>
+    <source>
+      <country>USA</country>
+      <original>English</original>
+      <year>2016</year>
+      <duration>120</duration>
+      <genre>Action,Adventure,Sci-Fi</genre>
+    </source>
+    <conversion>
+      <encoding>utf-8</encoding>
+      <corrected_words>0</corrected_words>
+      <tokens>68</tokens>
+      <unknown_words>0</unknown_words>
+      <sentences>15</sentences>
+      <truecased_words>35</truecased_words>
+      <ignored_blocks>0</ignored_blocks>
+    </conversion>
+    <subtitle>
+      <language>Portuguese</language>
+      <cds>1/1</cds>
+      <confidence>1.0</confidence>
+      <blocks>11</blocks>
+      <duration>01:59:34,174</duration>
+      <date>2016-12-01</date>
+    </subtitle>
+  </meta>
+</document>

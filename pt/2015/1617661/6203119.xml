@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document id="6203119">
+  <s id="1">
+    <time id="T1S" value="00:17:06,980" />
+    <w id="1.1">Mantenha</w>
+    <w id="1.2">a</w>
+    <w id="1.3">velha</w>
+    <w id="1.4">ocupada</w>
+    <w id="1.5">.</w>
+  </s>
+  <s id="2">
+    <w id="2.1">Eu</w>
+    <w id="2.2">roubo</w>
+    <w id="2.3">a</w>
+    <w id="2.4">prataria</w>
+    <w id="2.5">.</w>
+    <time id="T1E" value="00:17:09,560" />
+  </s>
+  <s id="3">
+    <time id="T2S" value="00:17:11,030" />
+    <w id="3.1">Dolores</w>
+    <w id="3.2">,</w>
+    <w id="3.3">estaremos</w>
+    <w id="3.4">prontas</w>
+    <w id="3.5">para</w>
+    <w id="3.6">jantar</w>
+    <w id="3.7">em</w>
+    <w id="3.8">cinco</w>
+    <w id="3.9">minutos</w>
+    <w id="3.10">.</w>
+    <time id="T2E" value="00:17:13,660" />
+  </s>
+  <s id="4">
+    <time id="T3S" value="00:30:19,360" />
+    <w id="4.1">Daremos</w>
+    <w id="4.2">a</w>
+    <w id="4.3">eles</w>
+    <w id="4.4">uma</w>
+    <w id="4.5">noite</w>
+    <w id="4.6">de</w>
+    <w id="4.7">que</w>
+    <w id="4.8">nunca</w>
+    <w id="4.9">se</w>
+    <w id="4.10">esquecerão</w>
+    <w id="4.11">.</w>
+    <time id="T3E" value="00:30:21,660" />
+  </s>
+  <s id="5">
+    <time id="T4S" value="00:30:23,070" />
+    <w id="5.1">Você</w>
+    <w id="5.2">também</w>
+    <w id="5.3">estará</w>
+    <w id="5.4">lá</w>
+    <w id="5.5">?</w>
+    <time id="T4E" value="00:30:24,740" />
+  </s>
+  <s id="6">
+    <time id="T5S" value="00:30:24,900" />
+    <w id="6.1">Não</w>
+    <w id="6.2">perderia</w>
+    <w id="6.3">por</w>
+    <w id="6.4">nada</w>
+    <w id="6.5">.</w>
+    <time id="T5E" value="00:30:26,230" />
+  </s>
+  <s id="7">
+    <time id="T6S" value="00:30:35,660" />
+    <w id="7.1">Talvez</w>
+    <w id="7.2">possa</w>
+    <w id="7.3">me</w>
+    <w id="7.4">contar</w>
+    <w id="7.5">mais</w>
+    <w id="7.6">sobre</w>
+    <w id="7.7">suas</w>
+    <w id="7.8">ideias</w>
+    <time id="T6E" value="00:30:37,750" />
+    <time id="T7S" value="00:30:37,830" />
+    <w id="7.9">com</w>
+    <w id="7.10">uma</w>
+    <w id="7.11">bebida</w>
+    <w id="7.12">.</w>
+    <time id="T7E" value="00:30:39,160" />
+  </s>
+  <s id="8">
+    <time id="T8S" value="01:19:01,900" />
+    <w id="8.1">Ela</w>
+    <w id="8.2">está</w>
+    <w id="8.3">atrapalhando</w>
+    <w id="8.4">.</w>
+    <time id="T8E" value="01:19:03,690" />
+  </s>
+  <s id="9">
+    <time id="T9S" value="01:19:05,070" />
+    <w id="9.1">Narcisa</w>
+    <w id="9.2">,</w>
+    <w id="9.3">é</w>
+    <w id="9.4">sua</w>
+    <w id="9.5">filha</w>
+    <w id="9.6">...</w>
+    <time id="T9E" value="01:19:06,910" />
+  </s>
+  <s id="10">
+    <time id="T10S" value="01:19:08,950" />
+    <w id="10.1">Quero</w>
+    <w id="10.2">que</w>
+    <w id="10.3">a</w>
+    <w id="10.4">elimine</w>
+    <w id="10.5">.</w>
+    <time id="T10E" value="01:19:10,740" />
+  </s>
+  <s id="11">
+    <time id="T11S" value="01:19:11,140" />
+    <w id="11.1">Subpack</w>
+    <w id="11.2">Forced</w>
+    <w id="11.3">:</w>
+  </s>
+  <s emphasis="true" id="12">
+    <w alternative="Realitykings" id="12.1">REALITYKINGS</w>
+    <time id="T11E" value="01:19:18,377" />
+  </s>
+  <meta>
+    <source>
+      <duration>127</duration>
+      <country>USA</country>
+      <year>2015</year>
+      <original>English</original>
+      <genre>Action,Adventure,Sci-Fi</genre>
+    </source>
+    <conversion>
+      <sentences>12</sentences>
+      <tokens>72</tokens>
+      <encoding>windows-1252</encoding>
+      <unknown_words>0</unknown_words>
+      <ignored_blocks>0</ignored_blocks>
+      <corrected_words>0</corrected_words>
+      <truecased_words>1</truecased_words>
+    </conversion>
+    <subtitle>
+      <date>2015-06-13</date>
+      <cds>1/1</cds>
+      <duration>01:19:18,377</duration>
+      <language>Portuguese</language>
+      <confidence>1.0</confidence>
+      <blocks>11</blocks>
+    </subtitle>
+  </meta>
+</document>

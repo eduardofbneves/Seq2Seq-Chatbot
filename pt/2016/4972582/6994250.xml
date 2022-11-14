@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document id="6994250">
+  <s id="1">
+    <time id="T1S" value="00:04:51,583" />
+    <w id="1.1">Fragmentado</w>
+    <time id="T1E" value="00:04:54,878" />
+  </s>
+  <s id="2">
+    <time id="T2S" value="00:20:50,500" />
+    <w alternative="Pacientes" id="2.1">PACIENTES</w>
+    <w id="2.2">600</w>
+    <w id="2.3">-</w>
+    <w id="2.4">650</w>
+    <time id="T2E" value="00:20:52,627" />
+  </s>
+  <s id="3">
+    <time id="T3S" value="00:23:50,138" />
+    <w alternative="Paciente" id="3.1">PACIENTE</w>
+    <w id="3.2">617</w>
+    <w id="3.3">:</w>
+  </s>
+  <s id="4">
+    <w alternative="Patricia" id="4.1">PATRICIA</w>
+    <w id="4.2">11</w>
+    <w id="4.3">/</w>
+    <w id="4.4">23</w>
+    <time id="T3E" value="00:23:52,807" />
+  </s>
+  <s id="5">
+    <time id="T4S" value="00:23:52,974" />
+    <w alternative="Paciente" id="5.1">PACIENTE</w>
+    <w id="5.2">617</w>
+    <w id="5.3">:</w>
+  </s>
+  <s id="6">
+    <w alternative="Dennis" id="6.1">DENNIS</w>
+    <w id="6.2">8</w>
+    <w id="6.3">/</w>
+    <w id="6.4">23</w>
+    <time id="T4E" value="00:23:55,393" />
+  </s>
+  <s id="7">
+    <time id="T5S" value="00:23:56,727" />
+    <w alternative="Paciente" id="7.1">PACIENTE</w>
+    <w id="7.2">617</w>
+    <w id="7.3">:</w>
+  </s>
+  <s id="8">
+    <w alternative="Hedwig" id="8.1">HEDWIG</w>
+    <w id="8.2">9</w>
+    <w id="8.3">/</w>
+    <w id="8.4">23</w>
+    <time id="T5E" value="00:24:00,731" />
+  </s>
+  <s id="9">
+    <time id="T6S" value="00:32:24,026" />
+    <w alternative="Perigo" id="9.1">PERIGO</w>
+    <w id="9.2">:</w>
+  </s>
+  <s id="10">
+    <w alternative="Cloro" id="10.1">CLORO</w>
+    <time id="T6E" value="00:32:26,362" />
+  </s>
+  <s id="11">
+    <time id="T7S" value="00:41:39,873" />
+    <w alternative="Baixando" id="11.1">BAIXANDO</w>
+    <time id="T7E" value="00:41:40,874" />
+  </s>
+  <s id="12">
+    <time id="T8S" value="01:52:25,614" />
+    <w id="12.1">Tradução</w>
+    <w id="12.2">:</w>
+  </s>
+  <s id="13">
+    <w id="13.1">Cecilia</w>
+    <w id="13.2">Bedin</w>
+    <time id="T8E" value="01:52:26,574" />
+  </s>
+  <s id="14">
+    <time id="T9S" value="01:52:26,657" />
+    <w id="14.1">Revisão</w>
+    <w id="14.2">:</w>
+  </s>
+  <s id="15">
+    <w id="15.1">Elaine</w>
+    <w id="15.2">Mendonça</w>
+    <w id="15.3">Cerqueira</w>
+    <time id="T9E" value="01:52:27,658" />
+  </s>
+  <s id="16">
+    <time id="T10S" value="01:56:44,915" />
+    <w alternative="Fragmentado" id="16.1">FRAGMENTADO</w>
+    <time id="T10E" value="01:56:51,880" />
+  </s>
+  <s id="17">
+    <time id="T11S" value="01:57:04,727" />
+    <w id="17.1">Portuguese</w>
+  </s>
+  <s id="18">
+    <w id="18.1">-</w>
+    <w id="18.2">Brazilian</w>
+    <time id="T11E" value="01:57:05,728" />
+  </s>
+  <meta>
+    <source>
+      <year>2016</year>
+      <duration>117</duration>
+      <genre>Horror,Thriller</genre>
+    </source>
+    <conversion>
+      <encoding>utf-8</encoding>
+      <corrected_words>0</corrected_words>
+      <tokens>43</tokens>
+      <unknown_words>0</unknown_words>
+      <sentences>18</sentences>
+      <truecased_words>11</truecased_words>
+      <ignored_blocks>0</ignored_blocks>
+    </conversion>
+    <subtitle>
+      <language>Portuguese</language>
+      <cds>1/1</cds>
+      <confidence>1.0</confidence>
+      <blocks>11</blocks>
+      <duration>01:57:05,728</duration>
+      <date>2017-05-26</date>
+    </subtitle>
+  </meta>
+</document>
