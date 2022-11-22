@@ -24,17 +24,17 @@ def encoder_input(source_vocab_size, embed_size, input_data):
     return encoder_embedded
 
 
-def encoder_layer(stacked_cells, encoder_embedded, input_data_len):
-    ((encoder_fw_outputs, encoder_bw_outputs),
-     (encoder_fw_final_state, encoder_bw_final_state)) = tf.nn.static_bidirectional_rnn(cell_fw=stacked_cells,
-                                                                                         cell_bw=stacked_cells,
-                                                                                         inputs=encoder_embedded,
-                                                                                         sequence_length=input_data_len,
-                                                                                         dtype=tf.float32)  # TODO ver se esta merda está bem
-    encoder_outputs = tf.concat((encoder_fw_outputs, encoder_bw_outputs), 2)
-    encoder_state_c = tf.concat((encoder_fw_final_state.c, encoder_bw_final_state.c), 1)
-    encoder_state_h = tf.concat((encoder_fw_final_state.h, encoder_bw_final_state.h), 1)
-    encoder_states = tf.nn.rnn_cell.LSTMStateTuple(c=encoder_state_c, h=encoder_state_h)
+def encoder_layer(stacked_cells,encoder_embedded,input_data_len):
+    ((encoder_fw_outputs,encoder_bw_outputs),
+        (encoder_fw_final_state,encoder_bw_final_state)) = tf.nn.bidirectional_dynamic_rnn(cell_fw=stacked_cells, 
+                                                                 cell_bw=stacked_cells, 
+                                                                 inputs=encoder_embedded, 
+                                                                 sequence_length=input_data_len, 
+                                                                 dtype=tf.float32)
+    encoder_outputs = tf.concat((encoder_fw_outputs,encoder_bw_outputs),2)
+    encoder_state_c = tf.concat((encoder_fw_final_state.c,encoder_bw_final_state.c),1)
+    encoder_state_h = tf.concat((encoder_fw_final_state.h,encoder_bw_final_state.h),1)
+    encoder_states = tf.nn.rnn_cell.LSTMStateTuple(c=encoder_state_c,h=encoder_state_h)
 
     return encoder_outputs, encoder_states
 

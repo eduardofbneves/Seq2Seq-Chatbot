@@ -3,16 +3,12 @@ import json
 
 def clean(text):
     text = text.lower()
-    text = re.sub(r"  ","",text)
-    text = re.sub(r"[-()\"#/@;:<>{}`+=~|.!?,]", "", text)
+    text = re.sub(r"  ","", text)
+    text = re.sub(r"[()\"#/@;:<>{}+=|.!?,]", "", text)
+    return text
 
 
-
-def json_qa(json_file):
-
-    with open(json_file) as file:
-        json_dict = json.load(file)
-
+def json_qa(json_dict):
     questions = []
     answers = []
     it = 0
@@ -23,6 +19,9 @@ def json_qa(json_file):
         else:
             answers.append(clean(line))
         it += 1
+
+    if (it%2 == 1):
+        questions.pop(-1)
     return questions, answers
 
 
@@ -130,9 +129,9 @@ def data_int(shorted_q,shorted_a,vocabs_to_index):
 
     return questions_int,answers_int
 
-def preparing_data(json_file, max_length, min_length, threshold):
+def preparing_data(json_dict, max_length, min_length, threshold):
 
-    clean_questions,clean_answers = json_qa(json_file)
+    clean_questions,clean_answers = json_qa(json_dict)
     shorted_q,shorted_a = data_shorting(max_length,min_length,clean_questions,clean_answers)
     vocab,vocabs_to_index,index_to_vocabs,question_vocab_size,answer_vocab_size = data_vocabs(shorted_q,shorted_a,threshold)
 
@@ -140,5 +139,36 @@ def preparing_data(json_file, max_length, min_length, threshold):
         shorted_a[i] += ' <EOS>'
 
     questions_int,answers_int = data_int(shorted_q,shorted_a,vocabs_to_index)
-
     return questions_int,answers_int,vocabs_to_index,index_to_vocabs,question_vocab_size,answer_vocab_size
+
+
+def sentence_to_seq(sentence, vocabs_to_index):
+    results = []
+    for word in sentence.split(" "):
+        if word in vocabs_to_index:
+            results.append(vocabs_to_index[word])
+        else:
+            results.append(vocabs_to_index['<UNK>'])        
+    return results
+
+def print_data(i,batch_x,index_to_vocabs):
+    data = []
+    for n in batch_x:
+        if n == 3373:
+            break
+        else:
+            if n not in [3772,3373,3774,3775]:
+                data.append(index_to_vocabs[n])
+    return data
+
+def make_pred(sess,input_data,input_data_len,target_data_len,keep_prob,sentence,batch_size,logits,index_to_vocabs):
+    translate_logits = sess.run(logits, {input_data: [sentence]*batch_size,
+                                         input_data_len: [len(sentence)]*batch_size,
+                                         target_data_len : [len(sentence)]*batch_size,
+                                         keep_prob: 1.0})[0]
+    answer = print_data(0,translate_logits,index_to_vocabs)
+    output = " ".join(answer)
+    if not output:
+        output = "Sorry, I dint understand your context"
+
+    return output
