@@ -166,9 +166,12 @@ def make_pred(sess,input_data,input_data_len,target_data_len,keep_prob,sentence,
                                          input_data_len: [len(sentence)]*batch_size,
                                          target_data_len : [len(sentence)]*batch_size,
                                          keep_prob: 1.0})[0]
-    answer = print_data(0,translate_logits,index_to_vocabs)
-    output = " ".join(answer)
-    if not output:
-        output = "Sorry, I dint understand your context"
+    # TODO translate_logits
+    try:
+        answer = print_data(0,translate_logits,index_to_vocabs)
+        output = " ".join(answer)
+    #if not output:
+    except:
+        output = "Desculpa, não te consigo responder."
 
     return output

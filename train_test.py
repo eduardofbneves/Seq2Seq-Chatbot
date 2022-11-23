@@ -3,7 +3,6 @@ import numpy as np
 import matplotlib.pyplot as plt 
 import math
 from tqdm import tqdm
-import pickle
 import os
 import json
 from model import seq2seq_model,pad_sentence,get_accuracy,sentence_to_seq
@@ -21,7 +20,7 @@ tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 # reading the json.intense file as a dict
 #json_dict = json.loads(open("test_data.json").read())
 try:
-    with open("test_data.json") as jf:
+    with open("test_data.json", encoding='utf8') as jf:
         json_dict = json.load(jf)
 except FileNotFoundError:
     print("Wrong file path")
@@ -47,11 +46,12 @@ questions_int,answers_int,vocabs_to_index,index_to_vocabs,question_vocab_size,an
 
 vocab_size = len(index_to_vocabs)
 
-if os.path.exists("vocab2index.p") and os.path.exists("Web_Chat/index2vocab.p"):
+if os.path.exists("vocab2index.json") and os.path.exists("Web_Chat/index2vocab.json"):
     print("vocab2index and index2vocab file is present")
 else:
-    pickle.dump(vocabs_to_index, open("vocab2index.p", "wb"))
-    pickle.dump(index_to_vocabs, open("index2vocab.p", "wb"))
+    print(vocabs_to_index)
+    json.dump(vocabs_to_index, open("vocab2index.json", "w", encoding='utf8'), ensure_ascii=False)
+    json.dump(index_to_vocabs, open("index2vocab.json", "w", encoding='utf8'), ensure_ascii=False)
 
 '''
 train_data = questions_int[]
@@ -76,4 +76,39 @@ input_data,target_data,input_data_len,target_data_len,lr_rate,keep_probs,inferen
 
 translate_sentence = 'how are you'
 translate_sentence = sentence_to_seq(translate_sentence, vocabs_to_index)
+
+with tf.Session() as sess:
+    sess.run(tf.global_variables_initializer())
+    for epoch in range(EPOCHS):
+        total_accuracy = 0.0
+        total_loss = 0.0
+        for bs in tqdm(range(0,round_no, BATCH_SIZE)):
+          index = min(bs+BATCH_SIZE, round_no )
+          
+          batch_x,len_x = pad_sentence(train_data[bs:index],pad_int)
+          batch_y,len_y = pad_sentence(test_data[bs:index],pad_int)
+          batch_x = np.array(batch_x)
+          batch_y = np.array(batch_y)
+          pred,loss_f,opt = sess.run([inference_logits,cost,train_op], 
+                                      feed_dict={input_data:batch_x,
+                                                target_data:batch_y,
+                                                input_data_len:len_x,
+                                                target_data_len:len_y,
+                                                lr_rate:LEARNING_RATE,
+                                                keep_probs:KEEP_PROB})
+
+          #train_acc = get_accuracy(batch_y, pred)
+          #total_loss += loss_f 
+          #total_accuracy+=train_acc
+    
+
+        translate_logits = sess.run(inference_logits, {input_data: [translate_sentence]*BATCH_SIZE,
+                                         input_data_len: [len(translate_sentence)]*BATCH_SIZE,
+                                         target_data_len: [len(translate_sentence)]*BATCH_SIZE,              
+                                         keep_probs: KEEP_PROB,
+                                         })[0]
+
+        saver = tf.train.Saver() 
+        saver.save(sess,MODEL_DIR+"/"+SAVE_PATH)
+
 
