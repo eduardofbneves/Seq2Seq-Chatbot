@@ -1,6 +1,5 @@
 import tensorflow as tf 
 import numpy as np 
-import matplotlib.pyplot as plt 
 import math
 from tqdm import tqdm
 import os
@@ -53,12 +52,12 @@ else:
     json.dump(vocabs_to_index, open("vocab2index.json", "w", encoding='utf8'), ensure_ascii=False)
     json.dump(index_to_vocabs, open("index2vocab.json", "w", encoding='utf8'), ensure_ascii=False)
 
-'''
-train_data = questions_int[]
-test_data = answers_int[]
+
+train_data = questions_int[BATCH_SIZE:]
+test_data = answers_int[BATCH_SIZE:]
 val_train_data = questions_int[:BATCH_SIZE]
 val_test_data = answers_int[:BATCH_SIZE]
-'''
+
 
 pad_int = vocabs_to_index['<PAD>']
 

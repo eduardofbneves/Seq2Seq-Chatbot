@@ -4,28 +4,16 @@ import json
 from os import walk, listdir
 from os.path import isfile, join
 
-'''
-firstpath= ""
-path = ""
-for firstdir in listdir('pt'):
-    firstpath = "pt/" + firstdir
-    for lastdir in listdir(firstpath):
-        path = firstpath + "/" + lastdir
-        for file in listdir(path):
-            dir.append(path + "/"+ file)
-'''
 
 dir = []
-for root, dirs, files in walk("pt"):
+for root, dirs, files in walk("clean_pt"):
     for file in files:
         dir.append(root + "/" + file)
-
 
 for xml in range(0, len(dir)):
     tree = ET.parse(dir[xml])
     root = tree.getroot()
 
-    #root = ET.fromstring(tree)
     txt = ""
     iter = 1
     dict = {}

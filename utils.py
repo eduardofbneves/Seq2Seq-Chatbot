@@ -1,5 +1,5 @@
 import re
-import json
+import config
 
 def clean(text):
     text = text.lower()
@@ -11,6 +11,7 @@ def clean(text):
 def json_qa(json_dict):
     questions = []
     answers = []
+    size = config.BATCH_SIZE
     it = 0
 
     for line in json_dict.values():
@@ -20,9 +21,9 @@ def json_qa(json_dict):
             answers.append(clean(line))
         it += 1
 
-    if (it%2 == 1):
-        questions.pop(-1)
-    return questions, answers
+    entries = round(len(answers)/size)
+    print(len(questions[:(entries*size)]), len(answers[:entries*size]))
+    return questions[:(entries*size)], answers[:entries*size]
 
 
 def data_shorting(max_length,min_length,clean_questions,clean_answers):
@@ -129,9 +130,14 @@ def data_int(shorted_q,shorted_a,vocabs_to_index):
 
     return questions_int,answers_int
 
-def preparing_data(json_dict, max_length, min_length, threshold):
-
-    clean_questions,clean_answers = json_qa(json_dict)
+def preparing_data(json_dicts, max_length, min_length, threshold):
+    clean_questions = []
+    clean_answers = []
+    for dict in json_dicts:
+        q_temp, a_temp = json_qa(dict)
+        clean_questions.extend(q_temp)
+        clean_answers.extend(a_temp)
+        
     shorted_q,shorted_a = data_shorting(max_length,min_length,clean_questions,clean_answers)
     vocab,vocabs_to_index,index_to_vocabs,question_vocab_size,answer_vocab_size = data_vocabs(shorted_q,shorted_a,threshold)
 
