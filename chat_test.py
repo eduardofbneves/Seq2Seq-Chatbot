@@ -1,9 +1,10 @@
 
-#convem treinares antes de correres burro de merda
+#este deve correr bem
 import config
 from utils import *
 import pickle
 import tensorflow as tf
+import json
 
 #vocabs_to_index = pickle.load(open("vocab2index.p", "rb"))
 #index_to_vocabs = pickle.load(open("index2vocab.p", "rb"))
@@ -30,9 +31,8 @@ while state:
 	text = input("Type your message: ") 
 	if text == 'q':
 		state = False
+		break
 	model_input = sentence_to_seq(text, vocabs_to_index)
 	output = make_pred(sess,input_data,input_data_len,target_data_len,
 		keep_prob,model_input,batch_size,logits,index_to_vocabs)
 	print("Bot: "+output)
-	if text == 'q':
-		state = False

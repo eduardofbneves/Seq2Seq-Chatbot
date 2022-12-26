@@ -1,6 +1,7 @@
 
 from os import listdir, path
 import shutil
+from utils import xml2json
 
 num_dir=[]
 path_dir=[]
@@ -22,6 +23,7 @@ for firstdir in listdir('pt'):
             path_dir.append(dir+ "/" + file)
         
         ind = num_dir.index(min(num_dir))
-        shutil.copyfile(path_dir[ind], "clean_pt/"+firstdir+"/movie{}".format(it))
+        xml2json(path_dir[ind], "clean_pt/"+firstdir+"/", it)
+        #shutil.copyfile(path_dir[ind], "clean_pt/"+firstdir+"/movie{}".format(it))
         it+=1
 

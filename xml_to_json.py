@@ -10,7 +10,7 @@ for root, dirs, files in walk("clean_pt"):
     for file in files:
         dir.append(root + "/" + file)
 
-for xml in range(0, len(dir)):
+for xml in range(len(dir)):
     tree = ET.parse(dir[xml])
     root = tree.getroot()
 

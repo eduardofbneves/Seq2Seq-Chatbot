@@ -1,13 +1,16 @@
 import re
 import config
+from xml.etree import cElementTree as ET
+import json
 
 def clean(text):
     text = text.lower()
     text = re.sub(r"  ","", text)
-    text = re.sub(r"[()\"#/@;:<>{}+=|.!?,]", "", text)
+    text = re.sub(r"[()\"#/@;:<>{}+=|.!?,]-", "", text)
     return text
 
-
+# isto foi ligeiramente alterado
+# TODO ver se esta a funcionar bem
 def json_qa(json_dict):
     questions = []
     answers = []
@@ -20,10 +23,9 @@ def json_qa(json_dict):
         else:
             answers.append(clean(line))
         it += 1
-
-    entries = round(len(answers)/size)
-    print(len(questions[:(entries*size)]), len(answers[:entries*size]))
-    return questions[:(entries*size)], answers[:entries*size]
+    #entries = round(len(answers)/size)
+    size = len(answers)
+    return questions[:size], answers[:size]
 
 
 def data_shorting(max_length,min_length,clean_questions,clean_answers):
@@ -33,6 +35,7 @@ def data_shorting(max_length,min_length,clean_questions,clean_answers):
     shorta = []
     
     i = 0
+    print(len(clean_answers), len(clean_questions))
     for question in clean_questions:
         if len(question.split()) >= min_length and len(question.split()) <= max_length:
             short_questions_temp.append(question)
@@ -101,6 +104,7 @@ def data_vocabs(shorted_q,shorted_a,threshold):
         answers_vocabs[code] = len(answers_vocabs)+1
 
     index_to_vocabs = {v_i: v for v, v_i in vocabs_to_index.items()}
+    print(index_to_vocabs)
 
     return vocab,vocabs_to_index,index_to_vocabs,len(questions_vocabs),len(answers_vocabs)
 
@@ -133,19 +137,20 @@ def data_int(shorted_q,shorted_a,vocabs_to_index):
 def preparing_data(json_dicts, max_length, min_length, threshold):
     clean_questions = []
     clean_answers = []
-    for dict in json_dicts:
-        q_temp, a_temp = json_qa(dict)
+    for dictionary in json_dicts:
+        q_temp, a_temp = json_qa(dictionary)
         clean_questions.extend(q_temp)
         clean_answers.extend(a_temp)
         
     shorted_q,shorted_a = data_shorting(max_length,min_length,clean_questions,clean_answers)
     vocab,vocabs_to_index,index_to_vocabs,question_vocab_size,answer_vocab_size = data_vocabs(shorted_q,shorted_a,threshold)
 
+    print(vocabs_to_index, index_to_vocabs)
     for i in range(len(shorted_a)):
         shorted_a[i] += ' <EOS>'
 
     questions_int,answers_int = data_int(shorted_q,shorted_a,vocabs_to_index)
-    return questions_int,answers_int,vocabs_to_index,index_to_vocabs,question_vocab_size,answer_vocab_size
+    return questions_int,answers_int,vocabs_to_index,index_to_vocabs,question_vocab_size,answer_vocab_size, clean_questions, clean_answers
 
 
 def sentence_to_seq(sentence, vocabs_to_index):
@@ -157,6 +162,34 @@ def sentence_to_seq(sentence, vocabs_to_index):
             results.append(vocabs_to_index['<UNK>'])        
     return results
 
+def print_data(batch_x,index_to_vocabs):
+    data = []
+    # TODO esta merda é toda fodida
+    '''
+    for n in batch_x:
+        if n == 3373:
+            break
+        else:
+            if n not in [3772,3373,3774,3775]:
+                data.append(index_to_vocabs[n])
+                '''
+    for n in batch_x:
+        data.append(index_to_vocabs["{}".format(n)])
+    return data
+
+def make_pred(sess,input_data,input_data_len,target_data_len,keep_prob,sentence,batch_size,logits,index_to_vocabs):
+    translate_logits = sess.run(logits, {input_data: [sentence]*batch_size,
+                                         input_data_len: [len(sentence)]*batch_size,
+                                         target_data_len : [len(sentence)]*batch_size,
+                                         keep_prob: 1.0})[0]
+    answer = print_data(translate_logits,index_to_vocabs)
+    output = " ".join(answer)
+    if not output:
+        output = "Descula, não te consigo responder"
+
+    return output
+
+'''
 def print_data(i,batch_x,index_to_vocabs):
     data = []
     for n in batch_x:
@@ -172,12 +205,37 @@ def make_pred(sess,input_data,input_data_len,target_data_len,keep_prob,sentence,
                                          input_data_len: [len(sentence)]*batch_size,
                                          target_data_len : [len(sentence)]*batch_size,
                                          keep_prob: 1.0})[0]
-    # TODO translate_logits
-    try:
-        answer = print_data(0,translate_logits,index_to_vocabs)
-        output = " ".join(answer)
-    #if not output:
-    except:
-        output = "Desculpa, não te consigo responder."
+    #TODO pode ser aqui
+    #try:
+    answer = print_data(0,translate_logits,index_to_vocabs)
+    output = " ".join(answer)
+    #except:
+    #    output = "Desculpa, não te consigo responder."
 
     return output
+'''
+def xml2json(dir, new_dir, id):
+    # this is added if some error appears in the xml file
+    try:
+        tree = ET.parse(dir)
+    except:
+        return None
+    root = tree.getroot()
+
+    txt = ""
+    iter = 1
+    dict = {}
+    for word in root.iter('w'):
+        
+        if word.text.find(',') != -1:
+            txt = txt[:-1]
+        elif word.text.find('.') != -1: 
+            dict.update({'line {}'.format(iter): txt})
+            iter += 1
+            txt = ""
+            continue
+        txt += word.text + " "  
+
+
+    with open(new_dir + "movie{}.json".format(id), "w", encoding='utf8') as file:
+        my_dict = json.dump(dict, file, ensure_ascii=False)

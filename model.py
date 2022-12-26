@@ -1,7 +1,7 @@
 import tensorflow as tf
 import numpy as np
 
-
+# TODO long-short term memory
 def lstm(rnn_size, keep_prob, reuse=False):
     lstm_cell = tf.nn.rnn_cell.LSTMCell(rnn_size, reuse=reuse)
     drop = tf.nn.rnn_cell.DropoutWrapper(lstm_cell, output_keep_prob=keep_prob)
@@ -17,7 +17,7 @@ def model_input():
     keep_prob = tf.placeholder(tf.float32, name='keep_prob')
     return input_data, target_data, input_data_len, target_data_len, lr_rate, keep_prob
 
-
+# TODO encoder algorithm
 def encoder_input(source_vocab_size, embed_size, input_data):
     encoder_embeddings = tf.Variable(tf.random_uniform([source_vocab_size, embed_size], -1, 1))
     encoder_embedded = tf.nn.embedding_lookup(encoder_embeddings, input_data)
@@ -38,7 +38,7 @@ def encoder_layer(stacked_cells,encoder_embedded,input_data_len):
 
     return encoder_outputs, encoder_states
 
-
+# TODO attention
 def attention_layer(rnn_size, encoder_outputs, dec_cell, target_data_len, batch_size, encoder_states):
     attention_mechanism = tf.contrib.seq2seq.BahdanauAttention(rnn_size * 2, encoder_outputs,
                                                                memory_sequence_length=target_data_len)
@@ -61,6 +61,7 @@ def decoder_embedding(target_vocab_size, embed_size, decoder_input):
 
 def decoder_input(target_data, batch_size, vocabs_to_index):
     main = tf.strided_slice(target_data, [0, 0], [batch_size, -1], [1, 1])
+    # TODO da merda aqui
     decoder_input = tf.concat([tf.fill([batch_size, 1], vocabs_to_index['<GO>']), main], 1)
     return decoder_input
 
@@ -96,7 +97,7 @@ def decoder_infer_layer(decoder_embeddings, batch_size, vocabs_to_index,
 
     return outputs_infer
 
-
+# TODO o que e isto?
 def opt_loss(outputs_train, outputs_infer, target_data_len, target_data, lr_rate):
     training_logits = tf.identity(outputs_train.rnn_output, name='logits')
     inference_logits = tf.identity(outputs_infer.sample_id, name='predictions')
