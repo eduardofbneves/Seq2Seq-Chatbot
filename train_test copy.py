@@ -29,8 +29,11 @@ for firstdir in os.listdir('clean_pt'):
     for file_dir in os.listdir(firstpath):
         path_dir.append(firstpath + "/" + file_dir)
 
-train_size = 100-config.TRAIN_SIZE # percentage
+train_size = config.TRAIN_SIZE # percentage 
+
 train_movies = math.floor(train_size*config.NMR_MOVIES*0.01)
+print("Loading {} movies...".format(train_movies))
+train_movies=2000
 
 json_list = []
 for movie in range(train_movies):
@@ -50,7 +53,7 @@ EPOCHS = config.EPOCHS
 MODEL_DIR = config.MODEL_DIR
 SAVE_PATH = config.SAVE_PATH
 
-max_length = 12
+max_length = 10
 min_length = 1
 treshold = 3
 
@@ -100,7 +103,7 @@ translate_sentence = sentence_to_seq(translate_sentence, vocabs_to_index)
 
 with tf.Session() as sess:
     sess.run(tf.global_variables_initializer())
-    for epoch in range(EPOCHS):
+    for epoch in range(EPOCHS): 
         total_accuracy = 0.0
         total_loss = 0.0
         for bs in tqdm(range(0,round_no, BATCH_SIZE)):
@@ -136,15 +139,3 @@ with tf.Session() as sess:
         saver = tf.train.Saver() 
         saver.save(sess,MODEL_DIR+"/"+SAVE_PATH)
     
-plt.plot(range(config.EPOCHS),acc_plt)
-plt.title("Change in Accuracy")
-plt.xlabel('Epoch')
-plt.ylabel('Accuracy')
-plt.show()
-
-
-plt.plot(range(epochs),loss_plt)
-plt.title("Change in loss")
-plt.xlabel('Epoch')
-plt.ylabel('Lost')
-plt.show()

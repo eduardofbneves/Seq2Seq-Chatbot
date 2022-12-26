@@ -28,7 +28,7 @@ keep_prob = loaded_graph.get_tensor_by_name('keep_prob:0')
 
 state = True
 while state:
-	text = input("Type your message: ") 
+	text = input("ype your message: ") 
 	if text == 'q':
 		state = False
 		break
