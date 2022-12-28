@@ -9,12 +9,9 @@ def clean(text):
     text = re.sub(r"[()\"#/@;:<>{}+=|.!?,]-", "", text)
     return text
 
-# isto foi ligeiramente alterado
-# TODO ver se esta a funcionar bem
 def json_qa(json_dict):
     questions = []
     answers = []
-    size = config.BATCH_SIZE
     it = 0
 
     for line in json_dict.values():
@@ -23,19 +20,18 @@ def json_qa(json_dict):
         else:
             answers.append(clean(line))
         it += 1
-    #entries = round(len(answers)/size)
     size = len(answers)
     return questions[:size], answers[:size]
 
 
 def data_shorting(max_length,min_length,clean_questions,clean_answers):
+    #TODO nao é preciso tiro ou não?
     short_questions_temp = []
     short_answers_temp = []
     shortq = []
     shorta = []
     
     i = 0
-    print(len(clean_answers), len(clean_questions))
     for question in clean_questions:
         if len(question.split()) >= min_length and len(question.split()) <= max_length:
             short_questions_temp.append(question)
@@ -104,14 +100,12 @@ def data_vocabs(shorted_q,shorted_a,threshold):
         answers_vocabs[code] = len(answers_vocabs)+1
 
     index_to_vocabs = {v_i: v for v, v_i in vocabs_to_index.items()}
-    print(index_to_vocabs)
 
     return vocab,vocabs_to_index,index_to_vocabs,len(questions_vocabs),len(answers_vocabs)
 
 
 
 def data_int(shorted_q,shorted_a,vocabs_to_index):
-    
     questions_int = []
     for question in shorted_q:
         ints = []
@@ -145,7 +139,6 @@ def preparing_data(json_dicts, max_length, min_length, threshold):
     shorted_q,shorted_a = data_shorting(max_length,min_length,clean_questions,clean_answers)
     vocab,vocabs_to_index,index_to_vocabs,question_vocab_size,answer_vocab_size = data_vocabs(shorted_q,shorted_a,threshold)
 
-    print(vocabs_to_index, index_to_vocabs)
     for i in range(len(shorted_a)):
         shorted_a[i] += ' <EOS>'
 
@@ -154,6 +147,7 @@ def preparing_data(json_dicts, max_length, min_length, threshold):
 
 
 def sentence_to_seq(sentence, vocabs_to_index):
+    # TODO limitação
     results = []
     for word in sentence.split(" "):
         if word in vocabs_to_index:
@@ -164,17 +158,16 @@ def sentence_to_seq(sentence, vocabs_to_index):
 
 def print_data(batch_x,index_to_vocabs):
     data = []
-    # TODO esta merda é toda fodida
-    '''
     for n in batch_x:
-        if n == 3373:
+        if n == (len(index_to_vocabs) - 3):
+            # <EOS> - end of sentence
+            break
+        elif n == (len(index_to_vocabs) - 2):
+            # <UNK> - unkown gives no output
+            data=[]
             break
         else:
-            if n not in [3772,3373,3774,3775]:
-                data.append(index_to_vocabs[n])
-                '''
-    for n in batch_x:
-        data.append(index_to_vocabs["{}".format(n)])
+            data.append(index_to_vocabs["{}".format(n)])
     return data
 
 def make_pred(sess,input_data,input_data_len,target_data_len,keep_prob,sentence,batch_size,logits,index_to_vocabs):
@@ -184,10 +177,12 @@ def make_pred(sess,input_data,input_data_len,target_data_len,keep_prob,sentence,
                                          keep_prob: 1.0})[0]
     answer = print_data(translate_logits,index_to_vocabs)
     output = " ".join(answer)
+    print(output)
     if not output:
-        output = "Descula, não te consigo responder"
-
+        output = "Desculpa, não te consigo responder"
     return output
+
+# codes = ['<PAD>','<EOS>','<UNK>','<GO>']
 
 '''
 def print_data(i,batch_x,index_to_vocabs):

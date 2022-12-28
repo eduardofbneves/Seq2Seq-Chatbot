@@ -22,16 +22,13 @@ tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 #json_dict = json.loads(open("test_data.json").read())
 
 path_dir=[]
-ind = 0
 firstpath= ""
-dir = ""
-it=0
 for firstdir in os.listdir('clean_pt'):
     firstpath = "clean_pt/" + firstdir
     for file_dir in os.listdir(firstpath):
         path_dir.append(firstpath + "/" + file_dir)
 
-test_size = 100-config.TRAIN_SIZE # percentage
+test_size = round(config.TRAIN_MOVIES*0.35) # percentage
 test_movies = math.floor(test_size*config.NMR_MOVIES*0.01)
 
 json_list = []
@@ -54,7 +51,7 @@ SAVE_PATH = config.SAVE_PATH
 
 max_length = 12
 min_length = 1
-treshold = 3
+treshold = 2
 
 
 questions_int,answers_int,vocabs_to_index,index_to_vocabs,question_vocab_size,answer_vocab_size, questions, answers = preparing_data(json_list,
@@ -64,8 +61,8 @@ vocab_size = len(index_to_vocabs)
 
 #vocabs_to_index = pickle.load(open("vocab2index.p", "rb"))
 #index_to_vocabs = pickle.load(open("index2vocab.p", "rb"))
-vocabs_to_index = json.load(open("vocab2index.json", encoding='utf8'))
-index_to_vocabs = json.load(open("index2vocab.json", encoding='utf8'))
+vocabs_to_index = json.load(open("vocabs/vocab2index.json", encoding='utf8'))
+index_to_vocabs = json.load(open("vocabs/index2vocab.json", encoding='utf8'))
 
 batch_size = config.BATCH_SIZE
 model_dir = config.MODEL_DIR
@@ -86,9 +83,12 @@ rouge = Rouge()
 
 for question, answer in zip(questions, answers):
     model_input = sentence_to_seq(question, vocabs_to_index)
+    '''
     try:
         output = make_pred(sess,input_data,input_data_len,target_data_len, keep_prob,model_input,batch_size,logits,index_to_vocabs)
     except:
         continue
+        '''
+    output = make_pred(sess,input_data,input_data_len,target_data_len, keep_prob,model_input,batch_size,logits,index_to_vocabs)
+    print(output)
     score = rouge.get_scores(answer, output)
-    print(score)
