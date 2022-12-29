@@ -1,0 +1,41 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Bengio \bgroup \em et al.\egroup
+  }{1994}]{bengio1994learning}
+Yoshua Bengio, Patrice Simard, and Paolo Frasconi.
+\newblock Learning long-term dependencies with gradient descent is difficult.
+\newblock {\em IEEE transactions on neural networks}, 5(2):157--166, 1994.
+
+\bibitem[\protect\citeauthoryear{Danescu-Niculescu-Mizil and
+  Lee}{2011}]{cornell}
+Cristian Danescu-Niculescu-Mizil and Lillian Lee.
+\newblock Chameleons in imagined conversations: A new approach to understanding
+  coordination of linguistic style in dialogs.
+\newblock In {\em Proceedings of the Workshop on Cognitive Modeling and
+  Computational Linguistics, ACL 2011}, 2011.
+
+\bibitem[\protect\citeauthoryear{Lin and Och}{2004}]{rouge}
+Chin-Yew Lin and FJ~Och.
+\newblock Looking for a few good metrics: Rouge and its evaluation.
+\newblock In {\em Ntcir workshop}, 2004.
+
+\bibitem[\protect\citeauthoryear{opensubtitles}{2022}]{opensubtitles}
+opensubtitles.
+\newblock {opensubtitles.org}, 2022.
+
+\bibitem[\protect\citeauthoryear{OPUS}{2022}]{opus}
+OPUS.
+\newblock {OPUS} the open parallel corpus, 2022.
+
+\bibitem[\protect\citeauthoryear{Sojasingarayar}{2020}]{abonia2020seq2seq}
+Abonia Sojasingarayar.
+\newblock Seq2seq-chatbot.
+\newblock \url{https://github.com/Abonia1/Seq2Seq-Chatbot}, 2020.
+
+\bibitem[\protect\citeauthoryear{Sutskever \bgroup \em et al.\egroup
+  }{2014}]{sutskever2014sequence}
+Ilya Sutskever, Oriol Vinyals, and Quoc~V Le.
+\newblock Sequence to sequence learning with neural networks.
+\newblock {\em Advances in neural information processing systems}, 27, 2014.
+
+\end{thebibliography}

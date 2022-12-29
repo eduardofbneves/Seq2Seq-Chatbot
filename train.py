@@ -1,10 +1,12 @@
-import tensorflow as tf 
-import numpy as np 
-import math
-from tqdm import tqdm
 import os
 import json
+import numpy as np 
+import math
+from matplotlib import pyplot as plt
+import tensorflow as tf
+from tqdm import tqdm
 from model import seq2seq_model,pad_sentence,get_accuracy,sentence_to_seq
+
 import config
 from utils import preparing_data
 
@@ -25,12 +27,13 @@ for firstdir in os.listdir('clean_pt'):
         path_dir.append(firstpath + "/" + file_dir)
 
 train_movies = config.TRAIN_MOVIES
-print("Loading {} movies...".format(train_movies))
+print("A carregar {} filmes...".format(train_movies))
 
 json_list = []
-for movie in range(train_movies):
+for i in range(train_movies):
+    movie = round(np.random.random()*config.NMR_MOVIES)
     try:
-        with open(path_dir[-movie], encoding='utf8') as jf:
+        with open(path_dir[movie], encoding='utf8') as jf:
             json_list.append(json.load(jf))
     except FileNotFoundError:
         print("Wrong file path")
@@ -45,13 +48,16 @@ EPOCHS = config.EPOCHS
 MODEL_DIR = config.MODEL_DIR
 SAVE_PATH = config.SAVE_PATH
 
-max_length = 12
+# boundaries of conversation, 10 words per phrase is already
+# quite big for a normal question answer conversation
+max_length = 6
 min_length = 1
 threshold = 2
 
 
 questions_int,answers_int,vocabs_to_index,index_to_vocabs,question_vocab_size,answer_vocab_size, questions, answers = preparing_data(json_list,
     max_length, min_length, threshold)
+print("cerca de {} entradas e {} vocábulos...".format(len(questions_int)*2, len(vocabs_to_index)))
 
 # uncomment to not overwritte everytime
 '''
@@ -65,22 +71,18 @@ else:
 json.dump(vocabs_to_index, open("vocabs/vocab2index.json", "w", encoding='utf8'), ensure_ascii=False)
 json.dump(index_to_vocabs, open("vocabs/index2vocab.json", "w", encoding='utf8'), ensure_ascii=False)
 
-train_data = questions_int
-test_data = answers_int
 
 pad_int = vocabs_to_index['<PAD>']
 
 no_of_batches = math.floor(len(questions_int)//BATCH_SIZE)
 round_no = no_of_batches*BATCH_SIZE
-vocab_size = len(index_to_vocabs)
 
 input_data,target_data,input_data_len,target_data_len,lr_rate,keep_probs,inference_logits,cost,train_op = seq2seq_model(question_vocab_size,
 	EMBED_SIZE,RNN_SIZE,KEEP_PROB,answer_vocab_size,
 	BATCH_SIZE,vocabs_to_index)
 
-translate_sentence = 'olá, tudo bem'
-translate_sentence = sentence_to_seq(translate_sentence, vocabs_to_index)
-print([index_to_vocabs[i] for i in translate_sentence])
+#translate_sentence = 'olá, tudo bem'
+#translate_sentence = sentence_to_seq(translate_sentence, vocabs_to_index)
 
 acc_plt = []
 loss_plt = []
@@ -92,8 +94,8 @@ with tf.Session() as sess:
         for bs in tqdm(range(0, round_no, BATCH_SIZE)):
             index = min(bs+BATCH_SIZE, round_no)
             
-            batch_x,len_x = pad_sentence(train_data[bs:index],pad_int)
-            batch_y,len_y = pad_sentence(test_data[bs:index],pad_int)
+            batch_x,len_x = pad_sentence(questions_int[bs:index],pad_int)
+            batch_y,len_y = pad_sentence(answers_int[bs:index],pad_int)
             batch_x = np.array(batch_x)
             batch_y = np.array(batch_y)
             pred,loss_f,opt = sess.run([inference_logits,cost,train_op], 
@@ -112,28 +114,23 @@ with tf.Session() as sess:
         total_loss /=  (round_no//BATCH_SIZE)
         acc_plt.append(total_accuracy)
         loss_plt.append(total_loss)
+        '''
         translate_logits = sess.run(inference_logits, {input_data: [translate_sentence]*BATCH_SIZE,
                                          input_data_len: [len(translate_sentence)]*BATCH_SIZE,
                                          target_data_len: [len(translate_sentence)]*BATCH_SIZE,              
                                          keep_probs: KEEP_PROB,
                                          })[0]
-
-        print('Epoch %d, Average_loss %f, Average Accucracy %f'%(epoch+1,total_loss,total_accuracy))
-        print('  Inputs Words: {}'.format([index_to_vocabs[i] for i in translate_sentence]))
-        print('  Replied Words: {}'.format(" ".join([index_to_vocabs[i] for i in translate_logits])))
+        '''
+        print('Epoch %d, Average_loss %f, Average Accuracy %f'%(epoch+1,total_loss,total_accuracy))
+        #print('  Inputs Words: {}'.format([index_to_vocabs[i] for i in translate_sentence]))
+        #print('  Replied Words: {}'.format(" ".join([index_to_vocabs[i] for i in translate_logits])))
         print('\n')
         saver = tf.train.Saver() 
         saver.save(sess,MODEL_DIR+"/"+SAVE_PATH)
-    
-plt.plot(range(config.EPOCHS),acc_plt)
-plt.title("Change in Accuracy")
-plt.xlabel('Epoch')
-plt.ylabel('Accuracy')
-plt.show()
-
-
-plt.plot(range(epochs),loss_plt)
+        
+plt.plot(range(len(loss_plt)), loss_plt, color='b', label='perda')
+plt.plot(range(len(acc_plt)), acc_plt, color='r', label='exatidão')
 plt.title("Change in loss")
 plt.xlabel('Epoch')
-plt.ylabel('Lost')
-plt.show()
+plt.legend()
+plt.show()    

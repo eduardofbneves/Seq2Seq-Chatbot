@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Relatório-EduardoNeves2018281324.aux
+Reallocating 'name_of_file' (item size: 1) to 6 items.
+The style file: named.bst
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+Database file #1: biblio.bib
+Warning--entry type for "opus" isn't style-file defined
+--line 1 of file biblio.bib
+Warning--entry type for "opensubtitles" isn't style-file defined
+--line 9 of file biblio.bib
+Warning--I'm ignoring abonia2020seq2seq's extra "year" field
+--line 25 of file biblio.bib
+You've used 7 entries,
+            2439 wiz_defined-function locations,
+            588 strings with 5460 characters,
+and the built_in function-call counts, 2199 in all, are:
+= -- 216
+> -- 83
+< -- 0
++ -- 26
+- -- 26
+* -- 151
+:= -- 363
+add.period$ -- 19
+call.type$ -- 7
+change.case$ -- 41
+chr.to.int$ -- 7
+cite$ -- 7
+duplicate$ -- 91
+empty$ -- 188
+format.name$ -- 35
+if$ -- 453
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 4
+newline$ -- 36
+num.names$ -- 21
+pop$ -- 52
+preamble$ -- 1
+purify$ -- 48
+quote$ -- 0
+skip$ -- 83
+stack$ -- 0
+substring$ -- 60
+swap$ -- 16
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 56
+warning$ -- 0
+while$ -- 16
+width$ -- 8
+write$ -- 84
+(There were 3 warnings)

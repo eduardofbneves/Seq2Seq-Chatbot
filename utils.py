@@ -4,9 +4,23 @@ from xml.etree import cElementTree as ET
 import json
 
 def clean(text):
-    text = text.lower()
-    text = re.sub(r"  ","", text)
-    text = re.sub(r"[()\"#/@;:<>{}+=|.!?,]-", "", text)
+    text = text = text.lower()
+    text = text.replace("?", "")
+    text = text.replace("!", "")
+    text = text.replace("(", "")
+    text = text.replace(")", "")
+    text = text.replace("[", "")
+    text = text.replace("]", "")
+    text = text.replace("+", "")
+    text = text.replace(">", "")
+    text = text.replace("<", "")
+    text = text.replace("\\", "")
+    text = text.replace('"', "")
+    text = text.replace("'", "")
+    text = text.replace(",", "")
+    text = text.replace(".", "")
+    text = text.replace("-", " ")
+    text = text.replace("  ", " ")
     return text
 
 def json_qa(json_dict):
@@ -25,7 +39,6 @@ def json_qa(json_dict):
 
 
 def data_shorting(max_length,min_length,clean_questions,clean_answers):
-    #TODO nao é preciso tiro ou não?
     short_questions_temp = []
     short_answers_temp = []
     shortq = []
@@ -33,14 +46,14 @@ def data_shorting(max_length,min_length,clean_questions,clean_answers):
     
     i = 0
     for question in clean_questions:
-        if len(question.split()) >= min_length and len(question.split()) <= max_length:
+        if (len(question.split()) >= min_length and len(question.split()) <= max_length):
             short_questions_temp.append(question)
             short_answers_temp.append(clean_answers[i])
         i += 1
 
     i=0
     for answer in short_answers_temp:
-        if len(answer.split()) >= min_length and len(answer.split()) <= max_length:
+        if (len(answer.split()) >= min_length and len(answer.split()) <= max_length):
             shorta.append(answer)
             shortq.append(short_questions_temp[i])
         i +=1
@@ -163,9 +176,8 @@ def print_data(batch_x,index_to_vocabs):
             # <EOS> - end of sentence
             break
         elif n == (len(index_to_vocabs) - 2):
-            # <UNK> - unkown gives no output
-            data=[]
-            break
+            # <UNK> - ignore the words not known and return the aside output
+            continue
         else:
             data.append(index_to_vocabs["{}".format(n)])
     return data
@@ -177,7 +189,6 @@ def make_pred(sess,input_data,input_data_len,target_data_len,keep_prob,sentence,
                                          keep_prob: 1.0})[0]
     answer = print_data(translate_logits,index_to_vocabs)
     output = " ".join(answer)
-    print(output)
     if not output:
         output = "Desculpa, não te consigo responder"
     return output
@@ -219,13 +230,12 @@ def xml2json(dir, new_dir, id):
 
     txt = ""
     iter = 1
-    dict = {}
+    dictionary = {}
     for word in root.iter('w'):
-        
         if word.text.find(',') != -1:
             txt = txt[:-1]
         elif word.text.find('.') != -1: 
-            dict.update({'line {}'.format(iter): txt})
+            dictionary.update({'line {}'.format(iter): txt})
             iter += 1
             txt = ""
             continue
@@ -233,4 +243,4 @@ def xml2json(dir, new_dir, id):
 
 
     with open(new_dir + "movie{}.json".format(id), "w", encoding='utf8') as file:
-        my_dict = json.dump(dict, file, ensure_ascii=False)
+        my_dict = json.dump(dictionary, file, ensure_ascii=False)

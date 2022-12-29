@@ -1,15 +1,12 @@
 
 #este deve correr bem
-import config
-from utils import *
-import pickle
+from utils import clean, sentence_to_seq, make_pred
 import tensorflow as tf
 import json
 import warnings
+import config
 warnings.filterwarnings("ignore") # deprecated packages
 
-#vocabs_to_index = pickle.load(open("vocab2index.p", "rb"))
-#index_to_vocabs = pickle.load(open("index2vocab.p", "rb"))
 vocabs_to_index = json.load(open("vocabs/vocab2index.json", encoding='utf8'))
 index_to_vocabs = json.load(open("vocabs/index2vocab.json", encoding='utf8'))
 
@@ -31,6 +28,7 @@ keep_prob = loaded_graph.get_tensor_by_name('keep_prob:0')
 state = True
 while state:
 	text = input("Escreva a sua mensagem: ") 
+	text = clean(text)
 	if text == 's':
 		state = False
 		break
