@@ -35,4 +35,4 @@ while state:
 	model_input = sentence_to_seq(text, vocabs_to_index)
 	output = make_pred(sess,input_data,input_data_len,target_data_len,
 		keep_prob,model_input,batch_size,logits,index_to_vocabs)
-	print("Bot: "+output)
+	print("Bot: " + output + "\n")

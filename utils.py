@@ -58,7 +58,7 @@ def data_shorting(max_length,min_length,clean_questions,clean_answers):
             shortq.append(short_questions_temp[i])
         i +=1
 
-    return shortq,shorta
+    return shortq, shorta
     
 
 def data_vocabs(shorted_q,shorted_a,threshold):
@@ -139,7 +139,7 @@ def data_int(shorted_q,shorted_a,vocabs_to_index):
                 ints.append(vocabs_to_index[word])
         answers_int.append(ints)
 
-    return questions_int,answers_int
+    return questions_int, answers_int
 
 def preparing_data(json_dicts, max_length, min_length, threshold):
     clean_questions = []
@@ -156,11 +156,10 @@ def preparing_data(json_dicts, max_length, min_length, threshold):
         shorted_a[i] += ' <EOS>'
 
     questions_int,answers_int = data_int(shorted_q,shorted_a,vocabs_to_index)
-    return questions_int,answers_int,vocabs_to_index,index_to_vocabs,question_vocab_size,answer_vocab_size, clean_questions, clean_answers
+    return questions_int,answers_int,vocabs_to_index,index_to_vocabs,question_vocab_size,answer_vocab_size, shorted_q, shorted_a
 
 
 def sentence_to_seq(sentence, vocabs_to_index):
-    # TODO limitação
     results = []
     for word in sentence.split(" "):
         if word in vocabs_to_index:
@@ -172,15 +171,17 @@ def sentence_to_seq(sentence, vocabs_to_index):
 def print_data(batch_x,index_to_vocabs):
     data = []
     for n in batch_x:
-        if n == (len(index_to_vocabs) - 3):
+        if n == (len(index_to_vocabs) - 2):
             # <EOS> - end of sentence
             break
-        elif n == (len(index_to_vocabs) - 2):
-            # <UNK> - ignore the words not known and return the aside output
+        elif n == (len(index_to_vocabs) - 1):
+            # <UNK> - ignore the words not known and return the aside outputs
             continue
         else:
             data.append(index_to_vocabs["{}".format(n)])
     return data
+
+# codes = ['<PAD>','<EOS>','<UNK>','<GO>']
 
 def make_pred(sess,input_data,input_data_len,target_data_len,keep_prob,sentence,batch_size,logits,index_to_vocabs):
     translate_logits = sess.run(logits, {input_data: [sentence]*batch_size,
@@ -189,37 +190,12 @@ def make_pred(sess,input_data,input_data_len,target_data_len,keep_prob,sentence,
                                          keep_prob: 1.0})[0]
     answer = print_data(translate_logits,index_to_vocabs)
     output = " ".join(answer)
+    
     if not output:
         output = "Desculpa, não te consigo responder"
     return output
 
-# codes = ['<PAD>','<EOS>','<UNK>','<GO>']
 
-'''
-def print_data(i,batch_x,index_to_vocabs):
-    data = []
-    for n in batch_x:
-        if n == 3373:
-            break
-        else:
-            if n not in [3772,3373,3774,3775]:
-                data.append(index_to_vocabs[n])
-    return data
-
-def make_pred(sess,input_data,input_data_len,target_data_len,keep_prob,sentence,batch_size,logits,index_to_vocabs):
-    translate_logits = sess.run(logits, {input_data: [sentence]*batch_size,
-                                         input_data_len: [len(sentence)]*batch_size,
-                                         target_data_len : [len(sentence)]*batch_size,
-                                         keep_prob: 1.0})[0]
-    #TODO pode ser aqui
-    #try:
-    answer = print_data(0,translate_logits,index_to_vocabs)
-    output = " ".join(answer)
-    #except:
-    #    output = "Desculpa, não te consigo responder."
-
-    return output
-'''
 def xml2json(dir, new_dir, id):
     # this is added if some error appears in the xml file
     try:
@@ -244,3 +220,4 @@ def xml2json(dir, new_dir, id):
 
     with open(new_dir + "movie{}.json".format(id), "w", encoding='utf8') as file:
         my_dict = json.dump(dictionary, file, ensure_ascii=False)
+        

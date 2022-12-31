@@ -15,24 +15,27 @@
 \providecommand\HyField@AuxAddToCoFields[2]{}
 \citation{opus}
 \citation{opensubtitles}
+\citation{lison-tiedemann-2016-opensubtitles2016}
 \@writefile{toc}{\contentsline {section}{\numberline {1}Introdução}{1}{section.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {2}Dados e Abordagem}{1}{section.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Conjunto de dados}{1}{subsection.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Tratamento dos dados}{1}{subsection.2.2}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Formato original do \textit  {dataset} para um filme aleatório\relax }}{1}{figure.caption.3}\protected@file@percent }
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
 \newlabel{xmlimg}{{1}{1}{Formato original do \textit {dataset} para um filme aleatório\relax }{figure.caption.3}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Formato alterado de um filme aleatório do conjunto\relax }}{1}{figure.caption.4}\protected@file@percent }
 \newlabel{jsonimg}{{2}{1}{Formato alterado de um filme aleatório do conjunto\relax }{figure.caption.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Tratamento dos dados}{1}{subsection.2.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{Redução de redundâncias}{1}{section*.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{Alteração do formato}{1}{section*.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{Redução de amostragem}{1}{section*.5}\protected@file@percent }
-\citation{abonia2020seq2seq}
-\citation{cornell}
 \citation{bengio1994learning}
 \citation{sutskever2014sequence}
 \citation{sutskever2014sequence}
-\citation{rouge}
+\citation{abonia2020seq2seq}
+\citation{cornell}
+\citation{sojasingarayar2020seq2seq}
+\citation{sojasingarayar2020seq2seq}
+\citation{papineni2002bleu}
 \@writefile{toc}{\contentsline {subsubsection}{Preparação para treino}{2}{section*.6}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Modelo}{2}{subsection.2.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{LSTM}{2}{section*.7}\protected@file@percent }
@@ -40,21 +43,52 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Ilustração da metodologia. os primeiros quatro retêngulos referem-se à camada \textit  {encoder} enquanto o resto pertence à \textit  {decoder}\relax }}{2}{figure.caption.9}\protected@file@percent }
 \newlabel{fig1}{{3}{2}{Ilustração da metodologia. os primeiros quatro retêngulos referem-se à camada \textit {encoder} enquanto o resto pertence à \textit {decoder}\relax }{figure.caption.9}{}}
 \@writefile{toc}{\contentsline {subsubsection}{'Attention'}{2}{section*.10}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3}Experimentação e Métricas}{2}{section.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}ROUGE}{2}{subsection.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4}Resultados}{2}{section.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5}Problemas e Resoluções}{2}{section.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Conjunto de dados}{2}{subsection.5.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Resolução}{2}{section*.11}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Modelo}{2}{subsection.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Código utilizado}{2}{subsection.2.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Excerto da tabela fornecida pela autora\relax }}{2}{table.caption.11}\protected@file@percent }
+\newlabel{tabmodel}{{1}{2}{Excerto da tabela fornecida pela autora\relax }{table.caption.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Gráfico fornecido pela autora e pretendido para o trabalho\relax }}{2}{figure.caption.12}\protected@file@percent }
+\newlabel{abonialoss}{{4}{2}{Gráfico fornecido pela autora e pretendido para o trabalho\relax }{figure.caption.12}{}}
+\citation{rouge}
+\citation{abonia2020seq2seq}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Experimentação e Métricas}{3}{section.3}\protected@file@percent }
+\newlabel{metricas}{{3}{3}{Experimentação e Métricas}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}BLEU}{3}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}ROUGE}{3}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}'Confusion Matrix'}{3}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Resultados}{3}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Treino}{3}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Para 85 e 100 \textit  {epochs}}{3}{section*.13}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces \relax }}{3}{figure.caption.14}\protected@file@percent }
+\newlabel{85loss}{{5}{3}{\relax }{figure.caption.14}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Gráficos de variação da perda consoante as \textit  {epochs}\relax }}{3}{figure.caption.15}\protected@file@percent }
+\newlabel{100loss}{{6}{3}{Gráficos de variação da perda consoante as \textit {epochs}\relax }{figure.caption.15}{}}
+\@writefile{toc}{\contentsline {subsubsection}{150 \textit  {epochs}}{3}{section*.16}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Gráficos de variação da perda consoante as \textit  {epochs}\relax }}{3}{figure.caption.17}\protected@file@percent }
+\newlabel{150epochs}{{7}{3}{Gráficos de variação da perda consoante as \textit {epochs}\relax }{figure.caption.17}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Teste}{3}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}'Chat'}{3}{subsection.4.3}\protected@file@percent }
 \bibstyle{named}
 \bibdata{biblio.bib}
 \bibcite{bengio1994learning}{\citeauthoryear {Bengio \bgroup \em  et al.\egroup }{1994}}
 \bibcite{cornell}{\citeauthoryear {Danescu-Niculescu-Mizil and Lee}{2011}}
 \bibcite{rouge}{\citeauthoryear {Lin and Och}{2004}}
+\bibcite{lison-tiedemann-2016-opensubtitles2016}{\citeauthoryear {Lison and Tiedemann}{2016}}
 \bibcite{opensubtitles}{\citeauthoryear {opensubtitles}{2022}}
 \bibcite{opus}{\citeauthoryear {OPUS}{2022}}
-\bibcite{abonia2020seq2seq}{\citeauthoryear {Sojasingarayar}{2020}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Exemplo da repetição da palavra "halig", que nem pertence ao dicionário português segundo o dicionário "priberam"\relax }}{4}{figure.caption.18}\protected@file@percent }
+\newlabel{chat1}{{8}{4}{Exemplo da repetição da palavra "halig", que nem pertence ao dicionário português segundo o dicionário "priberam"\relax }{figure.caption.18}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Outra situação de fixação de nomes, que são mencionados sem qualquer contexto\relax }}{4}{figure.caption.19}\protected@file@percent }
+\newlabel{chat2}{{9}{4}{Outra situação de fixação de nomes, que são mencionados sem qualquer contexto\relax }{figure.caption.19}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Problemas e Resoluções}{4}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Conjunto de dados}{4}{subsection.5.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces o modelo também dispersa facilmente\relax }}{4}{figure.caption.20}\protected@file@percent }
+\newlabel{chat3}{{10}{4}{o modelo também dispersa facilmente\relax }{figure.caption.20}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Resolução}{4}{section*.21}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Modelo}{4}{subsection.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Resoluções}{4}{section*.22}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusões}{4}{section.6}\protected@file@percent }
+\bibcite{papineni2002bleu}{\citeauthoryear {Papineni \bgroup \em  et al.\egroup }{2002}}
+\bibcite{sojasingarayar2020seq2seq}{\citeauthoryear {Sojasingarayar}{2020a}}
+\bibcite{abonia2020seq2seq}{\citeauthoryear {Sojasingarayar}{2020b}}
 \bibcite{sutskever2014sequence}{\citeauthoryear {Sutskever \bgroup \em  et al.\egroup }{2014}}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusions}{3}{section.6}\protected@file@percent }
-\gdef \@abspage@last{3}
+\gdef \@abspage@last{5}

@@ -46,20 +46,20 @@
 \maketitle
 
 \begin{abstract}
-    No panorama atual vemos em várias plataformas algoritmos de comunicação com pessoas. Entre muitas aplicações, estes podem ser encontrados em vários \textit{websites} banais. A sua utilidade no mundo empresarial viu até crescer mecanismos de construção personalizada de \textit{Chatbots}. Neste trabalho planeia-se desenvoler os mecanismos para a construção de um \textit{Chatbot AI} a partir de \textit{Machine Learning}.
+No panorama atual vê-se em várias plataformas algoritmos de comunicação com pessoas. Entre muitas aplicações, estes podem ser encontrados em vários \textit{websites} banais. A sua utilidade no mundo empresarial viu até crescer mecanismos de construção personalizada de \textit{Chatbots}. Neste trabalho planeia-se desenvoler os mecanismos para a construção de um \textit{Chatbot AI} a partir de \textit{Machine Learning}.
 \end{abstract}
 
 \section{Introdução}
-A Chatbot is 
+Uma \textit{Conversational AI} é um algoritmo de Inteligência Artificial que simula conversação humana com implementação em vários meios. Há dois tipos de \textit{Chatbots}: de domínio fechado, que responde com mensagens prédefinidas e generativos, que geram as respostas consoante o \textit{input}. Com \textit{Machine Learning} (ML) o modelo aprende com dados de um conjunto. Um conceito comum neste campo é o de processamento de linguagem natural (NPL em inglês) que se preocupa com a interação entre humanos e máquinas. 
 
 
 \section{Dados e Abordagem}
 Os dados para um \textit{Chatbot} baseiam-se principalmente em sequências de interações entre partes. Os \textit{datasets} podem variar entre pergunta e resposta, a e-mails trocados ou conversas em plataformas online entre indivíduos. Para este trabalho foi usado um conjunto de dados baseado em em legendas de filmes para português.
 
 \subsection{Conjunto de dados}
-O pacote de dados usado foi tirado do projeto "OPUS ... the open parallel corpus" \cite{opus}, um 'corpus' de testos traduzidos da internet baseada em produtos 'open source'. Este conjunto é atualmente ditribuío pela plataforma "opensubtitles" \cite{opensubtitles}, de onde foi retirado o conteúdo.
+O pacote de dados usado foi tirado do projeto "OPUS ... the open parallel corpus" \cite{opus}, um 'corpus' de testos traduzidos da internet baseada em produtos 'open source'. Este conjunto é atualmente ditribuío pela plataforma "opensubtitles" \cite{opensubtitles} \cite{lison-tiedemann-2016-opensubtitles2016}, de onde foi retirado o conteúdo.
 
-Como o foco do projeto é um algoritmo em portguês, retirou-se o dataset "pt", que coleciona mais de 500000 ficheiros de legendas de filmes até o ano de 2017. Separados por anos, alguns filmes contam com várias versões do mesmo filme. O seu tratamento é explicado na secção seguinte. 
+Como o foco do projeto é um algoritmo em portguês, retirou-se o dataset "pt", que coleciona mais de 400000 ficheiros de legendas de filmes até o ano de 2017. Separados por anos, alguns filmes contam com várias versões do mesmo filme. O seu tratamento é explicado na secção seguinte. 
 
 \subsection{Tratamento dos dados}
 Com o conjunto de dados inicial com redundâncias e pouco estruturado, procurou-se correr um pequena organização à informação. A organização do fluxo de entrada para treino é feita aquando a inicialização do processo.
@@ -79,7 +79,7 @@ O \textit{dataset} original continha apenas ficheiros em .xml, com muitos elemen
 
 \begin{figure}
 	\centering
-    \includegraphics[scale=0.3]{json.png}
+    \includegraphics[scale=0.28]{json.png}
     \caption{Formato alterado de um filme aleatório do conjunto}
     \label{jsonimg}
 \end{figure}
@@ -92,9 +92,7 @@ Na língua portuguesa deparamo-nos com vários acentos e outros símobolos como 
 
 
 \subsection{Modelo}
-O modelo base foi retirado da plataforma Github, do repositório Seq2Seq-Chatbot \cite{abonia2020seq2seq}. Este modelo usa o módulo \textit{tensorflow} para os processos de ML.
 
-No trabalho citado foi também usado um \textit{dataset} de filmes, o 'Cornell Movie Dialog Corpus' \cite{cornell}. Este dispunha de 304713 entradas para treino num ficheiro .txt também disponibilizado.
 
 \subsubsection{LSTM}
 A 'Long Short Term Memory' (LSTM) é uma rede neuronal recorrente capaz de aprender a dependência em problemas de predição. Este é útil em tradução, reconhecimento de fala e, direcionado para este tópico, simulação de conversação humana. Mais sobre este tipo de redes, elas têm um estado interno que consegue representar informação em contexto \cite{bengio1994learning}.
@@ -115,20 +113,120 @@ O \textit{seq2seq} baseia-se num bloco \textit{encoder} que lê a série de entr
 
 No momento inicial, quando é fornecida uma sequência ao modelo, a frase terá de caber no vetor fixo, portanto leva um \textit{padding}. À sequência acrescenta-se a componente "\textless PAD\textgreater ". Ao passar pelo vetor, o \textit{decoder} inicia com o comando "\textless START\textgreater ", ou "\textless GO\textgreater " como usado neste trabalho, para iniciar a produção da saída. A sequência é completa com a expressão "\textless EOS\textgreater " que simboliza o final do \textit{output}. Para expressões que o algoritmo não reconhece lança-se o comando "\textless UNK\textgreater ".
 
+Para além destas, estes modelos contemplam ainda duas camadas de 'embedding', para cada um dos blocos referidos. Esta reduz a dimensão dos vetores de entrada e representam melhor estas sequências !!!!!!!!!. 
+
 \subsubsection{'Attention'}
 Em ML esta técnica tem o objetivo de reproduzir atenção cognitiva (comportamento humano). o efeito traduz-se em realçar algumas partes da entrada, enquanto diminui outras, mudando o foco da informação dada. Este método é também sensível ao contexto, algo que é tido em conta no treino da máquina. 
 
+\subsection{Código utilizado}
+O modelo base foi retirado da plataforma Github, do repositório Seq2Seq-Chatbot \cite{abonia2020seq2seq}. Este modelo usa o módulo \textit{tensorflow} para os processos de ML.
+
+No trabalho citado foi também usado um \textit{dataset} de filmes, o 'Cornell Movie Dialog Corpus' \cite{cornell}. Este dispunha de 304713 entradas para treino num ficheiro .txt também disponibilizado.
+
+\begin{table}[htb]
+    \centering
+    \begin{tabular}{l | l l}
+        \hline
+        Parâmetros  & Config1 & Config2 \\
+        \hline
+        'batch size' &  128  &  512 \\
+        tamanho 'embedding' &  128     &  512  \\
+        tamanho RNN  & 128     &  512 \\
+        'epochs' &  500  &  100 \\
+    \end{tabular}
+    \caption{Excerto da tabela fornecida pela autora}
+    \cite{sojasingarayar2020seq2seq}
+    \label{tabmodel}
+\end{table}
+
+Seguiu-se com a configuração 1 para estre trabalho onde a autora conseguiu valores de exatidão na ordem dos $62\%$ e de perda de $19\%$ \cite{sojasingarayar2020seq2seq}.
+
+\begin{figure}[htb]
+    \centering
+    \includegraphics[scale=0.8]{abonialoss}
+    \caption{Gráfico fornecido pela autora e pretendido para o trabalho}
+    \label{abonialoss}
+\end{figure}
+
+Na abordagem para este trabalho, pegou-se no \textit{script} de 'Python' referente ao modelo na íntegra. O restante código foi construído para executar o modelo, à semelhança do produto original.
 
 \section{Experimentação e Métricas}
-
+\label{metricas}
+\subsection{BLEU}
+'Bilingual Evaluation Understudy Score' (BLEU) compara a sequência de resposta com a ideal. A métrica compara os conjuntos de caracteres, independentemente da ordem. O BLEU conta as \textit{n-grams} e conta o número de coincidências \cite{papineni2002bleu}. Este método é maioritariamente para algoritmos de tradução de texto portanto, para este trabalho, as pontuações esperadas não são muito elevadas. 
 \subsection{ROUGE}
 'Recall-Oriented Understudy for Gisting Evaluation' é um conjunto de métricas espcializadas em avaliar \textit{machine translation}. Estas métricas focam-se em quanto as palavras (ou \textit{n-grams} no input se assemelham às previstas pelo modelo.
 
 Neste trabalho foca-se no ROUGE-L que se baseia na subsequência mais longa em comum entre o \textit{output} e a referência. Uma vantagem do uso desta métrica é que não é necessário ter correspondências consecutivas, mas correspondências em sequência \cite{rouge}. A implementação é feita com recurso ao módulo "rouge" do \textit{python}.
 
+\subsection{'Confusion Matrix'}
+
+
+
+
+
 \section{Resultados}
 
+Partindo das especificações da autora na Tabela \ref{tabmodel}, rapindamente se chegou à conclusão que estes parâmeteros requeria muito esforço computacional. Desta forma conduziram-se vários testes ao variar as \textbf{\textit{epochs}} e a \textbf{quantidade de filmes} para treinar o modelo.
+\subsection{Treino}
+Para o treino tentou-se seguir as recomendações de parâmetros da referência \cite{abonia2020seq2seq}. No entanto, e para uma amostra de dados de tamanho semelhante, o treino demorava mais que !!!!!!!! a correr tudo. Desta forma fizeram-se vários testes para tentar encontrar um valor mais baixo de epochs que reproduzisse resultados fiáveis sem requerer de demasiado poder computacional.
 
+\subsubsection{Para 85 e 100 \textit{epochs}}
+\begin{figure}[htb]
+    \centering
+    \includegraphics[scale=0.35]{85loss}
+    \caption{}
+    \label{85loss}
+\end{figure}
+\begin{figure}[htb]
+    \centering
+    \includegraphics[scale=0.35]{100epochs}
+    \caption{Gráficos de variação da perda consoante as \textit{epochs}}
+    \label{100loss}
+\end{figure}
+Estes valores foram tentados segundo o gráfico mostrado na figura \ref{abonialoss}. Ambas as tentativas utilizaram 500 filmes e duraram acima de 8 horas cada.
+
+Em ambas as tentativas, a perda não baixou do valor 1, o que revela poucas iterações de treino. No entanto a curva, perto dos valores máximos, está a tender para um valor constante. Com estes testes foi possível também inferir que, para treinos com um maior número de dados a perda inicial é maior.
+
+\subsubsection{150 \textit{epochs}}
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.4]{150epochs1000movies}
+    \caption{Gráficos de variação da perda consoante as \textit{epochs}}
+    \label{150epochs}
+\end{figure}
+
+Para este treino foram usados 1000 filmes, para entender como poderia variar o desempenho do modelo consoante o tamanho da amostra. Verificou-se que este aumento afeta principalmente o vocabulário aprendido pela máquina, mas apesar de tudo a 'performance' não melhora significativamente.
+
+\subsection{Teste}
+
+Para os testes retiraram-se filmes aleatórios da base de dados para retirar valores dos testes mencionados na secção \ref{metricas}. 
+
+
+\subsection{'Chat'}
+Com algumas conversas com o algoritmo, reparou-se nalguns padrões, como o foco em palavras específicas e repetição da expressão perante várias entradas diferentes. Este problema é mais grave quando uma das palavras é um nome ou uma expressão estrangeira. 
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.7]{exemplo_chat.png}
+    \caption{Exemplo da repetição da palavra "halig", que nem pertence ao dicionário português segundo o dicionário "priberam"}
+    \label{chat1}
+\end{figure}
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.7]{chat1}
+    \caption{Outra situação de fixação de nomes, que são mencionados sem qualquer contexto}
+    \label{chat2}
+\end{figure}
+
+No entanto, alguns treinos com iterações mais elevadas (perto dos 200 \textit{epochs} revelaram algumas conversas com respostas com algum sentido, mas sem contexto na conversa que se seguia.
+\begin{figure}[htb]
+    \centering
+    \includegraphics[scale=0.7]{chat2}
+    \caption{o modelo também dispersa facilmente}
+    \label{chat3}
+\end{figure}
+
+O \textit{chatbot} responde aos mesmos inputs de forma diferente consoante a conversa avança. Este efeito era esperado, pelo que afere-se que o modelo é sensível ao desenrolar da conversa e do contexto que é dado.
 
 \section{Problemas e Resoluções}
 
@@ -149,12 +247,15 @@ A escolha do código foi influenciada na metodologia seq2seq (aconselhada pelo p
 
 O uso desta versão 1.14 do \textit{tensorflow} é desatualizada, pois o pacote está já na versão 2 a partir de 2019. Esta veio com uma mudança na organização e, portanto, na sintaxe a usar para construir o modelo. Obriga, também, ao uso de uma versão anterior do python (3.6 ou menor). 
 
-Este modelo traz então algumas agravantes, em especial o tempo de compilação. Para 500 filmes com 100 \textit{epochs}, o tempo estimado era de cerca de 13 horas, todo o processo de treino. Com estes números o modelo leva a um esforço computacional aquém do esperado, tornando-se até inexequível em termos de desenvolvimento do trabalho.
+Este modelo traz então algumas agravantes, em especial o tempo de compilação. Para 500 filmes com 100 \textit{epochs}, o tempo tomado foi cerca de 10 horas todo o processo de treino. Com estes números o modelo leva a um esforço computacional aquém do esperado, tornando-se até inexequível em termos de desenvolvimento do trabalho.
 
-Guardar os pesos ocupa muito espaço!!!!?
+\subsubsection{Resoluções}
 
+melhores resultados poderiam ser obtidos com maior poder computactional. Com o modelo em causa e o \textit{dataset} obtido, melhores resultados seriam obtidos.
 
-\section{Conclusions}
+Para melhoria de execução, e até suporte, alterações do código para suportar a versão 2 do \textit{tensorflow} poderiam ser executadas.
+
+\section{Conclusões}
 
 
 \bibliographystyle{named}

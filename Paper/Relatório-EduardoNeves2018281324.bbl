@@ -19,15 +19,38 @@ Chin-Yew Lin and FJ~Och.
 \newblock Looking for a few good metrics: Rouge and its evaluation.
 \newblock In {\em Ntcir workshop}, 2004.
 
+\bibitem[\protect\citeauthoryear{Lison and
+  Tiedemann}{2016}]{lison-tiedemann-2016-opensubtitles2016}
+Pierre Lison and J{\"o}rg Tiedemann.
+\newblock {O}pen{S}ubtitles2016: Extracting large parallel corpora from movie
+  and {TV} subtitles.
+\newblock In {\em Proceedings of the Tenth International Conference on Language
+  Resources and Evaluation ({LREC}'16)}, pages 923--929, Portoro{\v{z}},
+  Slovenia, May 2016. European Language Resources Association (ELRA).
+
 \bibitem[\protect\citeauthoryear{opensubtitles}{2022}]{opensubtitles}
 opensubtitles.
-\newblock {opensubtitles.org}, 2022.
+\newblock {opensubtitles.org}.
+\newblock \url{https://www.opensubtitles.org/pt}, 2022.
 
 \bibitem[\protect\citeauthoryear{OPUS}{2022}]{opus}
 OPUS.
-\newblock {OPUS} the open parallel corpus, 2022.
+\newblock {OPUS} the open parallel corpus.
+\newblock \url{https://opus.nlpl.eu/}, 2022.
 
-\bibitem[\protect\citeauthoryear{Sojasingarayar}{2020}]{abonia2020seq2seq}
+\bibitem[\protect\citeauthoryear{Papineni \bgroup \em et al.\egroup
+  }{2002}]{papineni2002bleu}
+Kishore Papineni, Salim Roukos, Todd Ward, and Wei-Jing Zhu.
+\newblock Bleu: a method for automatic evaluation of machine translation.
+\newblock In {\em Proceedings of the 40th annual meeting of the Association for
+  Computational Linguistics}, pages 311--318, 2002.
+
+\bibitem[\protect\citeauthoryear{Sojasingarayar}{2020a}]{sojasingarayar2020seq2seq}
+Abonia Sojasingarayar.
+\newblock Seq2seq ai chatbot with attention mechanism.
+\newblock {\em arXiv preprint arXiv:2006.02767}, 2020.
+
+\bibitem[\protect\citeauthoryear{Sojasingarayar}{2020b}]{abonia2020seq2seq}
 Abonia Sojasingarayar.
 \newblock Seq2seq-chatbot.
 \newblock \url{https://github.com/Abonia1/Seq2Seq-Chatbot}, 2020.

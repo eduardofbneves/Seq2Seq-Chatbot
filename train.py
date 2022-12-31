@@ -81,9 +81,6 @@ input_data,target_data,input_data_len,target_data_len,lr_rate,keep_probs,inferen
 	EMBED_SIZE,RNN_SIZE,KEEP_PROB,answer_vocab_size,
 	BATCH_SIZE,vocabs_to_index)
 
-#translate_sentence = 'olá, tudo bem'
-#translate_sentence = sentence_to_seq(translate_sentence, vocabs_to_index)
-
 acc_plt = []
 loss_plt = []
 with tf.Session() as sess:
@@ -114,23 +111,15 @@ with tf.Session() as sess:
         total_loss /=  (round_no//BATCH_SIZE)
         acc_plt.append(total_accuracy)
         loss_plt.append(total_loss)
-        '''
-        translate_logits = sess.run(inference_logits, {input_data: [translate_sentence]*BATCH_SIZE,
-                                         input_data_len: [len(translate_sentence)]*BATCH_SIZE,
-                                         target_data_len: [len(translate_sentence)]*BATCH_SIZE,              
-                                         keep_probs: KEEP_PROB,
-                                         })[0]
-        '''
-        print('Epoch %d, Average_loss %f, Average Accuracy %f'%(epoch+1,total_loss,total_accuracy))
-        #print('  Inputs Words: {}'.format([index_to_vocabs[i] for i in translate_sentence]))
-        #print('  Replied Words: {}'.format(" ".join([index_to_vocabs[i] for i in translate_logits])))
+        
+        print('Epoch %d, Perda média %f, Exatidão média %f'%(epoch+1, total_loss, total_accuracy))
         print('\n')
         saver = tf.train.Saver() 
         saver.save(sess,MODEL_DIR+"/"+SAVE_PATH)
         
 plt.plot(range(len(loss_plt)), loss_plt, color='b', label='perda')
 plt.plot(range(len(acc_plt)), acc_plt, color='r', label='exatidão')
-plt.title("Change in loss")
+plt.title("Perda e Exatidão")
 plt.xlabel('Epoch')
 plt.legend()
 plt.show()    
