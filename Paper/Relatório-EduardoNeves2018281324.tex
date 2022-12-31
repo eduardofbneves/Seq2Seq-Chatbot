@@ -85,7 +85,7 @@ O \textit{dataset} original continha apenas ficheiros em .xml, com muitos elemen
 \end{figure}
 
 \subsubsection{Redução de amostragem}
-Para além da redução na alteração do formato, reduziu-se também a quantidade de dados usados para o programa. Utilizou-se apenas filmes a partir de 2000, o que resultou em 37851 filmes, com uma média de 455 falas de personagens. Este ainda assim é um número muito grande de filmes, mas manteve-se para manuntenção da utilidade do conjunto, além de uma maior escolha entre filmes de várioa anos para possível teste.
+Para além da redução na alteração do formato, reduziu-se também a quantidade de dados usados para o programa. Utilizou-se apenas filmes a partir de 2000, o que resultou em 37851 filmes, com uma média de 455 falas de personagens, condensados em cerca de $1.2$GB. Este ainda assim é um número muito grande de filmes, mas manteve-se para manuntenção da utilidade do conjunto, além de uma maior escolha entre filmes de vários anos para possível teste.
 
 \subsubsection{Preparação para treino}
 Na língua portuguesa deparamo-nos com vários acentos e outros símobolos como os traços (como exemplo "ensino-te"). Quanto aos acentos, a sua mantenção é imperativa para boa leitura e para remoção de confusões entre palavras (como por exemplo "estás" e "estas"). Por outro lado, os traços foram retirados, já que a flexão do pronomes quanto ao número e género é demasiado vasta para garantir um vocabulário conciso por parte do modelo. Outros símbolos de síntaxe e gramaticais foram retirados aquando a preparação para treino.
@@ -154,15 +154,18 @@ Na abordagem para este trabalho, pegou-se no \textit{script} de 'Python' referen
 \label{metricas}
 \subsection{BLEU}
 'Bilingual Evaluation Understudy Score' (BLEU) compara a sequência de resposta com a ideal. A métrica compara os conjuntos de caracteres, independentemente da ordem. O BLEU conta as \textit{n-grams} e conta o número de coincidências \cite{papineni2002bleu}. Este método é maioritariamente para algoritmos de tradução de texto portanto, para este trabalho, as pontuações esperadas não são muito elevadas. 
+
 \subsection{ROUGE}
 'Recall-Oriented Understudy for Gisting Evaluation' é um conjunto de métricas espcializadas em avaliar \textit{machine translation}. Estas métricas focam-se em quanto as palavras (ou \textit{n-grams} no input se assemelham às previstas pelo modelo.
 
 Neste trabalho foca-se no ROUGE-L que se baseia na subsequência mais longa em comum entre o \textit{output} e a referência. Uma vantagem do uso desta métrica é que não é necessário ter correspondências consecutivas, mas correspondências em sequência \cite{rouge}. A implementação é feita com recurso ao módulo "rouge" do \textit{python}.
 
-\subsection{'Confusion Matrix'}
+\subsection{\textit{f1-score}}
+Com os valores anteriores consegue-se computar o \textit{f1-score}. Este define-se pela média de precisão e do \textit{recall}. Diferencia-se a média, usando-se a média harmónica e não a aritmética.
 
-
-
+\begin{equation}
+F1 = \frac{2*BLEU*ROUGE}{BLEU+ROUGE}
+\end{equation}
 
 
 \section{Resultados}
@@ -200,7 +203,8 @@ Para este treino foram usados 1000 filmes, para entender como poderia variar o d
 
 \subsection{Teste}
 
-Para os testes retiraram-se filmes aleatórios da base de dados para retirar valores dos testes mencionados na secção \ref{metricas}. 
+Para os testes retiraram-se filmes aleatórios da base de dados para retirar valores dos testes mencionados na secção \ref{metricas}. Para tamanho dos dados de teste usou-se $30\%$ dos dados de treino $(70-30)$.
+
 
 
 \subsection{'Chat'}
@@ -228,7 +232,7 @@ No entanto, alguns treinos com iterações mais elevadas (perto dos 200 \textit{
 
 O \textit{chatbot} responde aos mesmos inputs de forma diferente consoante a conversa avança. Este efeito era esperado, pelo que afere-se que o modelo é sensível ao desenrolar da conversa e do contexto que é dado.
 
-\section{Problemas e Resoluções}
+\section{Problemas e Possíveis Resoluções}
 
 \subsection{Conjunto de dados}
 Alguns problemas foram encontrados no uso da informação.
@@ -238,7 +242,7 @@ Em primeiro lugar, muitos ficheiros continham referências aos tradutores como p
 Algumas traduções eram também desvirtuadas do português Portugal, tais como o uso de expressões como "em a", em vez de "na" em vários locais. A fonte oferecia também um pacote de português Brasil, portanto estas nuances não se esperariam no conjunto usado. Pequenas alterações como esta seriam de difícil execução sem uma análise extensiva dos dados.
 
 \subsubsection{Resolução}
-
+A melhor resolução seria uma pesquisa e análise extensiva de todo o \textit{dataset} para remoção de erros e para escolha dos melhores ficheiros a utilizar. Isto seria algo pouco exequível num conjunto daquela dimensão, onde certamente se iriam descartar várias informações. Outro solução seria a alteração de algumas sequências de caracteres por outras mais enquadradas com a língua. A substituição poderia acarretar vários erros já que se iria analisar sequências que poderiam não estar isoladas de outras para formar palavras. Ao abrir alguns ficheiros .json, verificou-se que alguns deles possuíam poucas linhas de texto, na ordem das 30 ou 40, o que se afasta muito da média de linhas por ficheiro que ronda as 450. Visto que se escolheu um tamanho de treino de ficheiros limitado, estes tornam-se \textit{outliers} no panorâma maior do \textit{dataset} e podem influenciar na execução do treino. 
 
 Apesar destes problemas, usou-se este 'dataset' pela sua vastidão e facilidade de acesso. Acrescendo a dificuldade de materiais para a língua desejada, esta foi a melhor opção encontrada.
 
@@ -251,11 +255,12 @@ Este modelo traz então algumas agravantes, em especial o tempo de compilação.
 
 \subsubsection{Resoluções}
 
-melhores resultados poderiam ser obtidos com maior poder computactional. Com o modelo em causa e o \textit{dataset} obtido, melhores resultados seriam obtidos.
+Melhores resultados poderiam ser obtidos com maior poder computactional. Apesar das falhas do \textit{dataset}, considerou-se suficiente para obter resultados razoáveis. 
 
-Para melhoria de execução, e até suporte, alterações do código para suportar a versão 2 do \textit{tensorflow} poderiam ser executadas.
+Para melhoria de execução, e até suporte, alterações do código para suportar a versão 2 do \textit{tensorflow} poderiam ser executadas. Para manutenção do modelo da autora, esta alteração não foi feita, mas seria proveitosa para a exeução do trabalho.
 
 \section{Conclusões}
+Em suma, considera-se que o produto final 
 
 
 \bibliographystyle{named}

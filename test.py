@@ -9,7 +9,7 @@ from rouge import Rouge
 from nltk.translate import bleu_score
 from model import sentence_to_seq, pad_sentence
 import config
-import config
+import warnings
 warnings.filterwarnings("ignore")
 
 #37851 movies
@@ -93,14 +93,18 @@ for question, answer in zip(questions, answers):
                        keep_prob, model_input, batch_size,logits, index_to_vocabs)
 
     score_bleu.append(bleu_score.sentence_bleu(answer, output))
-    score_rouge.append(rouge.get_scores(answer, output))
+    score_rouge.append(rouge.get_scores(answer, output)[0]['rouge-l']['f'])
 
     seqs = pad_sentence([sentence_to_seq(answer, vocabs_to_index), 
                                          sentence_to_seq(output, vocabs_to_index)], vocabs_to_index['<PAD>'])
     answers_seq.append(seqs[0][0])
     pred_seq.append(seqs[0][1])
 
+# f - f1_score, p - precision, r - recall.
+print("O valor BLEU médio foi de {} e o valor médio de ROUGE foi {}".format(np.mean(score_bleu), np.mean(score_rouge)))
 
+answers_seq = np.squeeze(answers_seq)
+pred_seq = np.squeeze(pred_seq)
 conf = confusion_matrix(answers_seq, pred_seq, dtype=tf.int32, name=None)
 with tf.Session():
     print('Matriz de confusão: \n\n', tf.Tensor.eval(conf,feed_dict=None, session=None)[:10, :10])
