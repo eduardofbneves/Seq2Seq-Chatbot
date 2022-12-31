@@ -93,11 +93,4 @@ for question, answer in zip(questions, answers):
 
 # f - f1_score, p - precision, r - recall.
 print("O valor BLEU médio foi de {} e o valor médio de ROUGE foi {}".format(np.mean(score_bleu), np.mean(score_rouge)))
-
-answers_seq = np.squeeze(answers_seq)
-pred_seq = np.squeeze(pred_seq)
-conf = confusion_matrix(answers_seq, pred_seq, dtype=tf.int32, name=None)
-
-
-print("O valor BLEU médio foi de {} e o valor médio de ROUGE foi {}".format(np.mean(score_bleu), np.mean(score_rouge)))
 print("Valor F1: {}".format((2*np.mean(score_bleu)*np.mean(score_rouge))/(np.mean(score_bleu)+np.mean(score_rouge))))

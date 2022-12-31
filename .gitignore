@@ -127,6 +127,7 @@ dmypy.json
 Dataset/
 pt/
 Saved_Weights/
+.vscode/
 
 clean_pt/2000
 clean_pt/2001
