@@ -1,8 +1,7 @@
 from utils import preparing_data, make_pred, clean
-import tensorflow as tf
-from tensorflow.math import confusion_matrix
-import json
 import math
+import tensorflow as tf
+import json
 import os
 import numpy as np
 from rouge import Rouge
@@ -25,7 +24,7 @@ for firstdir in os.listdir('clean_pt'):
     for file_dir in os.listdir(firstpath):
         path_dir.append(firstpath + "/" + file_dir)
 
-test_size = round(config.TRAIN_MOVIES*0.20) # 30 % of train size
+test_size = round(config.TRAIN_MOVIES*0.30) # 30 % of train size
 print("A carregar {} filmes para treino...".format(test_size))
 
 # getting random movies for training
@@ -81,9 +80,6 @@ rouge = Rouge()
 
 score_bleu = []
 score_rouge = []
-conf_vecs = []
-answers_seq = []
-pred_seq = []
 
 print("A correr {} perguntas...".format(len(questions)))
 for question, answer in zip(questions, answers):
@@ -95,20 +91,13 @@ for question, answer in zip(questions, answers):
     score_bleu.append(bleu_score.sentence_bleu(answer, output))
     score_rouge.append(rouge.get_scores(answer, output)[0]['rouge-l']['f'])
 
-    seqs = pad_sentence([sentence_to_seq(answer, vocabs_to_index), 
-                                         sentence_to_seq(output, vocabs_to_index)], vocabs_to_index['<PAD>'])
-    answers_seq.append(seqs[0][0])
-    pred_seq.append(seqs[0][1])
-
 # f - f1_score, p - precision, r - recall.
 print("O valor BLEU médio foi de {} e o valor médio de ROUGE foi {}".format(np.mean(score_bleu), np.mean(score_rouge)))
 
 answers_seq = np.squeeze(answers_seq)
 pred_seq = np.squeeze(pred_seq)
 conf = confusion_matrix(answers_seq, pred_seq, dtype=tf.int32, name=None)
-with tf.Session():
-    print('Matriz de confusão: \n\n', tf.Tensor.eval(conf,feed_dict=None, session=None)[:10, :10])
-    print("Número de palavras corretas (diagonal da matriz): {}".format(np.trace(tf.Tensor.eval(conf,feed_dict=None, session=None))))
 
 
 print("O valor BLEU médio foi de {} e o valor médio de ROUGE foi {}".format(np.mean(score_bleu), np.mean(score_rouge)))
+print("Valor F1: {}".format((2*np.mean(score_bleu)*np.mean(score_rouge))/(np.mean(score_bleu)+np.mean(score_rouge))))

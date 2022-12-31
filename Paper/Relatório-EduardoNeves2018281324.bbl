@@ -14,6 +14,13 @@ Cristian Danescu-Niculescu-Mizil and Lillian Lee.
 \newblock In {\em Proceedings of the Workshop on Cognitive Modeling and
   Computational Linguistics, ACL 2011}, 2011.
 
+\bibitem[\protect\citeauthoryear{Li \bgroup \em et al.\egroup
+  }{2018}]{li2018slim}
+Zhongliang Li, Raymond Kulhanek, Shaojun Wang, Yunxin Zhao, and Shuang Wu.
+\newblock Slim embedding layers for recurrent neural language models.
+\newblock In {\em Proceedings of the AAAI Conference on Artificial
+  Intelligence}, volume~32, 2018.
+
 \bibitem[\protect\citeauthoryear{Lin and Och}{2004}]{rouge}
 Chin-Yew Lin and FJ~Och.
 \newblock Looking for a few good metrics: Rouge and its evaluation.

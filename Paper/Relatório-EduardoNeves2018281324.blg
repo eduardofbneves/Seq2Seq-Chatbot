@@ -11,45 +11,46 @@ Warning--entry type for "opensubtitles" isn't style-file defined
 --line 24 of file biblio.bib
 Warning--I'm ignoring abonia2020seq2seq's extra "year" field
 --line 41 of file biblio.bib
-You've used 10 entries,
+Warning--can't use both volume and number fields in li2018slim
+You've used 11 entries,
             2439 wiz_defined-function locations,
-            607 strings with 6210 characters,
-and the built_in function-call counts, 3572 in all, are:
-= -- 369
-> -- 126
-< -- 2
-+ -- 41
-- -- 40
-* -- 245
-:= -- 567
-add.period$ -- 31
-call.type$ -- 10
-change.case$ -- 60
-chr.to.int$ -- 9
-cite$ -- 10
-duplicate$ -- 156
-empty$ -- 294
-format.name$ -- 53
-if$ -- 758
+            613 strings with 6431 characters,
+and the built_in function-call counts, 4009 in all, are:
+= -- 407
+> -- 154
+< -- 3
++ -- 51
+- -- 50
+* -- 285
+:= -- 638
+add.period$ -- 34
+call.type$ -- 11
+change.case$ -- 69
+chr.to.int$ -- 10
+cite$ -- 12
+duplicate$ -- 173
+empty$ -- 325
+format.name$ -- 64
+if$ -- 845
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 7
-newline$ -- 53
-num.names$ -- 30
-pop$ -- 71
+missing$ -- 8
+newline$ -- 58
+num.names$ -- 33
+pop$ -- 81
 preamble$ -- 1
-purify$ -- 70
+purify$ -- 80
 quote$ -- 0
-skip$ -- 138
+skip$ -- 150
 stack$ -- 0
-substring$ -- 139
-swap$ -- 41
-text.length$ -- 2
+substring$ -- 144
+swap$ -- 46
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 80
-warning$ -- 0
-while$ -- 28
-width$ -- 11
-write$ -- 128
-(There were 3 warnings)
+type$ -- 88
+warning$ -- 1
+while$ -- 30
+width$ -- 12
+write$ -- 141
+(There were 4 warnings)

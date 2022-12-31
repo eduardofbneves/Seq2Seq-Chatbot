@@ -46,23 +46,23 @@
 \maketitle
 
 \begin{abstract}
-No panorama atual vê-se em várias plataformas algoritmos de comunicação com pessoas. Entre muitas aplicações, estes podem ser encontrados em vários \textit{websites} banais. A sua utilidade no mundo empresarial viu até crescer mecanismos de construção personalizada de \textit{Chatbots}. Neste trabalho planeia-se desenvoler os mecanismos para a construção de um \textit{Chatbot AI} a partir de \textit{Machine Learning}.
+No panorama atual vê-se em várias plataformas algoritmos de comunicação com pessoas. Entre muitas aplicações, estes podem ser encontrados em vários \textit{websites} banais. A sua utilidade no mundo empresarial viu até crescer mecanismos de construção personalizada de \textit{Chatbots}. Neste trabalho planeia-se desenvolver os mecanismos para a construção de um \textit{Chatbot AI} a partir de \textit{Machine Learning}.
 \end{abstract}
 
 \section{Introdução}
-Uma \textit{Conversational AI} é um algoritmo de Inteligência Artificial que simula conversação humana com implementação em vários meios. Há dois tipos de \textit{Chatbots}: de domínio fechado, que responde com mensagens prédefinidas e generativos, que geram as respostas consoante o \textit{input}. Com \textit{Machine Learning} (ML) o modelo aprende com dados de um conjunto. Um conceito comum neste campo é o de processamento de linguagem natural (NPL em inglês) que se preocupa com a interação entre humanos e máquinas. 
+Uma \textit{Conversational AI} é um algoritmo de Inteligência Artificial que simula conversação humana com implementação em vários meios. Há dois tipos de \textit{Chatbots}: de domínio fechado, que responde com mensagens pré-definidas e generativos, que geram as respostas consoante o \textit{input}. Com \textit{Machine Learning} (ML) o modelo aprende com dados de um conjunto. Um conceito comum neste campo é o de processamento de linguagem natural (NLP em inglês) que se preocupa com a interação entre humanos e máquinas. 
 
 
 \section{Dados e Abordagem}
 Os dados para um \textit{Chatbot} baseiam-se principalmente em sequências de interações entre partes. Os \textit{datasets} podem variar entre pergunta e resposta, a e-mails trocados ou conversas em plataformas online entre indivíduos. Para este trabalho foi usado um conjunto de dados baseado em em legendas de filmes para português.
 
 \subsection{Conjunto de dados}
-O pacote de dados usado foi tirado do projeto "OPUS ... the open parallel corpus" \cite{opus}, um 'corpus' de testos traduzidos da internet baseada em produtos 'open source'. Este conjunto é atualmente ditribuío pela plataforma "opensubtitles" \cite{opensubtitles} \cite{lison-tiedemann-2016-opensubtitles2016}, de onde foi retirado o conteúdo.
+O pacote de dados usado foi tirado do projeto "OPUS ... the open parallel corpus" \cite{opus}, um 'corpus' de testos traduzidos da Internet baseada em produtos 'open source'. Este conjunto é atualmente distribuído pela plataforma "opensubtitles" \cite{opensubtitles} \cite{lison-tiedemann-2016-opensubtitles2016}, de onde foi retirado o conteúdo.
 
-Como o foco do projeto é um algoritmo em portguês, retirou-se o dataset "pt", que coleciona mais de 400000 ficheiros de legendas de filmes até o ano de 2017. Separados por anos, alguns filmes contam com várias versões do mesmo filme. O seu tratamento é explicado na secção seguinte. 
+Como o foco do projeto é um algoritmo em português, retirou-se o \textit{dataset} "pt", que coleciona mais de 400000 ficheiros de legendas de filmes até o ano de 2017. Separados por anos, alguns filmes contam com várias versões do mesmo filme. O seu tratamento é explicado na secção seguinte. 
 
 \subsection{Tratamento dos dados}
-Com o conjunto de dados inicial com redundâncias e pouco estruturado, procurou-se correr um pequena organização à informação. A organização do fluxo de entrada para treino é feita aquando a inicialização do processo.
+Com o conjunto de dados inicial com redundâncias e pouco estruturado, procurou-se correr um pequena organização à informação. A organização do fluxo de entrada para treino é feita aquando a inicialização do processo. Esta encontra-se no \textit{script} "train.py".
 
 \subsubsection{Redução de redundâncias}
 Como referido, algumas versões do mesmo filme são dispostas e organizadas em conjunto. Ao remover este entrave, pode-se remover uma camada na diretoria e agrupar apenas por ano. Apesar desta diferenciação não ser necessária poderá ser útil em comparações ortográficas ou até numa maior confiança de traduções mais recentes. Para selecionar o ficheiro mais relevante apenas se retirou o ficheiro com menor volume de espaço no disco para 'performance'.
@@ -85,10 +85,10 @@ O \textit{dataset} original continha apenas ficheiros em .xml, com muitos elemen
 \end{figure}
 
 \subsubsection{Redução de amostragem}
-Para além da redução na alteração do formato, reduziu-se também a quantidade de dados usados para o programa. Utilizou-se apenas filmes a partir de 2000, o que resultou em 37851 filmes, com uma média de 455 falas de personagens, condensados em cerca de $1.2$GB. Este ainda assim é um número muito grande de filmes, mas manteve-se para manuntenção da utilidade do conjunto, além de uma maior escolha entre filmes de vários anos para possível teste.
+Para além da redução na alteração do formato, reduziu-se também a quantidade de dados usados para o programa. Utilizou-se apenas filmes a partir de 2000, o que resultou em 37851 filmes, com uma média de 455 falas de personagens, condensados em cerca de $1.2$GB. Este ainda assim é um número muito grande de filmes, mas manteve-se para manutenção da utilidade do conjunto, além de uma maior escolha entre filmes de vários anos para possível teste.
 
 \subsubsection{Preparação para treino}
-Na língua portuguesa deparamo-nos com vários acentos e outros símobolos como os traços (como exemplo "ensino-te"). Quanto aos acentos, a sua mantenção é imperativa para boa leitura e para remoção de confusões entre palavras (como por exemplo "estás" e "estas"). Por outro lado, os traços foram retirados, já que a flexão do pronomes quanto ao número e género é demasiado vasta para garantir um vocabulário conciso por parte do modelo. Outros símbolos de síntaxe e gramaticais foram retirados aquando a preparação para treino.
+Na língua portuguesa deparamo-nos com vários acentos e outros símbolos como os traços (como exemplo "ensino-te"). Quanto aos acentos, a sua manutenção é imperativa para boa leitura e para remoção de confusões entre palavras (como por exemplo "estás" e "estas"). Por outro lado, os traços foram retirados, já que a flexão do pronomes quanto ao número e género é demasiado vasta para garantir um vocabulário conciso por parte do modelo. Outros símbolos de sintaxe e gramaticais foram retirados aquando a preparação para treino.
 
 
 \subsection{Modelo}
@@ -98,7 +98,7 @@ Na língua portuguesa deparamo-nos com vários acentos e outros símobolos como 
 A 'Long Short Term Memory' (LSTM) é uma rede neuronal recorrente capaz de aprender a dependência em problemas de predição. Este é útil em tradução, reconhecimento de fala e, direcionado para este tópico, simulação de conversação humana. Mais sobre este tipo de redes, elas têm um estado interno que consegue representar informação em contexto \cite{bengio1994learning}.
 
 \subsubsection{Seq2seq}
-A metodologia 'sequence-to-sequence' (seq2seq) é a peça-chave do trabalho. A metodologia utiliza modelos de 'Machine Learning' (ML) para obeter um sequência como entrada, num domínio, e convertê-la para uma representação noutro domínio. 
+A metodologia 'sequence-to-sequence' (seq2seq) é a peça-chave do trabalho. A metodologia utiliza modelos de 'Machine Learning' (ML) para obter um sequência como entrada, num domínio, e convertê-la para uma representação noutro domínio. 
 
 O \textit{seq2seq} baseia-se num bloco \textit{encoder} que lê a série de entrada a partir de um vetor de dimensionalidade fixa e um bloco \textit{decoder} que extrai a frase. Ambos estes blocos são células LSTM e são treinados ao mesmo tempo \cite{sutskever2014sequence}. Entre eles há um vetor de contexto que encapsula todo o sentido da frase.
 
@@ -113,7 +113,7 @@ O \textit{seq2seq} baseia-se num bloco \textit{encoder} que lê a série de entr
 
 No momento inicial, quando é fornecida uma sequência ao modelo, a frase terá de caber no vetor fixo, portanto leva um \textit{padding}. À sequência acrescenta-se a componente "\textless PAD\textgreater ". Ao passar pelo vetor, o \textit{decoder} inicia com o comando "\textless START\textgreater ", ou "\textless GO\textgreater " como usado neste trabalho, para iniciar a produção da saída. A sequência é completa com a expressão "\textless EOS\textgreater " que simboliza o final do \textit{output}. Para expressões que o algoritmo não reconhece lança-se o comando "\textless UNK\textgreater ".
 
-Para além destas, estes modelos contemplam ainda duas camadas de 'embedding', para cada um dos blocos referidos. Esta reduz a dimensão dos vetores de entrada e representam melhor estas sequências !!!!!!!!!. 
+Para além destas, estes modelos contemplam ainda duas camadas de 'embedding', para cada um dos blocos referidos. Esta reduz a dimensão dos vetores de entrada e representam melhor estas sequências \cite{li2018slim}. 
 
 \subsubsection{'Attention'}
 Em ML esta técnica tem o objetivo de reproduzir atenção cognitiva (comportamento humano). o efeito traduz-se em realçar algumas partes da entrada, enquanto diminui outras, mudando o foco da informação dada. Este método é também sensível ao contexto, algo que é tido em conta no treino da máquina. 
@@ -156,7 +156,7 @@ Na abordagem para este trabalho, pegou-se no \textit{script} de 'Python' referen
 'Bilingual Evaluation Understudy Score' (BLEU) compara a sequência de resposta com a ideal. A métrica compara os conjuntos de caracteres, independentemente da ordem. O BLEU conta as \textit{n-grams} e conta o número de coincidências \cite{papineni2002bleu}. Este método é maioritariamente para algoritmos de tradução de texto portanto, para este trabalho, as pontuações esperadas não são muito elevadas. 
 
 \subsection{ROUGE}
-'Recall-Oriented Understudy for Gisting Evaluation' é um conjunto de métricas espcializadas em avaliar \textit{machine translation}. Estas métricas focam-se em quanto as palavras (ou \textit{n-grams} no input se assemelham às previstas pelo modelo.
+'Recall-Oriented Understudy for Gisting Evaluation' é um conjunto de métricas especializadas em avaliar \textit{machine translation}. Estas métricas focam-se em quanto as palavras (ou \textit{n-grams} no input se assemelham às previstas pelo modelo.
 
 Neste trabalho foca-se no ROUGE-L que se baseia na subsequência mais longa em comum entre o \textit{output} e a referência. Uma vantagem do uso desta métrica é que não é necessário ter correspondências consecutivas, mas correspondências em sequência \cite{rouge}. A implementação é feita com recurso ao módulo "rouge" do \textit{python}.
 
@@ -170,9 +170,9 @@ F1 = \frac{2*BLEU*ROUGE}{BLEU+ROUGE}
 
 \section{Resultados}
 
-Partindo das especificações da autora na Tabela \ref{tabmodel}, rapindamente se chegou à conclusão que estes parâmeteros requeria muito esforço computacional. Desta forma conduziram-se vários testes ao variar as \textbf{\textit{epochs}} e a \textbf{quantidade de filmes} para treinar o modelo.
+Partindo das especificações da autora na Tabela \ref{tabmodel}, rapidamente se chegou à conclusão que estes parâmetros requeria muito esforço computacional. Desta forma conduziram-se vários testes ao variar as \textbf{\textit{epochs}} e a \textbf{quantidade de filmes} para treinar o modelo.
 \subsection{Treino}
-Para o treino tentou-se seguir as recomendações de parâmetros da referência \cite{abonia2020seq2seq}. No entanto, e para uma amostra de dados de tamanho semelhante, o treino demorava mais que !!!!!!!! a correr tudo. Desta forma fizeram-se vários testes para tentar encontrar um valor mais baixo de epochs que reproduzisse resultados fiáveis sem requerer de demasiado poder computacional.
+Para o treino tentou-se seguir as recomendações de parâmetros da referência \cite{abonia2020seq2seq}. No entanto, e para uma amostra de dados de tamanho semelhante, o treino demorava mais de 20 a correr tudo. Desta forma fizeram-se vários testes para tentar encontrar um valor mais baixo de \textit{epochs} que reproduzisse resultados fiáveis sem requerer de demasiado poder computacional.
 
 \subsubsection{Para 85 e 100 \textit{epochs}}
 \begin{figure}[htb]
@@ -203,9 +203,12 @@ Para este treino foram usados 1000 filmes, para entender como poderia variar o d
 
 \subsection{Teste}
 
-Para os testes retiraram-se filmes aleatórios da base de dados para retirar valores dos testes mencionados na secção \ref{metricas}. Para tamanho dos dados de teste usou-se $30\%$ dos dados de treino $(70-30)$.
+Para os testes retiraram-se filmes aleatórios da base de dados para retirar valores dos testes mencionados na secção \ref{metricas}. Para tamanho dos dados de teste usou-se $30\%$ dos dados de treino $(70-30)$.\\
 
-
+Os valores médios obtidos para as métricas foram os seguintes:
+$$ BLEU = 1.3769041687735495e-231$$
+$$ ROUGE = 0.033094944870102116$$
+Retirou-se então um valor de BLEU muito perto de 0. Desta forma, o \textit{f1-score} irá ser também 0 virtualmente. Estes valores, apesar de se esperar um valor baixo, tendo em conta que se trata de um \textit{chatbot}. No entanto estes são valores impensáveis para um modelo de qualidade. Por estes valores podemos concluir que o modelo é desatualizado ou o treino do modelo não foi o adequado.
 
 \subsection{'Chat'}
 Com algumas conversas com o algoritmo, reparou-se nalguns padrões, como o foco em palavras específicas e repetição da expressão perante várias entradas diferentes. Este problema é mais grave quando uma das palavras é um nome ou uma expressão estrangeira. 
@@ -255,12 +258,14 @@ Este modelo traz então algumas agravantes, em especial o tempo de compilação.
 
 \subsubsection{Resoluções}
 
-Melhores resultados poderiam ser obtidos com maior poder computactional. Apesar das falhas do \textit{dataset}, considerou-se suficiente para obter resultados razoáveis. 
+Melhores resultados poderiam ser obtidos com maior poder computacional. Apesar das falhas do \textit{dataset}, considerou-se suficiente para obter resultados razoáveis. 
 
-Para melhoria de execução, e até suporte, alterações do código para suportar a versão 2 do \textit{tensorflow} poderiam ser executadas. Para manutenção do modelo da autora, esta alteração não foi feita, mas seria proveitosa para a exeução do trabalho.
+Para melhoria de execução, e até suporte, alterações do código para suportar a versão 2 do \textit{tensorflow} poderiam ser executadas. Para manutenção do modelo da autora, esta alteração não foi feita, mas seria proveitosa para a execução do trabalho.
 
 \section{Conclusões}
-Em suma, considera-se que o produto final 
+Em suma, considera-se que o produto final não corresponde às expectativas e não consegue encetar numa conversa normal com algum nexo. Esta conclusão, apesar de evidente quando se executa uma conversa, foi confirmado pelas métricas do relatório.
+
+Por outro lado, o modelo mostrou progressão e mostra indícios de produzir conversas com algum sentido, apesar de esta ser uma métrica mais volátil e subjetiva. Acrescenta-se o facto de o procedimento recomendado não ter sido seguido à risca, pelos motivos mencionados. Possivelmente, ao seguir estas indicações, os resultados seriam proveitosos. Em última análise concluo que o trabalho de pesquisa e de evolução deste modelo resultou num projeto conjunto com alguma qualidade.
 
 
 \bibliographystyle{named}
