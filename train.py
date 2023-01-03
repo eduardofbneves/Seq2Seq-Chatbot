@@ -1,6 +1,6 @@
 import os
 import json
-import numpy as np 
+import numpy as np
 import math
 from matplotlib import pyplot as plt
 import tensorflow as tf
