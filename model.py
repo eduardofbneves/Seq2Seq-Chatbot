@@ -61,7 +61,6 @@ def decoder_embedding(target_vocab_size, embed_size, decoder_input):
 
 def decoder_input(target_data, batch_size, vocabs_to_index):
     main = tf.strided_slice(target_data, [0, 0], [batch_size, -1], [1, 1])
-    # TODO da merda aqui
     decoder_input = tf.concat([tf.fill([batch_size, 1], vocabs_to_index['<GO>']), main], 1)
     return decoder_input
 
