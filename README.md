@@ -15,7 +15,7 @@ For this portuguese (PT) version the open source material from the platform (Opu
 
 ## **Installation** 
 
-This concerns to an installation where new data and trainning is needed. If chatting is the only action pretended follow only steps 1 and 
+This concerns to an installation where new data and trainning is needed. If chatting is the only action pretended follow only steps 1 and 6.
 1. Clone the repository: **`git clone https://github.com/eduardofbneves/Seq2Seq-Chatbot.git`**.
 2. Upload the desired .json files to dataset (testing and preparation there is a .xml to .json converter).
 3. Run train.py file to train the model.
