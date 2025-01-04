@@ -19,8 +19,8 @@ tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 
 path_dir=[]
 firstpath= ""
-for firstdir in os.listdir('clean_pt'):
-    firstpath = "clean_pt/" + firstdir
+for firstdir in os.listdir('data'):
+    firstpath = "data/" + firstdir
     for file_dir in os.listdir(firstpath):
         path_dir.append(firstpath + "/" + file_dir)
 
