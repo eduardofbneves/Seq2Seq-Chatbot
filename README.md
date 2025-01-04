@@ -4,7 +4,7 @@ Chat with an AI based of movie subtitles in portuguese.
 
 
 ## Warning!
-**This version runs on a outdated python version: Python 3.6.11. This happens as some libraries used are also outdated and need an older version of python. A solution might involve creating a Conda environment.**
+**This version runs on a outdated python version: Python 3.6.11. This happens as some versions of libraries and modules used need an older version of python. A solution might involve creating a Conda environment.**
 
 ## **Introduction** 
 
@@ -16,6 +16,9 @@ For this portuguese (PT) version the open source material from the platform (Opu
 ## **Installation** 
 
 This concerns to an installation where new data and trainning is needed. If chatting is the only action pretended follow only steps 1 and 
-1. Clone the repository: **`git clone https://github.com/eduardofbneves/Seq2Seq-Chatbot.git`**
-2. Upload the desired .json files to dataset (testing and preparation there is a .xml to .json converter)
-3. 
+1. Clone the repository: **`git clone https://github.com/eduardofbneves/Seq2Seq-Chatbot.git`**.
+2. Upload the desired .json files to dataset (testing and preparation there is a .xml to .json converter).
+3. Run train.py file to train the model.
+4. Assure model quality with test.py.
+5. Adjust, refine and repeat steps 2 through 4 if test results are not satisfactory.
+6. Run chat.py file to interact with the trained model.

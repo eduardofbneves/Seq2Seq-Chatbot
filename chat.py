@@ -7,6 +7,7 @@ import warnings
 import config
 warnings.filterwarnings("ignore") # deprecated packages
 
+
 vocabs_to_index = json.load(open("vocabs/vocab2index.json", encoding='utf8'))
 index_to_vocabs = json.load(open("vocabs/index2vocab.json", encoding='utf8'))
 
