@@ -10,7 +10,7 @@ Chat with an AI based of movie subtitles in portuguese.
 
 University project aimed to build an Human-Centered Artificial Intelligence algorithm, being NLP the chosen branch. This one is a chatbot based on a [previously developed work](https://github.com/Abonia1/Seq2Seq-Chatbot) built with tensorflow. This work revolved around portuguese trainning data, hence the whole human-machine interactions are written in this language. However, any material in other tongues can be used in this project.
 
-For this portuguese (PT) version the open source material from the platform [Opus](https://opus.nlpl.eu/). The material downloaded was a translated movie subtitles corpora. The bulk contained .xml files with the lines and other info in each. The full description of the project is in the **[Final Report](Final Report.pdf)** along with the results and takeaways of this model.
+For this portuguese (PT) version the open source material from the platform [Opus](https://opus.nlpl.eu/). The material downloaded was a translated movie subtitles corpora. The bulk contained .xml files with the lines and other info in each. The full description of the project is in the **[Final Report](FinalReport.pdf)** along with the results and takeaways of this model.
 
 
 ## **Installation** 
